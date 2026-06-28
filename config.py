@@ -87,7 +87,7 @@ class Config:
                 ( 0.0,  2.5, "food",  0.55, 1000.0, 1.0),
                 ( 0.0, -2.5, "water", 0.50, 1000.0, 1.0),
             ],
-            "episodes": 75, "regen_delay": 0, "survival_bonus": 0.005, "noise_floor": 0.08,
+            "episodes": 100, "regen_delay": 0, "survival_bonus": 0.005, "noise_floor": 0.08,
         },
         {   # change: 6 resources (still non-depleting)
             "name": "3-six-resources",
@@ -119,6 +119,9 @@ class Config:
     PER_ALPHA = 0.6
     PER_EPSILON = 0.01
     SUCCESS_PRIORITY_BOOST = 5.0
+    MEANINGFUL_CONSUMPTION_STEP = 200
+    STAGE3_MIX_EPISODES = 50
+    STAGE3_MIX_FRACTION = 0.50
 
     # ----- Checkpoints (best-eval) + buffer snapshot -----
     BEST_ACTOR_PATH = "best_actor.pth"
@@ -146,6 +149,8 @@ class Config:
     EXPLORATION_NOISE = 0.1       # Initial exploration std (decayed during training)
     EXPLORATION_NOISE_FINAL = 0.02   # Floor the exploration std decays to
     EXPLORATION_DECAY_FRAC = 0.8  # Decay linearly over this fraction of MAX_EPISODES
+    STAGE3_EXPLORATION_RESET = 0.12
+    STAGE3_EXPLORATION_RESET_EPISODES = 50
     OU_MU = 0.0
     OU_THETA = 0.15
     OU_SIGMA = 0.2
@@ -162,17 +167,19 @@ class Config:
                                   # many transitions (skips early low-quality data)
     EVAL_INTERVAL = 20            # Run a deterministic (noise=0) eval episode this often
     EVAL_EPISODES = 5             # Average each evaluation over fixed-seed episodes
+    STAGE3_CHECKPOINT_INTERVAL = 50
     PRIMARY_METRIC = "avg_consumption"
     EARLY_STOPPING = True
-    EARLY_STOPPING_PATIENCE = 4   # stop after this many non-improving evals
+    EARLY_STOPPING_PATIENCE = 6   # stop after this many non-improving evals
     EARLY_STOPPING_MIN_STAGE = 3  # only start early-stop checks from stage 3 onward
     EARLY_STOPPING_MIN_DELTA = 0.25
+    STAGE3_MIN_EPISODES_BEFORE_EARLY_STOP = 100
 
     # ----- Logging / checkpoints -----
     LOG_DIR = "runs/homeostatic_ddpg"
     ACTOR_PATH = "homeostatic_actor.pth"
     CRITIC_PATH = "homeostatic_critic.pth"
-    LOG_INTERVAL = 1              # Episodes between console summaries
+    LOG_INTERVAL = 20             # Episodes between console summaries
     PLOT_DIR = "plots"            # Where visualize.py / diagnostics.py save figures
 
     @staticmethod

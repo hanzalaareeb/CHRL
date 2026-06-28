@@ -57,7 +57,7 @@ class TD3Agent:
         self.critic_optimizer = optim.Adam(self.critic.parameters(), lr=config.CRITIC_LR)
 
         # --- Replay buffer and exploration noise ---
-        self.replay_buffer = ReplayBuffer(state_dim, action_dim, config.BUFFER_SIZE)
+        self.replay_buffer = ReplayBuffer(state_dim, action_dim, config.BUFFER_SIZE, config=config)
         self.noise = build_noise(action_dim, config)
 
     def select_action(self, state, add_noise=True, use_target=False):
@@ -76,7 +76,7 @@ class TD3Agent:
 
         return np.clip(action, self.action_low, self.action_high)
 
-    def update(self):
+    def update(self, preferred_indices=None, preferred_fraction=0.0):
         """Run one TD3 optimization step. Returns loss dict, or None if warming up."""
         if self.replay_buffer.size < self.batch_size:
             return None
@@ -84,7 +84,11 @@ class TD3Agent:
         self.total_it += 1
 
         b_state, b_action, b_reward, b_next_state, b_done, batch_indices = \
-            self.replay_buffer.sample(self.batch_size)
+            self.replay_buffer.sample(
+                self.batch_size,
+                preferred_indices=preferred_indices,
+                preferred_fraction=preferred_fraction,
+            )
 
         b_state = b_state.to(self.device)
         b_action = b_action.to(self.device)

@@ -32,8 +32,10 @@ class ReplayBuffer:
         self.dones = np.zeros((max_size, 1), dtype=np.float32)
         self.priorities = np.ones(max_size, dtype=np.float64)
         self.success = np.zeros(max_size, dtype=np.float32)  # 1 if from a successful episode
+        self.step_ids = np.zeros(max_size, dtype=np.int64)
+        self.stage_ids = np.zeros(max_size, dtype=np.int64)
 
-    def add(self, state, action, reward, next_state, done):
+    def add(self, state, action, reward, next_state, done, step_id=0, stage_id=0):
         idx = self.ptr
         self.states[idx] = state
         self.actions[idx] = action
@@ -42,6 +44,8 @@ class ReplayBuffer:
         self.dones[idx] = done
         self.priorities[idx] = abs(float(reward)) + self.epsilon
         self.success[idx] = 0.0
+        self.step_ids[idx] = int(step_id)
+        self.stage_ids[idx] = int(stage_id)
 
         self.ptr = (self.ptr + 1) % self.max_size
         self.size = min(self.size + 1, self.max_size)
@@ -67,13 +71,43 @@ class ReplayBuffer:
         """Fraction of stored transitions that came from successful episodes."""
         return float(self.success[:self.size].mean()) if self.size else 0.0
 
-    def sample(self, batch_size):
+    def stage_fraction(self, stage_id):
+        if self.size == 0:
+            return 0.0
+        return float(np.mean(self.stage_ids[:self.size] == int(stage_id)))
+
+    def average_age(self, current_step):
+        """Average transition age in environment steps."""
+        if self.size == 0:
+            return 0.0
+        ages = max(int(current_step), 0) - self.step_ids[:self.size]
+        return float(np.mean(np.maximum(ages, 0)))
+
+    def _sample_indices_from_pool(self, pool, count):
+        if count <= 0:
+            return np.empty(0, dtype=np.int64)
+        pool = np.asarray(pool, dtype=np.int64)
+        if pool.size == 0:
+            return np.empty(0, dtype=np.int64)
+        replace = pool.size < count
+        if self.prioritized:
+            weights = self.priorities[pool] ** self.alpha
+            weights = weights / weights.sum()
+            return np.random.choice(pool, size=count, replace=replace, p=weights)
+        return np.random.choice(pool, size=count, replace=replace)
+
+    def sample(self, batch_size, preferred_indices=None, preferred_fraction=0.0):
+        preferred_count = int(round(batch_size * preferred_fraction))
+        preferred_count = max(0, min(batch_size, preferred_count))
+        preferred = self._sample_indices_from_pool(preferred_indices, preferred_count)
+        remaining = batch_size - len(preferred)
         if self.prioritized:
             p = self.priorities[:self.size] ** self.alpha
             p /= p.sum()
-            ind = np.random.choice(self.size, size=batch_size, p=p)
+            fallback = np.random.choice(self.size, size=remaining, p=p)
         else:
-            ind = np.random.randint(0, self.size, size=batch_size)
+            fallback = np.random.randint(0, self.size, size=remaining)
+        ind = np.concatenate([preferred, np.asarray(fallback, dtype=np.int64)])
         return (
             torch.FloatTensor(self.states[ind]),
             torch.FloatTensor(self.actions[ind]),
@@ -88,7 +122,8 @@ class ReplayBuffer:
             path, ptr=self.ptr, size=self.size,
             states=self.states, actions=self.actions, rewards=self.rewards,
             next_states=self.next_states, dones=self.dones,
-            priorities=self.priorities, success=self.success,
+            priorities=self.priorities, success=self.success, step_ids=self.step_ids,
+            stage_ids=self.stage_ids,
         )
 
     def load(self, path):
@@ -102,3 +137,7 @@ class ReplayBuffer:
         self.dones = data["dones"]
         self.priorities = data["priorities"]
         self.success = data["success"]
+        if "step_ids" in data:
+            self.step_ids = data["step_ids"]
+        if "stage_ids" in data:
+            self.stage_ids = data["stage_ids"]

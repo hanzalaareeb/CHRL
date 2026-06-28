@@ -1,6 +1,7 @@
 import argparse
 import os
 import re
+from glob import glob
 
 from agents import make_agent
 from config import Config
@@ -59,11 +60,25 @@ def print_diagnostic_block(name, metrics):
     )
 
 
+def stage3_periodic_checkpoints(run_dir):
+    checkpoint_dir = os.path.join(run_dir, "checkpoints")
+    matches = sorted(glob(os.path.join(checkpoint_dir, "stage3_ep*_actor.pth")))
+    periodic = {}
+    for actor_path in matches:
+        critic_path = actor_path.replace("_actor.pth", "_critic.pth")
+        if not os.path.exists(critic_path):
+            continue
+        name = os.path.basename(actor_path).replace("_actor.pth", "")
+        periodic[name] = (actor_path, critic_path)
+    return periodic
+
+
 def main():
     parser = argparse.ArgumentParser(description="Evaluate latest/best/stage-best checkpoints on fixed seeds.")
     parser.add_argument("--run-dir", default=None, help="training run dir to inspect, defaults to latest analysis/training_*")
     parser.add_argument("--agent", choices=["ddpg", "td3"], default=None, help="agent to use (defaults to Config.AGENT)")
     parser.add_argument("--episodes", type=int, default=20, help="number of fixed-seed evaluation episodes")
+    parser.add_argument("--all-stage3", action="store_true", help="also evaluate saved stage3_epXXXX checkpoints")
     args = parser.parse_args()
 
     run_dir = resolve_run_dir(args.run_dir)
@@ -75,6 +90,8 @@ def main():
 
     requested = checkpoint_path_map(run_dir)
     available = infer_stage_aliases(run_dir, available_checkpoints(run_dir))
+    if args.all_stage3:
+        available.update(stage3_periodic_checkpoints(run_dir))
     missing = [name for name in requested if name not in available]
     if missing:
         print(f"[evaluate] missing checkpoints in this run: {', '.join(missing)}")
@@ -86,6 +103,12 @@ def main():
         actor_path, critic_path = available[name]
         metrics = evaluate_checkpoint(agent, actor_path, critic_path, seeds, config=Config)
         results.append((name, metrics))
+
+    if args.all_stage3:
+        for name in sorted(k for k in available if k.startswith("stage3_ep")):
+            actor_path, critic_path = available[name]
+            metrics = evaluate_checkpoint(agent, actor_path, critic_path, seeds, config=Config)
+            results.append((name, metrics))
 
     if not results:
         raise FileNotFoundError(f"No checkpoints found in {run_dir}")
