@@ -17,6 +17,11 @@
 | `training_004` | `uv run python evaluate_all_checkpoints.py` | stage1_best |        150.9 |            22.2 |            1.10 | Matches global best in provided eval                      |
 | `training_004` | `uv run python evaluate_all_checkpoints.py` | stage2_best |        150.9 |            24.9 |            1.24 | Best consumption in provided eval                         |
 | `training_004` | `uv run python evaluate_all_checkpoints.py` | stage3_best |        137.2 |             1.2 |            1.62 | Partial stage-3 competence, but still weak                |
+| `training_007` | `uv run python evaluate_all_checkpoints.py` |      latest |        145.3 |            15.6 |            1.13 | Final checkpoint stays usable on full env                 |
+| `training_007` | `uv run python evaluate_all_checkpoints.py` |        best |        252.6 |            35.5 |            1.20 | Strongest run so far; global best found during stage 4    |
+| `training_007` | `uv run python evaluate_all_checkpoints.py` | stage1_best |        138.6 |             0.6 |            1.71 | Stage 1 does not transfer well to full env                |
+| `training_007` | `uv run python evaluate_all_checkpoints.py` | stage2_best |        153.8 |            14.3 |            1.30 | Useful intermediate competence                            |
+| `training_007` | `uv run python evaluate_all_checkpoints.py` | stage3_best |        150.9 |             6.2 |            1.37 | Stage 3 no longer fully collapses, but is still modest    |
 
 ## Detailed Comparison
 
@@ -98,7 +103,7 @@ Verdict:
 
 ### `training_004`
 
-Source run: [analysis/training_002](/Users/khanhanzalaareeb/Documents/project/CHRL/analysis/training_004/)
+Source run: [analysis/training_004](/Users/khanhanzalaareeb/Documents/project/CHRL/analysis/training_004/)
 
 Command:
 
@@ -135,3 +140,43 @@ Verdict:
 - `best` and `stage1_best` are also strong and fully consumption-capable.
 - `latest` retains only weak partial competence.
 - `stage3_best` is better than a total collapse, but still far behind the earlier checkpoints.
+
+### `training_007`
+
+Source run: [analysis/training_007](/Users/khanhanzalaareeb/Documents/project/CHRL/analysis/training_007/)
+
+Command:
+
+```bash
+uv run python evaluate_all_checkpoints.py
+```
+
+Output:
+
+```text
+[evaluate] run_dir=analysis/training_007
+
+Checkpoint      Avg survival    Avg consumption Avg final drive
+latest          145.3           15.6            1.13
+best            252.6           35.5            1.20
+stage1_best     138.6           0.6             1.71
+stage2_best     153.8           14.3            1.30
+stage3_best     150.9           6.2             1.37
+```
+
+Resource-interaction diagnostics:
+
+| Checkpoint  | Nearest resource | Minimum distance reached | Resource entered | Consumption | Time to first consumption |
+| ----------- | ---------------: | -----------------------: | ---------------: | ----------: | ------------------------: |
+| latest      |             0.44 |                     0.44 |            85.0% |       85.0% |                     176.2 |
+| best        |             0.35 |                     0.35 |           100.0% |      100.0% |                      30.7 |
+| stage1_best |             1.09 |                     1.09 |            10.0% |       10.0% |                     912.0 |
+| stage2_best |             0.92 |                     0.92 |            70.0% |       70.0% |                     338.8 |
+| stage3_best |             1.03 |                     1.03 |            80.0% |       80.0% |                     272.0 |
+
+Verdict:
+
+- `training_007` is the strongest run so far.
+- `best` is dramatically stronger than `latest`, so checkpoint selection still matters a lot.
+- `latest` is no longer a total failure on the full environment, which is a meaningful improvement over earlier runs.
+- `stage3_best` shows partial transfer instead of catastrophic collapse, but the major breakthrough appears later in stage 4.

@@ -49,6 +49,7 @@ def evaluate(agent, env, use_target=False, n_episodes=1, seed_base=Config.SEED):
     rewards, stepss, drives, survivals = [], [], [], []
     consumptions, first_consumptions, entereds, consumed_anys, before_200s = [], [], [], [], []
     nearests, minimums = [], []
+    threshold = getattr(env.config, "MEANINGFUL_CONSUMPTION_STEP", Config.MEANINGFUL_CONSUMPTION_STEP)
 
     for ep in range(n_episodes):
         state, _ = env.reset(seed=seed_base + ep)
@@ -86,7 +87,7 @@ def evaluate(agent, env, use_target=False, n_episodes=1, seed_base=Config.SEED):
         first_consumptions.append(float(first_consumption_step))
         entereds.append(float(resource_entered))
         consumed_anys.append(float(consumption_events > 0))
-        before_200s.append(float(first_consumption_step < threshold))
+        before_200s.append(float((consumption_events > 0) and (first_consumption_step < threshold)))
         nearests.append(float(nearest_resource_distance))
         minimums.append(float(minimum_distance_reached))
 
