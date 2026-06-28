@@ -14,3 +14,9 @@ runs/
 *.pth
 # plots/
 .DS_Store
+
+analysis/smoke_check/
+analysis/smoke_refactor/
+analysis/smoke_stage12_bridge/
+
+.mplconfig/

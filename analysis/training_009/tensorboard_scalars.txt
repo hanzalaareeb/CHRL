@@ -1,0 +1,6840 @@
+[Action/Average]
+step=0 value=0.522863
+step=1 value=0.536765
+step=2 value=0.497642
+step=3 value=0.502516
+step=4 value=0.503042
+step=5 value=0.514490
+step=6 value=0.320397
+step=7 value=0.083820
+step=8 value=0.081572
+step=9 value=0.083029
+step=10 value=0.092040
+step=11 value=0.079044
+step=12 value=0.086046
+step=13 value=0.080211
+step=14 value=0.077766
+step=15 value=0.083199
+step=16 value=0.083483
+step=17 value=0.084577
+step=18 value=0.092170
+step=19 value=0.076759
+step=20 value=0.082462
+step=21 value=0.082073
+step=22 value=0.080795
+step=23 value=0.084992
+step=24 value=0.077541
+step=25 value=0.076873
+step=26 value=0.087587
+step=27 value=0.084696
+step=28 value=0.079029
+step=29 value=0.085087
+step=30 value=0.089515
+step=31 value=0.090381
+step=32 value=0.085491
+step=33 value=0.084422
+step=34 value=0.086279
+step=35 value=0.100159
+step=36 value=0.118498
+step=37 value=0.137218
+step=38 value=0.133508
+step=39 value=0.158080
+step=40 value=0.165419
+step=41 value=0.153553
+step=42 value=0.181252
+step=43 value=0.199244
+step=44 value=0.216500
+step=45 value=0.303615
+step=46 value=0.307701
+step=47 value=0.332420
+step=48 value=0.301018
+step=49 value=0.313382
+step=50 value=0.383687
+step=51 value=0.422039
+step=52 value=0.360016
+step=53 value=0.269185
+step=54 value=0.226522
+step=55 value=0.336232
+step=56 value=0.405747
+step=57 value=0.430000
+step=58 value=0.498718
+step=59 value=0.530373
+step=60 value=0.184350
+step=61 value=0.137822
+step=62 value=0.111496
+step=63 value=0.115876
+step=64 value=0.110302
+step=65 value=0.398274
+step=66 value=0.288358
+step=67 value=0.327093
+step=68 value=0.368153
+step=69 value=0.372987
+step=70 value=0.383617
+step=71 value=0.416451
+step=72 value=0.439602
+step=73 value=0.496051
+step=74 value=0.509426
+step=75 value=0.613558
+step=76 value=0.669030
+step=77 value=0.717471
+step=78 value=0.720358
+step=79 value=0.750333
+step=80 value=0.740949
+step=81 value=0.727047
+step=82 value=0.754122
+step=83 value=0.736591
+step=84 value=0.679243
+step=85 value=0.645489
+step=86 value=0.673835
+step=87 value=0.711644
+step=88 value=0.719479
+step=89 value=0.664927
+step=90 value=0.637298
+step=91 value=0.657698
+step=92 value=0.681008
+step=93 value=0.685048
+step=94 value=0.603167
+step=95 value=0.619749
+step=96 value=0.592939
+step=97 value=0.565736
+step=98 value=0.551634
+step=99 value=0.588531
+step=100 value=0.590726
+step=101 value=0.638849
+step=102 value=0.596463
+step=103 value=0.612433
+step=104 value=0.631446
+step=105 value=0.610537
+step=106 value=0.616968
+step=107 value=0.598174
+step=108 value=0.618516
+step=109 value=0.594524
+step=110 value=0.556801
+step=111 value=0.451933
+step=112 value=0.280677
+step=113 value=0.708383
+step=114 value=0.893640
+step=115 value=0.914038
+step=116 value=0.926712
+step=117 value=0.925283
+step=118 value=0.923576
+step=119 value=0.934435
+step=120 value=0.935522
+step=121 value=0.946282
+step=122 value=0.934813
+step=123 value=0.930758
+step=124 value=0.930050
+step=125 value=0.904221
+step=126 value=0.754979
+step=127 value=0.672963
+step=128 value=0.616960
+
+[Capability/ConsumedAnyRate]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.333333
+step=3 value=0.500000
+step=4 value=0.600000
+step=5 value=0.666667
+step=6 value=0.714286
+step=7 value=0.750000
+step=8 value=0.666667
+step=9 value=0.700000
+step=10 value=0.727273
+step=11 value=0.666667
+step=12 value=0.692308
+step=13 value=0.642857
+step=14 value=0.600000
+step=15 value=0.625000
+step=16 value=0.647059
+step=17 value=0.611111
+step=18 value=0.631579
+step=19 value=0.600000
+step=20 value=0.650000
+step=21 value=0.650000
+step=22 value=0.650000
+step=23 value=0.650000
+step=24 value=0.600000
+step=25 value=0.550000
+step=26 value=0.550000
+step=27 value=0.550000
+step=28 value=0.550000
+step=29 value=0.500000
+step=30 value=0.450000
+step=31 value=0.500000
+step=32 value=0.500000
+step=33 value=0.550000
+step=34 value=0.600000
+step=35 value=0.600000
+step=36 value=0.600000
+step=37 value=0.650000
+step=38 value=0.650000
+step=39 value=0.700000
+step=40 value=0.700000
+step=41 value=0.750000
+step=42 value=0.750000
+step=43 value=0.750000
+step=44 value=0.800000
+step=45 value=1.000000
+step=46 value=1.000000
+step=47 value=1.000000
+step=48 value=1.000000
+step=49 value=1.000000
+step=50 value=1.000000
+step=51 value=1.000000
+step=52 value=1.000000
+step=53 value=1.000000
+step=54 value=1.000000
+step=55 value=1.000000
+step=56 value=0.916667
+step=57 value=0.846154
+step=58 value=0.785714
+step=59 value=0.733333
+step=60 value=0.750000
+step=61 value=0.764706
+step=62 value=0.777778
+step=63 value=0.789474
+step=64 value=0.800000
+step=65 value=0.000000
+step=66 value=0.500000
+step=67 value=0.666667
+step=68 value=0.750000
+step=69 value=0.800000
+step=70 value=0.833333
+step=71 value=0.857143
+step=72 value=0.875000
+step=73 value=0.888889
+step=74 value=0.900000
+step=75 value=0.909091
+step=76 value=0.916667
+step=77 value=0.923077
+step=78 value=0.928571
+step=79 value=0.933333
+step=80 value=0.937500
+step=81 value=0.941176
+step=82 value=0.888889
+step=83 value=0.894737
+step=84 value=0.900000
+step=85 value=1.000000
+step=86 value=1.000000
+step=87 value=1.000000
+step=88 value=1.000000
+step=89 value=1.000000
+step=90 value=1.000000
+step=91 value=0.857143
+step=92 value=0.875000
+step=93 value=0.888889
+step=94 value=0.900000
+step=95 value=0.909091
+step=96 value=0.916667
+step=97 value=0.923077
+step=98 value=0.857143
+step=99 value=0.866667
+step=100 value=0.875000
+step=101 value=0.882353
+step=102 value=0.888889
+step=103 value=0.894737
+step=104 value=0.900000
+step=105 value=1.000000
+step=106 value=1.000000
+step=107 value=0.666667
+step=108 value=0.500000
+step=109 value=0.400000
+step=110 value=0.333333
+step=111 value=0.285714
+step=112 value=0.250000
+step=113 value=0.333333
+step=114 value=0.400000
+step=115 value=0.454545
+step=116 value=0.500000
+step=117 value=0.538462
+step=118 value=0.571429
+step=119 value=0.600000
+step=120 value=0.625000
+step=121 value=0.647059
+step=122 value=0.666667
+step=123 value=0.684211
+step=124 value=0.700000
+step=125 value=0.700000
+step=126 value=0.700000
+step=127 value=0.750000
+step=128 value=0.800000
+
+[Capability/ConsumedBefore200Rate]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.333333
+step=3 value=0.500000
+step=4 value=0.600000
+step=5 value=0.666667
+step=6 value=0.714286
+step=7 value=0.750000
+step=8 value=0.666667
+step=9 value=0.700000
+step=10 value=0.727273
+step=11 value=0.666667
+step=12 value=0.692308
+step=13 value=0.642857
+step=14 value=0.600000
+step=15 value=0.625000
+step=16 value=0.647059
+step=17 value=0.611111
+step=18 value=0.631579
+step=19 value=0.600000
+step=20 value=0.650000
+step=21 value=0.650000
+step=22 value=0.650000
+step=23 value=0.650000
+step=24 value=0.600000
+step=25 value=0.550000
+step=26 value=0.550000
+step=27 value=0.550000
+step=28 value=0.550000
+step=29 value=0.500000
+step=30 value=0.450000
+step=31 value=0.500000
+step=32 value=0.500000
+step=33 value=0.550000
+step=34 value=0.600000
+step=35 value=0.600000
+step=36 value=0.600000
+step=37 value=0.650000
+step=38 value=0.650000
+step=39 value=0.700000
+step=40 value=0.700000
+step=41 value=0.750000
+step=42 value=0.750000
+step=43 value=0.750000
+step=44 value=0.800000
+step=45 value=1.000000
+step=46 value=1.000000
+step=47 value=1.000000
+step=48 value=1.000000
+step=49 value=1.000000
+step=50 value=1.000000
+step=51 value=1.000000
+step=52 value=1.000000
+step=53 value=1.000000
+step=54 value=1.000000
+step=55 value=1.000000
+step=56 value=0.916667
+step=57 value=0.846154
+step=58 value=0.785714
+step=59 value=0.733333
+step=60 value=0.750000
+step=61 value=0.764706
+step=62 value=0.777778
+step=63 value=0.789474
+step=64 value=0.800000
+step=65 value=0.000000
+step=66 value=0.500000
+step=67 value=0.666667
+step=68 value=0.750000
+step=69 value=0.800000
+step=70 value=0.833333
+step=71 value=0.857143
+step=72 value=0.875000
+step=73 value=0.888889
+step=74 value=0.900000
+step=75 value=0.909091
+step=76 value=0.916667
+step=77 value=0.923077
+step=78 value=0.928571
+step=79 value=0.933333
+step=80 value=0.937500
+step=81 value=0.941176
+step=82 value=0.888889
+step=83 value=0.894737
+step=84 value=0.900000
+step=85 value=1.000000
+step=86 value=1.000000
+step=87 value=1.000000
+step=88 value=1.000000
+step=89 value=1.000000
+step=90 value=1.000000
+step=91 value=0.857143
+step=92 value=0.875000
+step=93 value=0.888889
+step=94 value=0.900000
+step=95 value=0.909091
+step=96 value=0.916667
+step=97 value=0.923077
+step=98 value=0.857143
+step=99 value=0.866667
+step=100 value=0.875000
+step=101 value=0.882353
+step=102 value=0.888889
+step=103 value=0.894737
+step=104 value=0.900000
+step=105 value=1.000000
+step=106 value=1.000000
+step=107 value=0.666667
+step=108 value=0.500000
+step=109 value=0.400000
+step=110 value=0.333333
+step=111 value=0.285714
+step=112 value=0.250000
+step=113 value=0.333333
+step=114 value=0.400000
+step=115 value=0.454545
+step=116 value=0.500000
+step=117 value=0.538462
+step=118 value=0.571429
+step=119 value=0.600000
+step=120 value=0.625000
+step=121 value=0.647059
+step=122 value=0.666667
+step=123 value=0.684211
+step=124 value=0.700000
+step=125 value=0.700000
+step=126 value=0.700000
+step=127 value=0.750000
+step=128 value=0.800000
+
+[Capability/EnteredResourceRate]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.333333
+step=3 value=0.500000
+step=4 value=0.600000
+step=5 value=0.666667
+step=6 value=0.714286
+step=7 value=0.750000
+step=8 value=0.666667
+step=9 value=0.700000
+step=10 value=0.727273
+step=11 value=0.666667
+step=12 value=0.692308
+step=13 value=0.642857
+step=14 value=0.600000
+step=15 value=0.625000
+step=16 value=0.647059
+step=17 value=0.611111
+step=18 value=0.631579
+step=19 value=0.600000
+step=20 value=0.650000
+step=21 value=0.650000
+step=22 value=0.650000
+step=23 value=0.650000
+step=24 value=0.600000
+step=25 value=0.550000
+step=26 value=0.550000
+step=27 value=0.550000
+step=28 value=0.550000
+step=29 value=0.500000
+step=30 value=0.450000
+step=31 value=0.500000
+step=32 value=0.500000
+step=33 value=0.550000
+step=34 value=0.600000
+step=35 value=0.600000
+step=36 value=0.600000
+step=37 value=0.650000
+step=38 value=0.650000
+step=39 value=0.700000
+step=40 value=0.700000
+step=41 value=0.750000
+step=42 value=0.750000
+step=43 value=0.750000
+step=44 value=0.800000
+step=45 value=1.000000
+step=46 value=1.000000
+step=47 value=1.000000
+step=48 value=1.000000
+step=49 value=1.000000
+step=50 value=1.000000
+step=51 value=1.000000
+step=52 value=1.000000
+step=53 value=1.000000
+step=54 value=1.000000
+step=55 value=1.000000
+step=56 value=0.916667
+step=57 value=0.846154
+step=58 value=0.785714
+step=59 value=0.733333
+step=60 value=0.750000
+step=61 value=0.764706
+step=62 value=0.777778
+step=63 value=0.789474
+step=64 value=0.800000
+step=65 value=0.000000
+step=66 value=0.500000
+step=67 value=0.666667
+step=68 value=0.750000
+step=69 value=0.800000
+step=70 value=0.833333
+step=71 value=0.857143
+step=72 value=0.875000
+step=73 value=0.888889
+step=74 value=0.900000
+step=75 value=0.909091
+step=76 value=0.916667
+step=77 value=0.923077
+step=78 value=0.928571
+step=79 value=0.933333
+step=80 value=0.937500
+step=81 value=0.941176
+step=82 value=0.888889
+step=83 value=0.894737
+step=84 value=0.900000
+step=85 value=1.000000
+step=86 value=1.000000
+step=87 value=1.000000
+step=88 value=1.000000
+step=89 value=1.000000
+step=90 value=1.000000
+step=91 value=0.857143
+step=92 value=0.875000
+step=93 value=0.888889
+step=94 value=0.900000
+step=95 value=0.909091
+step=96 value=0.916667
+step=97 value=0.923077
+step=98 value=0.857143
+step=99 value=0.866667
+step=100 value=0.875000
+step=101 value=0.882353
+step=102 value=0.888889
+step=103 value=0.894737
+step=104 value=0.900000
+step=105 value=1.000000
+step=106 value=1.000000
+step=107 value=0.666667
+step=108 value=0.500000
+step=109 value=0.400000
+step=110 value=0.333333
+step=111 value=0.285714
+step=112 value=0.250000
+step=113 value=0.333333
+step=114 value=0.400000
+step=115 value=0.454545
+step=116 value=0.500000
+step=117 value=0.538462
+step=118 value=0.571429
+step=119 value=0.600000
+step=120 value=0.625000
+step=121 value=0.647059
+step=122 value=0.666667
+step=123 value=0.684211
+step=124 value=0.700000
+step=125 value=0.700000
+step=126 value=0.700000
+step=127 value=0.750000
+step=128 value=0.800000
+
+[Distance/Nearest_Food]
+step=0 value=1.615660
+step=1 value=1.475240
+step=2 value=1.272584
+step=3 value=1.166457
+step=4 value=1.779688
+step=5 value=2.135481
+step=6 value=2.089992
+step=7 value=1.107199
+step=8 value=1.298177
+step=9 value=1.191081
+step=10 value=1.147781
+step=11 value=1.362416
+step=12 value=1.119665
+step=13 value=1.273244
+step=14 value=1.269729
+step=15 value=1.184585
+step=16 value=1.007570
+step=17 value=1.352984
+step=18 value=1.151941
+step=19 value=1.262408
+step=20 value=1.142040
+step=21 value=1.351393
+step=22 value=1.201064
+step=23 value=1.194859
+step=24 value=1.200215
+step=25 value=1.312512
+step=26 value=1.210393
+step=27 value=1.175933
+step=28 value=1.261042
+step=29 value=1.254194
+step=30 value=1.323457
+step=31 value=1.117710
+step=32 value=1.184024
+step=33 value=1.077551
+step=34 value=1.132029
+step=35 value=0.735222
+step=36 value=0.645177
+step=37 value=0.561925
+step=38 value=0.692217
+step=39 value=0.713167
+step=40 value=1.067649
+step=41 value=0.562114
+step=42 value=1.344974
+step=43 value=1.550836
+step=44 value=1.506819
+step=45 value=2.358102
+step=46 value=1.427347
+step=47 value=3.063700
+step=48 value=2.347957
+step=49 value=1.941800
+step=50 value=2.685862
+step=51 value=3.534534
+step=52 value=2.197142
+step=53 value=1.494495
+step=54 value=1.564039
+step=55 value=3.094249
+step=56 value=2.275884
+step=57 value=2.763161
+step=58 value=2.669532
+step=59 value=3.828309
+step=60 value=1.621931
+step=61 value=1.312086
+step=62 value=1.455999
+step=63 value=1.367576
+step=64 value=1.358848
+step=65 value=1.959310
+step=66 value=1.568406
+step=67 value=1.835438
+step=68 value=2.046014
+step=69 value=1.810581
+step=70 value=1.832477
+step=71 value=1.976819
+step=72 value=2.009196
+step=73 value=2.606873
+step=74 value=2.317116
+step=75 value=3.370430
+step=76 value=3.649641
+step=77 value=3.798070
+step=78 value=3.992976
+step=79 value=4.096900
+step=80 value=3.940659
+step=81 value=3.143738
+step=82 value=4.052025
+step=83 value=4.138910
+step=84 value=3.699281
+step=85 value=3.881508
+step=86 value=3.637801
+step=87 value=3.009984
+step=88 value=3.001185
+step=89 value=3.935095
+step=90 value=4.159340
+step=91 value=3.360246
+step=92 value=2.924484
+step=93 value=2.653124
+step=94 value=3.176981
+step=95 value=2.827772
+step=96 value=2.315861
+step=97 value=2.309497
+step=98 value=2.344666
+step=99 value=2.257703
+step=100 value=2.266443
+step=101 value=2.052300
+step=102 value=2.128285
+step=103 value=2.037985
+step=104 value=2.182700
+step=105 value=2.048914
+step=106 value=1.980081
+step=107 value=2.106182
+step=108 value=2.176459
+step=109 value=2.297670
+step=110 value=2.928422
+step=111 value=3.942921
+step=112 value=5.667378
+step=113 value=8.818802
+step=114 value=9.303834
+step=115 value=9.000641
+step=116 value=9.533742
+step=117 value=9.342357
+step=118 value=9.084751
+step=119 value=9.300962
+step=120 value=8.935844
+step=121 value=9.587708
+step=122 value=9.346115
+step=123 value=9.266816
+step=124 value=9.550357
+step=125 value=9.467244
+step=126 value=9.398509
+step=127 value=7.656901
+step=128 value=7.418071
+
+[Distance/Nearest_Water]
+step=0 value=1.429814
+step=1 value=1.589594
+step=2 value=1.788896
+step=3 value=1.884122
+step=4 value=1.333894
+step=5 value=1.093159
+step=6 value=1.006197
+step=7 value=1.915191
+step=8 value=1.703031
+step=9 value=1.816282
+step=10 value=1.854059
+step=11 value=1.640074
+step=12 value=1.897315
+step=13 value=1.732874
+step=14 value=1.732332
+step=15 value=1.819688
+step=16 value=2.011424
+step=17 value=1.657765
+step=18 value=1.850605
+step=19 value=1.739786
+step=20 value=1.860597
+step=21 value=1.650372
+step=22 value=1.804910
+step=23 value=1.807219
+step=24 value=1.802300
+step=25 value=1.690458
+step=26 value=1.805577
+step=27 value=1.827140
+step=28 value=1.740086
+step=29 value=1.747390
+step=30 value=1.682246
+step=31 value=1.887014
+step=32 value=1.823133
+step=33 value=1.937374
+step=34 value=1.998714
+step=35 value=2.442546
+step=36 value=2.844240
+step=37 value=2.727791
+step=38 value=2.963331
+step=39 value=2.889667
+step=40 value=3.607562
+step=41 value=2.832120
+step=42 value=3.933560
+step=43 value=4.197229
+step=44 value=4.100300
+step=45 value=4.126093
+step=46 value=3.223357
+step=47 value=4.411577
+step=48 value=3.789105
+step=49 value=3.422242
+step=50 value=4.125816
+step=51 value=4.545713
+step=52 value=3.532867
+step=53 value=2.694035
+step=54 value=2.732842
+step=55 value=3.706167
+step=56 value=3.117486
+step=57 value=3.386379
+step=58 value=3.560897
+step=59 value=4.315460
+step=60 value=2.547129
+step=61 value=2.180306
+step=62 value=2.016987
+step=63 value=2.067738
+step=64 value=2.302233
+step=65 value=6.517988
+step=66 value=6.285115
+step=67 value=6.222144
+step=68 value=7.097375
+step=69 value=6.501226
+step=70 value=7.317521
+step=71 value=7.201764
+step=72 value=7.182869
+step=73 value=7.731486
+step=74 value=6.764128
+step=75 value=7.679893
+step=76 value=7.942879
+step=77 value=8.052778
+step=78 value=8.155014
+step=79 value=8.275186
+step=80 value=8.128051
+step=81 value=7.336182
+step=82 value=8.179231
+step=83 value=8.303516
+step=84 value=8.018937
+step=85 value=8.286647
+step=86 value=8.063035
+step=87 value=7.495505
+step=88 value=7.477083
+step=89 value=8.221734
+step=90 value=8.405977
+step=91 value=7.849767
+step=92 value=7.546632
+step=93 value=7.406513
+step=94 value=8.105653
+step=95 value=7.814857
+step=96 value=7.655828
+step=97 value=8.059025
+step=98 value=8.136016
+step=99 value=7.610292
+step=100 value=7.740524
+step=101 value=7.141813
+step=102 value=7.742280
+step=103 value=7.608775
+step=104 value=7.533205
+step=105 value=7.662789
+step=106 value=7.351278
+step=107 value=6.994899
+step=108 value=6.406831
+step=109 value=6.375155
+step=110 value=5.130612
+step=111 value=4.046999
+step=112 value=3.086898
+step=113 value=3.382625
+step=114 value=3.625144
+step=115 value=3.420701
+step=116 value=3.780704
+step=117 value=3.648371
+step=118 value=3.489826
+step=119 value=3.625288
+step=120 value=3.386717
+step=121 value=3.818500
+step=122 value=3.665685
+step=123 value=3.611315
+step=124 value=3.800963
+step=125 value=3.744045
+step=126 value=3.710874
+step=127 value=2.509857
+step=128 value=2.475387
+
+[Episode/AvgConsumptionPerVisit]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.250000
+step=3 value=0.420000
+step=4 value=0.450000
+step=5 value=0.668571
+step=6 value=0.888000
+step=7 value=4.800000
+step=8 value=0.000000
+step=9 value=1.560000
+step=10 value=1.800000
+step=11 value=0.000000
+step=12 value=2.400000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=1.740000
+step=16 value=6.600000
+step=17 value=0.000000
+step=18 value=2.340000
+step=19 value=0.000000
+step=20 value=2.700000
+step=21 value=0.000000
+step=22 value=2.040000
+step=23 value=2.580000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=0.660000
+step=27 value=0.780000
+step=28 value=0.000000
+step=29 value=0.000000
+step=30 value=0.000000
+step=31 value=1.560000
+step=32 value=0.720000
+step=33 value=4.500000
+step=34 value=4.260000
+step=35 value=8.520000
+step=36 value=8.220000
+step=37 value=6.300000
+step=38 value=6.900000
+step=39 value=5.220000
+step=40 value=4.980000
+step=41 value=5.640000
+step=42 value=4.620000
+step=43 value=4.380000
+step=44 value=3.960000
+step=45 value=2.460000
+step=46 value=2.160000
+step=47 value=1.980000
+step=48 value=1.920000
+step=49 value=1.980000
+step=50 value=1.860000
+step=51 value=1.620000
+step=52 value=1.560000
+step=53 value=1.740000
+step=54 value=1.680000
+step=55 value=0.780000
+step=56 value=0.000000
+step=57 value=0.000000
+step=58 value=0.000000
+step=59 value=0.000000
+step=60 value=1.320000
+step=61 value=1.320000
+step=62 value=1.380000
+step=63 value=1.320000
+step=64 value=1.320000
+step=65 value=0.000000
+step=66 value=2.255000
+step=67 value=0.935000
+step=68 value=0.880000
+step=69 value=1.260000
+step=70 value=1.980000
+step=71 value=2.040000
+step=72 value=1.980000
+step=73 value=1.800000
+step=74 value=1.200000
+step=75 value=0.960000
+step=76 value=0.900000
+step=77 value=0.780000
+step=78 value=0.540000
+step=79 value=0.360000
+step=80 value=0.420000
+step=81 value=0.360000
+step=82 value=0.000000
+step=83 value=0.180000
+step=84 value=0.600000
+step=85 value=0.780000
+step=86 value=0.720000
+step=87 value=0.600000
+step=88 value=0.660000
+step=89 value=0.480000
+step=90 value=0.300000
+step=91 value=0.000000
+step=92 value=0.780000
+step=93 value=0.900000
+step=94 value=1.080000
+step=95 value=1.080000
+step=96 value=1.200000
+step=97 value=0.780000
+step=98 value=0.000000
+step=99 value=0.605000
+step=100 value=0.935000
+step=101 value=1.045000
+step=102 value=1.100000
+step=103 value=0.990000
+step=104 value=1.100000
+step=105 value=0.935000
+step=106 value=0.495000
+step=107 value=0.000000
+step=108 value=0.000000
+step=109 value=0.000000
+step=110 value=0.000000
+step=111 value=0.000000
+step=112 value=0.000000
+step=113 value=0.630000
+step=114 value=0.560000
+step=115 value=0.525000
+step=116 value=0.525000
+step=117 value=0.490000
+step=118 value=0.490000
+step=119 value=0.490000
+step=120 value=0.525000
+step=121 value=0.490000
+step=122 value=0.490000
+step=123 value=0.455000
+step=124 value=0.455000
+step=125 value=0.455000
+step=126 value=0.455000
+step=127 value=0.560000
+step=128 value=0.630000
+
+[Episode/ConsumedAny]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=1.000000
+step=3 value=1.000000
+step=4 value=1.000000
+step=5 value=1.000000
+step=6 value=1.000000
+step=7 value=1.000000
+step=8 value=0.000000
+step=9 value=1.000000
+step=10 value=1.000000
+step=11 value=0.000000
+step=12 value=1.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=1.000000
+step=16 value=1.000000
+step=17 value=0.000000
+step=18 value=1.000000
+step=19 value=0.000000
+step=20 value=1.000000
+step=21 value=0.000000
+step=22 value=1.000000
+step=23 value=1.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=1.000000
+step=27 value=1.000000
+step=28 value=0.000000
+step=29 value=0.000000
+step=30 value=0.000000
+step=31 value=1.000000
+step=32 value=1.000000
+step=33 value=1.000000
+step=34 value=1.000000
+step=35 value=1.000000
+step=36 value=1.000000
+step=37 value=1.000000
+step=38 value=1.000000
+step=39 value=1.000000
+step=40 value=1.000000
+step=41 value=1.000000
+step=42 value=1.000000
+step=43 value=1.000000
+step=44 value=1.000000
+step=45 value=1.000000
+step=46 value=1.000000
+step=47 value=1.000000
+step=48 value=1.000000
+step=49 value=1.000000
+step=50 value=1.000000
+step=51 value=1.000000
+step=52 value=1.000000
+step=53 value=1.000000
+step=54 value=1.000000
+step=55 value=1.000000
+step=56 value=0.000000
+step=57 value=0.000000
+step=58 value=0.000000
+step=59 value=0.000000
+step=60 value=1.000000
+step=61 value=1.000000
+step=62 value=1.000000
+step=63 value=1.000000
+step=64 value=1.000000
+step=65 value=0.000000
+step=66 value=1.000000
+step=67 value=1.000000
+step=68 value=1.000000
+step=69 value=1.000000
+step=70 value=1.000000
+step=71 value=1.000000
+step=72 value=1.000000
+step=73 value=1.000000
+step=74 value=1.000000
+step=75 value=1.000000
+step=76 value=1.000000
+step=77 value=1.000000
+step=78 value=1.000000
+step=79 value=1.000000
+step=80 value=1.000000
+step=81 value=1.000000
+step=82 value=0.000000
+step=83 value=1.000000
+step=84 value=1.000000
+step=85 value=1.000000
+step=86 value=1.000000
+step=87 value=1.000000
+step=88 value=1.000000
+step=89 value=1.000000
+step=90 value=1.000000
+step=91 value=0.000000
+step=92 value=1.000000
+step=93 value=1.000000
+step=94 value=1.000000
+step=95 value=1.000000
+step=96 value=1.000000
+step=97 value=1.000000
+step=98 value=0.000000
+step=99 value=1.000000
+step=100 value=1.000000
+step=101 value=1.000000
+step=102 value=1.000000
+step=103 value=1.000000
+step=104 value=1.000000
+step=105 value=1.000000
+step=106 value=1.000000
+step=107 value=0.000000
+step=108 value=0.000000
+step=109 value=0.000000
+step=110 value=0.000000
+step=111 value=0.000000
+step=112 value=0.000000
+step=113 value=1.000000
+step=114 value=1.000000
+step=115 value=1.000000
+step=116 value=1.000000
+step=117 value=1.000000
+step=118 value=1.000000
+step=119 value=1.000000
+step=120 value=1.000000
+step=121 value=1.000000
+step=122 value=1.000000
+step=123 value=1.000000
+step=124 value=1.000000
+step=125 value=1.000000
+step=126 value=1.000000
+step=127 value=1.000000
+step=128 value=1.000000
+
+[Episode/ConsumedBefore200]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=1.000000
+step=3 value=1.000000
+step=4 value=1.000000
+step=5 value=1.000000
+step=6 value=1.000000
+step=7 value=1.000000
+step=8 value=0.000000
+step=9 value=1.000000
+step=10 value=1.000000
+step=11 value=0.000000
+step=12 value=1.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=1.000000
+step=16 value=1.000000
+step=17 value=0.000000
+step=18 value=1.000000
+step=19 value=0.000000
+step=20 value=1.000000
+step=21 value=0.000000
+step=22 value=1.000000
+step=23 value=1.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=1.000000
+step=27 value=1.000000
+step=28 value=0.000000
+step=29 value=0.000000
+step=30 value=0.000000
+step=31 value=1.000000
+step=32 value=1.000000
+step=33 value=1.000000
+step=34 value=1.000000
+step=35 value=1.000000
+step=36 value=1.000000
+step=37 value=1.000000
+step=38 value=1.000000
+step=39 value=1.000000
+step=40 value=1.000000
+step=41 value=1.000000
+step=42 value=1.000000
+step=43 value=1.000000
+step=44 value=1.000000
+step=45 value=1.000000
+step=46 value=1.000000
+step=47 value=1.000000
+step=48 value=1.000000
+step=49 value=1.000000
+step=50 value=1.000000
+step=51 value=1.000000
+step=52 value=1.000000
+step=53 value=1.000000
+step=54 value=1.000000
+step=55 value=1.000000
+step=56 value=0.000000
+step=57 value=0.000000
+step=58 value=0.000000
+step=59 value=0.000000
+step=60 value=1.000000
+step=61 value=1.000000
+step=62 value=1.000000
+step=63 value=1.000000
+step=64 value=1.000000
+step=65 value=0.000000
+step=66 value=1.000000
+step=67 value=1.000000
+step=68 value=1.000000
+step=69 value=1.000000
+step=70 value=1.000000
+step=71 value=1.000000
+step=72 value=1.000000
+step=73 value=1.000000
+step=74 value=1.000000
+step=75 value=1.000000
+step=76 value=1.000000
+step=77 value=1.000000
+step=78 value=1.000000
+step=79 value=1.000000
+step=80 value=1.000000
+step=81 value=1.000000
+step=82 value=0.000000
+step=83 value=1.000000
+step=84 value=1.000000
+step=85 value=1.000000
+step=86 value=1.000000
+step=87 value=1.000000
+step=88 value=1.000000
+step=89 value=1.000000
+step=90 value=1.000000
+step=91 value=0.000000
+step=92 value=1.000000
+step=93 value=1.000000
+step=94 value=1.000000
+step=95 value=1.000000
+step=96 value=1.000000
+step=97 value=1.000000
+step=98 value=0.000000
+step=99 value=1.000000
+step=100 value=1.000000
+step=101 value=1.000000
+step=102 value=1.000000
+step=103 value=1.000000
+step=104 value=1.000000
+step=105 value=1.000000
+step=106 value=1.000000
+step=107 value=0.000000
+step=108 value=0.000000
+step=109 value=0.000000
+step=110 value=0.000000
+step=111 value=0.000000
+step=112 value=0.000000
+step=113 value=1.000000
+step=114 value=1.000000
+step=115 value=1.000000
+step=116 value=1.000000
+step=117 value=1.000000
+step=118 value=1.000000
+step=119 value=1.000000
+step=120 value=1.000000
+step=121 value=1.000000
+step=122 value=1.000000
+step=123 value=1.000000
+step=124 value=1.000000
+step=125 value=1.000000
+step=126 value=1.000000
+step=127 value=1.000000
+step=128 value=1.000000
+
+[Episode/ConsumptionEvents]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=25.000000
+step=3 value=21.000000
+step=4 value=15.000000
+step=5 value=78.000000
+step=6 value=74.000000
+step=7 value=80.000000
+step=8 value=0.000000
+step=9 value=26.000000
+step=10 value=30.000000
+step=11 value=0.000000
+step=12 value=40.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=29.000000
+step=16 value=110.000000
+step=17 value=0.000000
+step=18 value=39.000000
+step=19 value=0.000000
+step=20 value=45.000000
+step=21 value=0.000000
+step=22 value=34.000000
+step=23 value=43.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=11.000000
+step=27 value=26.000000
+step=28 value=0.000000
+step=29 value=0.000000
+step=30 value=0.000000
+step=31 value=52.000000
+step=32 value=24.000000
+step=33 value=75.000000
+step=34 value=71.000000
+step=35 value=142.000000
+step=36 value=137.000000
+step=37 value=105.000000
+step=38 value=115.000000
+step=39 value=87.000000
+step=40 value=83.000000
+step=41 value=94.000000
+step=42 value=77.000000
+step=43 value=73.000000
+step=44 value=66.000000
+step=45 value=41.000000
+step=46 value=36.000000
+step=47 value=33.000000
+step=48 value=32.000000
+step=49 value=33.000000
+step=50 value=31.000000
+step=51 value=27.000000
+step=52 value=26.000000
+step=53 value=29.000000
+step=54 value=28.000000
+step=55 value=13.000000
+step=56 value=0.000000
+step=57 value=0.000000
+step=58 value=0.000000
+step=59 value=0.000000
+step=60 value=22.000000
+step=61 value=22.000000
+step=62 value=23.000000
+step=63 value=22.000000
+step=64 value=22.000000
+step=65 value=0.000000
+step=66 value=41.000000
+step=67 value=17.000000
+step=68 value=16.000000
+step=69 value=21.000000
+step=70 value=33.000000
+step=71 value=34.000000
+step=72 value=33.000000
+step=73 value=30.000000
+step=74 value=20.000000
+step=75 value=16.000000
+step=76 value=15.000000
+step=77 value=13.000000
+step=78 value=9.000000
+step=79 value=6.000000
+step=80 value=7.000000
+step=81 value=6.000000
+step=82 value=0.000000
+step=83 value=3.000000
+step=84 value=10.000000
+step=85 value=13.000000
+step=86 value=12.000000
+step=87 value=10.000000
+step=88 value=11.000000
+step=89 value=8.000000
+step=90 value=5.000000
+step=91 value=0.000000
+step=92 value=13.000000
+step=93 value=15.000000
+step=94 value=18.000000
+step=95 value=18.000000
+step=96 value=20.000000
+step=97 value=13.000000
+step=98 value=0.000000
+step=99 value=11.000000
+step=100 value=17.000000
+step=101 value=19.000000
+step=102 value=20.000000
+step=103 value=18.000000
+step=104 value=20.000000
+step=105 value=17.000000
+step=106 value=9.000000
+step=107 value=0.000000
+step=108 value=0.000000
+step=109 value=0.000000
+step=110 value=0.000000
+step=111 value=0.000000
+step=112 value=0.000000
+step=113 value=18.000000
+step=114 value=16.000000
+step=115 value=15.000000
+step=116 value=15.000000
+step=117 value=14.000000
+step=118 value=14.000000
+step=119 value=14.000000
+step=120 value=15.000000
+step=121 value=14.000000
+step=122 value=14.000000
+step=123 value=13.000000
+step=124 value=13.000000
+step=125 value=13.000000
+step=126 value=13.000000
+step=127 value=16.000000
+step=128 value=18.000000
+
+[Episode/DistanceTravelled]
+step=0 value=9.510965
+step=1 value=10.748833
+step=2 value=14.525780
+step=3 value=11.357233
+step=4 value=13.892705
+step=5 value=12.482852
+step=6 value=6.118094
+step=7 value=2.527705
+step=8 value=1.531998
+step=9 value=1.559926
+step=10 value=1.487008
+step=11 value=1.411402
+step=12 value=2.058279
+step=13 value=1.706872
+step=14 value=1.810792
+step=15 value=2.000191
+step=16 value=2.623870
+step=17 value=2.264493
+step=18 value=2.034867
+step=19 value=1.572139
+step=20 value=2.143254
+step=21 value=1.391608
+step=22 value=2.235653
+step=23 value=2.337242
+step=24 value=1.844925
+step=25 value=1.303921
+step=26 value=2.483776
+step=27 value=1.481027
+step=28 value=1.668467
+step=29 value=1.691620
+step=30 value=1.410209
+step=31 value=2.100168
+step=32 value=2.289332
+step=33 value=2.315542
+step=34 value=2.589337
+step=35 value=3.112882
+step=36 value=3.289737
+step=37 value=2.760024
+step=38 value=3.319377
+step=39 value=3.048939
+step=40 value=4.422372
+step=41 value=2.718309
+step=42 value=5.321454
+step=43 value=5.928656
+step=44 value=5.556433
+step=45 value=7.061095
+step=46 value=5.016109
+step=47 value=8.293132
+step=48 value=6.970875
+step=49 value=6.330658
+step=50 value=7.797828
+step=51 value=9.465604
+step=52 value=6.826793
+step=53 value=4.447134
+step=54 value=4.666174
+step=55 value=8.901523
+step=56 value=7.005051
+step=57 value=8.036834
+step=58 value=7.647180
+step=59 value=9.291622
+step=60 value=4.582776
+step=61 value=2.346698
+step=62 value=3.133547
+step=63 value=3.183973
+step=64 value=2.627574
+step=65 value=6.419960
+step=66 value=6.160683
+step=67 value=6.428260
+step=68 value=7.305246
+step=69 value=6.311034
+step=70 value=6.744328
+step=71 value=7.350969
+step=72 value=7.496184
+step=73 value=9.653390
+step=74 value=8.055965
+step=75 value=10.017850
+step=76 value=9.980675
+step=77 value=9.845133
+step=78 value=9.754306
+step=79 value=9.649867
+step=80 value=9.660466
+step=81 value=9.598511
+step=82 value=9.509286
+step=83 value=9.575415
+step=84 value=9.745634
+step=85 value=9.922522
+step=86 value=9.816872
+step=87 value=8.796625
+step=88 value=8.892900
+step=89 value=9.718871
+step=90 value=9.776339
+step=91 value=8.559546
+step=92 value=8.382384
+step=93 value=8.207527
+step=94 value=8.485271
+step=95 value=8.216391
+step=96 value=7.341986
+step=97 value=7.533749
+step=98 value=7.692611
+step=99 value=7.326505
+step=100 value=7.794064
+step=101 value=7.571368
+step=102 value=8.188263
+step=103 value=8.386640
+step=104 value=8.430646
+step=105 value=8.723318
+step=106 value=8.509792
+step=107 value=8.233842
+step=108 value=8.559428
+step=109 value=9.063540
+step=110 value=9.790959
+step=111 value=9.912754
+step=112 value=7.230507
+step=113 value=9.399814
+step=114 value=8.691723
+step=115 value=8.573312
+step=116 value=8.541478
+step=117 value=8.518413
+step=118 value=8.501716
+step=119 value=8.510014
+step=120 value=8.542062
+step=121 value=8.497075
+step=122 value=8.503375
+step=123 value=8.502375
+step=124 value=8.539466
+step=125 value=8.500978
+step=126 value=8.673254
+step=127 value=7.892310
+step=128 value=8.153922
+
+[Episode/EnteredResource]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=1.000000
+step=3 value=1.000000
+step=4 value=1.000000
+step=5 value=1.000000
+step=6 value=1.000000
+step=7 value=1.000000
+step=8 value=0.000000
+step=9 value=1.000000
+step=10 value=1.000000
+step=11 value=0.000000
+step=12 value=1.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=1.000000
+step=16 value=1.000000
+step=17 value=0.000000
+step=18 value=1.000000
+step=19 value=0.000000
+step=20 value=1.000000
+step=21 value=0.000000
+step=22 value=1.000000
+step=23 value=1.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=1.000000
+step=27 value=1.000000
+step=28 value=0.000000
+step=29 value=0.000000
+step=30 value=0.000000
+step=31 value=1.000000
+step=32 value=1.000000
+step=33 value=1.000000
+step=34 value=1.000000
+step=35 value=1.000000
+step=36 value=1.000000
+step=37 value=1.000000
+step=38 value=1.000000
+step=39 value=1.000000
+step=40 value=1.000000
+step=41 value=1.000000
+step=42 value=1.000000
+step=43 value=1.000000
+step=44 value=1.000000
+step=45 value=1.000000
+step=46 value=1.000000
+step=47 value=1.000000
+step=48 value=1.000000
+step=49 value=1.000000
+step=50 value=1.000000
+step=51 value=1.000000
+step=52 value=1.000000
+step=53 value=1.000000
+step=54 value=1.000000
+step=55 value=1.000000
+step=56 value=0.000000
+step=57 value=0.000000
+step=58 value=0.000000
+step=59 value=0.000000
+step=60 value=1.000000
+step=61 value=1.000000
+step=62 value=1.000000
+step=63 value=1.000000
+step=64 value=1.000000
+step=65 value=0.000000
+step=66 value=1.000000
+step=67 value=1.000000
+step=68 value=1.000000
+step=69 value=1.000000
+step=70 value=1.000000
+step=71 value=1.000000
+step=72 value=1.000000
+step=73 value=1.000000
+step=74 value=1.000000
+step=75 value=1.000000
+step=76 value=1.000000
+step=77 value=1.000000
+step=78 value=1.000000
+step=79 value=1.000000
+step=80 value=1.000000
+step=81 value=1.000000
+step=82 value=0.000000
+step=83 value=1.000000
+step=84 value=1.000000
+step=85 value=1.000000
+step=86 value=1.000000
+step=87 value=1.000000
+step=88 value=1.000000
+step=89 value=1.000000
+step=90 value=1.000000
+step=91 value=0.000000
+step=92 value=1.000000
+step=93 value=1.000000
+step=94 value=1.000000
+step=95 value=1.000000
+step=96 value=1.000000
+step=97 value=1.000000
+step=98 value=0.000000
+step=99 value=1.000000
+step=100 value=1.000000
+step=101 value=1.000000
+step=102 value=1.000000
+step=103 value=1.000000
+step=104 value=1.000000
+step=105 value=1.000000
+step=106 value=1.000000
+step=107 value=0.000000
+step=108 value=0.000000
+step=109 value=0.000000
+step=110 value=0.000000
+step=111 value=0.000000
+step=112 value=0.000000
+step=113 value=1.000000
+step=114 value=1.000000
+step=115 value=1.000000
+step=116 value=1.000000
+step=117 value=1.000000
+step=118 value=1.000000
+step=119 value=1.000000
+step=120 value=1.000000
+step=121 value=1.000000
+step=122 value=1.000000
+step=123 value=1.000000
+step=124 value=1.000000
+step=125 value=1.000000
+step=126 value=1.000000
+step=127 value=1.000000
+step=128 value=1.000000
+
+[Episode/FirstConsumptionStep]
+step=0 value=1000.000000
+step=1 value=1000.000000
+step=2 value=75.000000
+step=3 value=81.000000
+step=4 value=98.000000
+step=5 value=47.000000
+step=6 value=28.000000
+step=7 value=115.000000
+step=8 value=1000.000000
+step=9 value=96.000000
+step=10 value=73.000000
+step=11 value=1000.000000
+step=12 value=113.000000
+step=13 value=1000.000000
+step=14 value=1000.000000
+step=15 value=128.000000
+step=16 value=91.000000
+step=17 value=1000.000000
+step=18 value=104.000000
+step=19 value=1000.000000
+step=20 value=119.000000
+step=21 value=1000.000000
+step=22 value=145.000000
+step=23 value=133.000000
+step=24 value=1000.000000
+step=25 value=1000.000000
+step=26 value=168.000000
+step=27 value=85.000000
+step=28 value=1000.000000
+step=29 value=1000.000000
+step=30 value=1000.000000
+step=31 value=96.000000
+step=32 value=144.000000
+step=33 value=100.000000
+step=34 value=121.000000
+step=35 value=59.000000
+step=36 value=31.000000
+step=37 value=22.000000
+step=38 value=22.000000
+step=39 value=21.000000
+step=40 value=17.000000
+step=41 value=16.000000
+step=42 value=17.000000
+step=43 value=12.000000
+step=44 value=11.000000
+step=45 value=23.000000
+step=46 value=21.000000
+step=47 value=24.000000
+step=48 value=24.000000
+step=49 value=24.000000
+step=50 value=21.000000
+step=51 value=21.000000
+step=52 value=20.000000
+step=53 value=24.000000
+step=54 value=26.000000
+step=55 value=33.000000
+step=56 value=1000.000000
+step=57 value=1000.000000
+step=58 value=1000.000000
+step=59 value=1000.000000
+step=60 value=29.000000
+step=61 value=46.000000
+step=62 value=56.000000
+step=63 value=56.000000
+step=64 value=56.000000
+step=65 value=1000.000000
+step=66 value=63.000000
+step=67 value=72.000000
+step=68 value=71.000000
+step=69 value=45.000000
+step=70 value=37.000000
+step=71 value=41.000000
+step=72 value=40.000000
+step=73 value=42.000000
+step=74 value=46.000000
+step=75 value=43.000000
+step=76 value=39.000000
+step=77 value=35.000000
+step=78 value=37.000000
+step=79 value=33.000000
+step=80 value=33.000000
+step=81 value=34.000000
+step=82 value=1000.000000
+step=83 value=33.000000
+step=84 value=30.000000
+step=85 value=28.000000
+step=86 value=28.000000
+step=87 value=28.000000
+step=88 value=28.000000
+step=89 value=29.000000
+step=90 value=29.000000
+step=91 value=1000.000000
+step=92 value=27.000000
+step=93 value=27.000000
+step=94 value=26.000000
+step=95 value=28.000000
+step=96 value=28.000000
+step=97 value=33.000000
+step=98 value=1000.000000
+step=99 value=35.000000
+step=100 value=33.000000
+step=101 value=33.000000
+step=102 value=33.000000
+step=103 value=36.000000
+step=104 value=35.000000
+step=105 value=37.000000
+step=106 value=45.000000
+step=107 value=1000.000000
+step=108 value=1000.000000
+step=109 value=1000.000000
+step=110 value=1000.000000
+step=111 value=1000.000000
+step=112 value=1000.000000
+step=113 value=26.000000
+step=114 value=23.000000
+step=115 value=23.000000
+step=116 value=23.000000
+step=117 value=23.000000
+step=118 value=24.000000
+step=119 value=23.000000
+step=120 value=23.000000
+step=121 value=23.000000
+step=122 value=23.000000
+step=123 value=23.000000
+step=124 value=24.000000
+step=125 value=24.000000
+step=126 value=25.000000
+step=127 value=25.000000
+step=128 value=25.000000
+
+[Episode/FirstFoodStep]
+step=0 value=1000.000000
+step=1 value=1000.000000
+step=2 value=75.000000
+step=3 value=81.000000
+step=4 value=1000.000000
+step=5 value=1000.000000
+step=6 value=1000.000000
+step=7 value=115.000000
+step=8 value=1000.000000
+step=9 value=96.000000
+step=10 value=73.000000
+step=11 value=1000.000000
+step=12 value=113.000000
+step=13 value=1000.000000
+step=14 value=1000.000000
+step=15 value=128.000000
+step=16 value=91.000000
+step=17 value=1000.000000
+step=18 value=104.000000
+step=19 value=1000.000000
+step=20 value=119.000000
+step=21 value=1000.000000
+step=22 value=145.000000
+step=23 value=133.000000
+step=24 value=1000.000000
+step=25 value=1000.000000
+step=26 value=168.000000
+step=27 value=85.000000
+step=28 value=1000.000000
+step=29 value=1000.000000
+step=30 value=1000.000000
+step=31 value=96.000000
+step=32 value=144.000000
+step=33 value=100.000000
+step=34 value=121.000000
+step=35 value=59.000000
+step=36 value=31.000000
+step=37 value=22.000000
+step=38 value=22.000000
+step=39 value=21.000000
+step=40 value=17.000000
+step=41 value=16.000000
+step=42 value=17.000000
+step=43 value=12.000000
+step=44 value=11.000000
+step=45 value=23.000000
+step=46 value=21.000000
+step=47 value=24.000000
+step=48 value=24.000000
+step=49 value=24.000000
+step=50 value=21.000000
+step=51 value=21.000000
+step=52 value=20.000000
+step=53 value=24.000000
+step=54 value=26.000000
+step=55 value=33.000000
+step=56 value=1000.000000
+step=57 value=1000.000000
+step=58 value=1000.000000
+step=59 value=1000.000000
+step=60 value=29.000000
+step=61 value=46.000000
+step=62 value=56.000000
+step=63 value=56.000000
+step=64 value=56.000000
+step=65 value=1000.000000
+step=66 value=63.000000
+step=67 value=72.000000
+step=68 value=71.000000
+step=69 value=45.000000
+step=70 value=37.000000
+step=71 value=41.000000
+step=72 value=40.000000
+step=73 value=42.000000
+step=74 value=46.000000
+step=75 value=43.000000
+step=76 value=39.000000
+step=77 value=35.000000
+step=78 value=37.000000
+step=79 value=33.000000
+step=80 value=33.000000
+step=81 value=34.000000
+step=82 value=1000.000000
+step=83 value=33.000000
+step=84 value=30.000000
+step=85 value=28.000000
+step=86 value=28.000000
+step=87 value=28.000000
+step=88 value=28.000000
+step=89 value=29.000000
+step=90 value=29.000000
+step=91 value=1000.000000
+step=92 value=27.000000
+step=93 value=27.000000
+step=94 value=26.000000
+step=95 value=28.000000
+step=96 value=28.000000
+step=97 value=33.000000
+step=98 value=1000.000000
+step=99 value=35.000000
+step=100 value=33.000000
+step=101 value=33.000000
+step=102 value=33.000000
+step=103 value=36.000000
+step=104 value=35.000000
+step=105 value=37.000000
+step=106 value=45.000000
+step=107 value=1000.000000
+step=108 value=1000.000000
+step=109 value=1000.000000
+step=110 value=1000.000000
+step=111 value=1000.000000
+step=112 value=1000.000000
+step=113 value=1000.000000
+step=114 value=1000.000000
+step=115 value=1000.000000
+step=116 value=1000.000000
+step=117 value=1000.000000
+step=118 value=1000.000000
+step=119 value=1000.000000
+step=120 value=1000.000000
+step=121 value=1000.000000
+step=122 value=1000.000000
+step=123 value=1000.000000
+step=124 value=1000.000000
+step=125 value=1000.000000
+step=126 value=1000.000000
+step=127 value=1000.000000
+step=128 value=1000.000000
+
+[Episode/FirstWaterStep]
+step=0 value=1000.000000
+step=1 value=1000.000000
+step=2 value=1000.000000
+step=3 value=1000.000000
+step=4 value=98.000000
+step=5 value=47.000000
+step=6 value=28.000000
+step=7 value=1000.000000
+step=8 value=1000.000000
+step=9 value=1000.000000
+step=10 value=1000.000000
+step=11 value=1000.000000
+step=12 value=1000.000000
+step=13 value=1000.000000
+step=14 value=1000.000000
+step=15 value=1000.000000
+step=16 value=1000.000000
+step=17 value=1000.000000
+step=18 value=1000.000000
+step=19 value=1000.000000
+step=20 value=1000.000000
+step=21 value=1000.000000
+step=22 value=1000.000000
+step=23 value=1000.000000
+step=24 value=1000.000000
+step=25 value=1000.000000
+step=26 value=1000.000000
+step=27 value=1000.000000
+step=28 value=1000.000000
+step=29 value=1000.000000
+step=30 value=1000.000000
+step=31 value=1000.000000
+step=32 value=1000.000000
+step=33 value=1000.000000
+step=34 value=1000.000000
+step=35 value=1000.000000
+step=36 value=1000.000000
+step=37 value=1000.000000
+step=38 value=1000.000000
+step=39 value=1000.000000
+step=40 value=1000.000000
+step=41 value=1000.000000
+step=42 value=1000.000000
+step=43 value=1000.000000
+step=44 value=1000.000000
+step=45 value=1000.000000
+step=46 value=1000.000000
+step=47 value=1000.000000
+step=48 value=1000.000000
+step=49 value=1000.000000
+step=50 value=1000.000000
+step=51 value=1000.000000
+step=52 value=1000.000000
+step=53 value=1000.000000
+step=54 value=1000.000000
+step=55 value=1000.000000
+step=56 value=1000.000000
+step=57 value=1000.000000
+step=58 value=1000.000000
+step=59 value=1000.000000
+step=60 value=1000.000000
+step=61 value=1000.000000
+step=62 value=1000.000000
+step=63 value=1000.000000
+step=64 value=1000.000000
+step=65 value=1000.000000
+step=66 value=1000.000000
+step=67 value=1000.000000
+step=68 value=1000.000000
+step=69 value=1000.000000
+step=70 value=1000.000000
+step=71 value=1000.000000
+step=72 value=1000.000000
+step=73 value=1000.000000
+step=74 value=1000.000000
+step=75 value=1000.000000
+step=76 value=1000.000000
+step=77 value=1000.000000
+step=78 value=1000.000000
+step=79 value=1000.000000
+step=80 value=1000.000000
+step=81 value=1000.000000
+step=82 value=1000.000000
+step=83 value=1000.000000
+step=84 value=1000.000000
+step=85 value=1000.000000
+step=86 value=1000.000000
+step=87 value=1000.000000
+step=88 value=1000.000000
+step=89 value=1000.000000
+step=90 value=1000.000000
+step=91 value=1000.000000
+step=92 value=1000.000000
+step=93 value=1000.000000
+step=94 value=1000.000000
+step=95 value=1000.000000
+step=96 value=1000.000000
+step=97 value=1000.000000
+step=98 value=1000.000000
+step=99 value=1000.000000
+step=100 value=1000.000000
+step=101 value=1000.000000
+step=102 value=1000.000000
+step=103 value=1000.000000
+step=104 value=1000.000000
+step=105 value=1000.000000
+step=106 value=1000.000000
+step=107 value=1000.000000
+step=108 value=1000.000000
+step=109 value=1000.000000
+step=110 value=1000.000000
+step=111 value=1000.000000
+step=112 value=1000.000000
+step=113 value=26.000000
+step=114 value=23.000000
+step=115 value=23.000000
+step=116 value=23.000000
+step=117 value=23.000000
+step=118 value=24.000000
+step=119 value=23.000000
+step=120 value=23.000000
+step=121 value=23.000000
+step=122 value=23.000000
+step=123 value=23.000000
+step=124 value=24.000000
+step=125 value=24.000000
+step=126 value=25.000000
+step=127 value=25.000000
+step=128 value=25.000000
+
+[Episode/FoodVisits]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=6.000000
+step=3 value=3.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=1.000000
+step=8 value=0.000000
+step=9 value=1.000000
+step=10 value=1.000000
+step=11 value=0.000000
+step=12 value=1.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=1.000000
+step=16 value=1.000000
+step=17 value=0.000000
+step=18 value=1.000000
+step=19 value=0.000000
+step=20 value=1.000000
+step=21 value=0.000000
+step=22 value=1.000000
+step=23 value=1.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=1.000000
+step=27 value=2.000000
+step=28 value=0.000000
+step=29 value=0.000000
+step=30 value=0.000000
+step=31 value=2.000000
+step=32 value=2.000000
+step=33 value=1.000000
+step=34 value=1.000000
+step=35 value=1.000000
+step=36 value=1.000000
+step=37 value=1.000000
+step=38 value=1.000000
+step=39 value=1.000000
+step=40 value=1.000000
+step=41 value=1.000000
+step=42 value=1.000000
+step=43 value=1.000000
+step=44 value=1.000000
+step=45 value=1.000000
+step=46 value=1.000000
+step=47 value=1.000000
+step=48 value=1.000000
+step=49 value=1.000000
+step=50 value=1.000000
+step=51 value=1.000000
+step=52 value=1.000000
+step=53 value=1.000000
+step=54 value=1.000000
+step=55 value=1.000000
+step=56 value=0.000000
+step=57 value=0.000000
+step=58 value=0.000000
+step=59 value=0.000000
+step=60 value=1.000000
+step=61 value=1.000000
+step=62 value=1.000000
+step=63 value=1.000000
+step=64 value=1.000000
+step=65 value=0.000000
+step=66 value=1.000000
+step=67 value=1.000000
+step=68 value=1.000000
+step=69 value=1.000000
+step=70 value=1.000000
+step=71 value=1.000000
+step=72 value=1.000000
+step=73 value=1.000000
+step=74 value=1.000000
+step=75 value=1.000000
+step=76 value=1.000000
+step=77 value=1.000000
+step=78 value=1.000000
+step=79 value=1.000000
+step=80 value=1.000000
+step=81 value=1.000000
+step=82 value=0.000000
+step=83 value=1.000000
+step=84 value=1.000000
+step=85 value=1.000000
+step=86 value=1.000000
+step=87 value=1.000000
+step=88 value=1.000000
+step=89 value=1.000000
+step=90 value=1.000000
+step=91 value=0.000000
+step=92 value=1.000000
+step=93 value=1.000000
+step=94 value=1.000000
+step=95 value=1.000000
+step=96 value=1.000000
+step=97 value=1.000000
+step=98 value=0.000000
+step=99 value=1.000000
+step=100 value=1.000000
+step=101 value=1.000000
+step=102 value=1.000000
+step=103 value=1.000000
+step=104 value=1.000000
+step=105 value=1.000000
+step=106 value=1.000000
+step=107 value=0.000000
+step=108 value=0.000000
+step=109 value=0.000000
+step=110 value=0.000000
+step=111 value=0.000000
+step=112 value=0.000000
+step=113 value=0.000000
+step=114 value=0.000000
+step=115 value=0.000000
+step=116 value=0.000000
+step=117 value=0.000000
+step=118 value=0.000000
+step=119 value=0.000000
+step=120 value=0.000000
+step=121 value=0.000000
+step=122 value=0.000000
+step=123 value=0.000000
+step=124 value=0.000000
+step=125 value=0.000000
+step=126 value=0.000000
+step=127 value=0.000000
+step=128 value=0.000000
+
+[Episode/Length]
+step=0 value=119.000000
+step=1 value=131.000000
+step=2 value=190.000000
+step=3 value=149.000000
+step=4 value=179.000000
+step=5 value=157.000000
+step=6 value=124.000000
+step=7 value=194.000000
+step=8 value=120.000000
+step=9 value=121.000000
+step=10 value=102.000000
+step=11 value=113.000000
+step=12 value=152.000000
+step=13 value=136.000000
+step=14 value=148.000000
+step=15 value=156.000000
+step=16 value=200.000000
+step=17 value=173.000000
+step=18 value=142.000000
+step=19 value=131.000000
+step=20 value=163.000000
+step=21 value=109.000000
+step=22 value=178.000000
+step=23 value=175.000000
+step=24 value=150.000000
+step=25 value=106.000000
+step=26 value=178.000000
+step=27 value=111.000000
+step=28 value=133.000000
+step=29 value=126.000000
+step=30 value=101.000000
+step=31 value=148.000000
+step=32 value=169.000000
+step=33 value=174.000000
+step=34 value=191.000000
+step=35 value=200.000000
+step=36 value=173.000000
+step=37 value=126.000000
+step=38 value=155.000000
+step=39 value=120.000000
+step=40 value=163.000000
+step=41 value=109.000000
+step=42 value=178.000000
+step=43 value=175.000000
+step=44 value=150.000000
+step=45 value=167.000000
+step=46 value=102.000000
+step=47 value=198.000000
+step=48 value=157.000000
+step=49 value=131.000000
+step=50 value=153.000000
+step=51 value=191.000000
+step=52 value=125.000000
+step=53 value=110.000000
+step=54 value=135.000000
+step=55 value=198.000000
+step=56 value=118.000000
+step=57 value=136.000000
+step=58 value=112.000000
+step=59 value=159.000000
+step=60 value=163.000000
+step=61 value=109.000000
+step=62 value=178.000000
+step=63 value=175.000000
+step=64 value=150.000000
+step=65 value=115.000000
+step=66 value=133.000000
+step=67 value=127.000000
+step=68 value=197.000000
+step=69 value=105.000000
+step=70 value=136.000000
+step=71 value=144.000000
+step=72 value=139.000000
+step=73 value=193.000000
+step=74 value=122.000000
+step=75 value=171.000000
+step=76 value=178.000000
+step=77 value=170.000000
+step=78 value=184.000000
+step=79 value=176.000000
+step=80 value=163.000000
+step=81 value=109.000000
+step=82 value=163.000000
+step=83 value=175.000000
+step=84 value=150.000000
+step=85 value=184.000000
+step=86 value=153.000000
+step=87 value=108.000000
+step=88 value=107.000000
+step=89 value=169.000000
+step=90 value=195.000000
+step=91 value=137.000000
+step=92 value=112.000000
+step=93 value=102.000000
+step=94 value=174.000000
+step=95 value=139.000000
+step=96 value=123.000000
+step=97 value=173.000000
+step=98 value=198.000000
+step=99 value=137.000000
+step=100 value=163.000000
+step=101 value=109.000000
+step=102 value=178.000000
+step=103 value=175.000000
+step=104 value=150.000000
+step=105 value=189.000000
+step=106 value=163.000000
+step=107 value=146.000000
+step=108 value=120.000000
+step=109 value=136.000000
+step=110 value=118.000000
+step=111 value=132.000000
+step=112 value=183.000000
+step=113 value=185.000000
+step=114 value=168.000000
+step=115 value=134.000000
+step=116 value=191.000000
+step=117 value=162.000000
+step=118 value=140.000000
+step=119 value=157.000000
+step=120 value=128.000000
+step=121 value=194.000000
+step=122 value=163.000000
+step=123 value=152.000000
+step=124 value=189.000000
+step=125 value=180.000000
+step=126 value=174.000000
+step=127 value=107.000000
+step=128 value=140.000000
+
+[Episode/Survived1000]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+step=8 value=0.000000
+step=9 value=0.000000
+step=10 value=0.000000
+step=11 value=0.000000
+step=12 value=0.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=0.000000
+step=16 value=0.000000
+step=17 value=0.000000
+step=18 value=0.000000
+step=19 value=0.000000
+step=20 value=0.000000
+step=21 value=0.000000
+step=22 value=0.000000
+step=23 value=0.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=0.000000
+step=27 value=0.000000
+step=28 value=0.000000
+step=29 value=0.000000
+step=30 value=0.000000
+step=31 value=0.000000
+step=32 value=0.000000
+step=33 value=0.000000
+step=34 value=0.000000
+step=35 value=0.000000
+step=36 value=0.000000
+step=37 value=0.000000
+step=38 value=0.000000
+step=39 value=0.000000
+step=40 value=0.000000
+step=41 value=0.000000
+step=42 value=0.000000
+step=43 value=0.000000
+step=44 value=0.000000
+step=45 value=0.000000
+step=46 value=0.000000
+step=47 value=0.000000
+step=48 value=0.000000
+step=49 value=0.000000
+step=50 value=0.000000
+step=51 value=0.000000
+step=52 value=0.000000
+step=53 value=0.000000
+step=54 value=0.000000
+step=55 value=0.000000
+step=56 value=0.000000
+step=57 value=0.000000
+step=58 value=0.000000
+step=59 value=0.000000
+step=60 value=0.000000
+step=61 value=0.000000
+step=62 value=0.000000
+step=63 value=0.000000
+step=64 value=0.000000
+step=65 value=0.000000
+step=66 value=0.000000
+step=67 value=0.000000
+step=68 value=0.000000
+step=69 value=0.000000
+step=70 value=0.000000
+step=71 value=0.000000
+step=72 value=0.000000
+step=73 value=0.000000
+step=74 value=0.000000
+step=75 value=0.000000
+step=76 value=0.000000
+step=77 value=0.000000
+step=78 value=0.000000
+step=79 value=0.000000
+step=80 value=0.000000
+step=81 value=0.000000
+step=82 value=0.000000
+step=83 value=0.000000
+step=84 value=0.000000
+step=85 value=0.000000
+step=86 value=0.000000
+step=87 value=0.000000
+step=88 value=0.000000
+step=89 value=0.000000
+step=90 value=0.000000
+step=91 value=0.000000
+step=92 value=0.000000
+step=93 value=0.000000
+step=94 value=0.000000
+step=95 value=0.000000
+step=96 value=0.000000
+step=97 value=0.000000
+step=98 value=0.000000
+step=99 value=0.000000
+step=100 value=0.000000
+step=101 value=0.000000
+step=102 value=0.000000
+step=103 value=0.000000
+step=104 value=0.000000
+step=105 value=0.000000
+step=106 value=0.000000
+step=107 value=0.000000
+step=108 value=0.000000
+step=109 value=0.000000
+step=110 value=0.000000
+step=111 value=0.000000
+step=112 value=0.000000
+step=113 value=0.000000
+step=114 value=0.000000
+step=115 value=0.000000
+step=116 value=0.000000
+step=117 value=0.000000
+step=118 value=0.000000
+step=119 value=0.000000
+step=120 value=0.000000
+step=121 value=0.000000
+step=122 value=0.000000
+step=123 value=0.000000
+step=124 value=0.000000
+step=125 value=0.000000
+step=126 value=0.000000
+step=127 value=0.000000
+step=128 value=0.000000
+
+[Episode/Survived500]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+step=8 value=0.000000
+step=9 value=0.000000
+step=10 value=0.000000
+step=11 value=0.000000
+step=12 value=0.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=0.000000
+step=16 value=0.000000
+step=17 value=0.000000
+step=18 value=0.000000
+step=19 value=0.000000
+step=20 value=0.000000
+step=21 value=0.000000
+step=22 value=0.000000
+step=23 value=0.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=0.000000
+step=27 value=0.000000
+step=28 value=0.000000
+step=29 value=0.000000
+step=30 value=0.000000
+step=31 value=0.000000
+step=32 value=0.000000
+step=33 value=0.000000
+step=34 value=0.000000
+step=35 value=0.000000
+step=36 value=0.000000
+step=37 value=0.000000
+step=38 value=0.000000
+step=39 value=0.000000
+step=40 value=0.000000
+step=41 value=0.000000
+step=42 value=0.000000
+step=43 value=0.000000
+step=44 value=0.000000
+step=45 value=0.000000
+step=46 value=0.000000
+step=47 value=0.000000
+step=48 value=0.000000
+step=49 value=0.000000
+step=50 value=0.000000
+step=51 value=0.000000
+step=52 value=0.000000
+step=53 value=0.000000
+step=54 value=0.000000
+step=55 value=0.000000
+step=56 value=0.000000
+step=57 value=0.000000
+step=58 value=0.000000
+step=59 value=0.000000
+step=60 value=0.000000
+step=61 value=0.000000
+step=62 value=0.000000
+step=63 value=0.000000
+step=64 value=0.000000
+step=65 value=0.000000
+step=66 value=0.000000
+step=67 value=0.000000
+step=68 value=0.000000
+step=69 value=0.000000
+step=70 value=0.000000
+step=71 value=0.000000
+step=72 value=0.000000
+step=73 value=0.000000
+step=74 value=0.000000
+step=75 value=0.000000
+step=76 value=0.000000
+step=77 value=0.000000
+step=78 value=0.000000
+step=79 value=0.000000
+step=80 value=0.000000
+step=81 value=0.000000
+step=82 value=0.000000
+step=83 value=0.000000
+step=84 value=0.000000
+step=85 value=0.000000
+step=86 value=0.000000
+step=87 value=0.000000
+step=88 value=0.000000
+step=89 value=0.000000
+step=90 value=0.000000
+step=91 value=0.000000
+step=92 value=0.000000
+step=93 value=0.000000
+step=94 value=0.000000
+step=95 value=0.000000
+step=96 value=0.000000
+step=97 value=0.000000
+step=98 value=0.000000
+step=99 value=0.000000
+step=100 value=0.000000
+step=101 value=0.000000
+step=102 value=0.000000
+step=103 value=0.000000
+step=104 value=0.000000
+step=105 value=0.000000
+step=106 value=0.000000
+step=107 value=0.000000
+step=108 value=0.000000
+step=109 value=0.000000
+step=110 value=0.000000
+step=111 value=0.000000
+step=112 value=0.000000
+step=113 value=0.000000
+step=114 value=0.000000
+step=115 value=0.000000
+step=116 value=0.000000
+step=117 value=0.000000
+step=118 value=0.000000
+step=119 value=0.000000
+step=120 value=0.000000
+step=121 value=0.000000
+step=122 value=0.000000
+step=123 value=0.000000
+step=124 value=0.000000
+step=125 value=0.000000
+step=126 value=0.000000
+step=127 value=0.000000
+step=128 value=0.000000
+
+[Episode/TimeInsideRadius]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=25.000000
+step=3 value=21.000000
+step=4 value=15.000000
+step=5 value=78.000000
+step=6 value=74.000000
+step=7 value=80.000000
+step=8 value=0.000000
+step=9 value=26.000000
+step=10 value=30.000000
+step=11 value=0.000000
+step=12 value=40.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=29.000000
+step=16 value=110.000000
+step=17 value=0.000000
+step=18 value=39.000000
+step=19 value=0.000000
+step=20 value=45.000000
+step=21 value=0.000000
+step=22 value=34.000000
+step=23 value=43.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=11.000000
+step=27 value=26.000000
+step=28 value=0.000000
+step=29 value=0.000000
+step=30 value=0.000000
+step=31 value=52.000000
+step=32 value=24.000000
+step=33 value=75.000000
+step=34 value=71.000000
+step=35 value=142.000000
+step=36 value=137.000000
+step=37 value=105.000000
+step=38 value=115.000000
+step=39 value=87.000000
+step=40 value=83.000000
+step=41 value=94.000000
+step=42 value=77.000000
+step=43 value=73.000000
+step=44 value=66.000000
+step=45 value=41.000000
+step=46 value=36.000000
+step=47 value=33.000000
+step=48 value=32.000000
+step=49 value=33.000000
+step=50 value=31.000000
+step=51 value=27.000000
+step=52 value=26.000000
+step=53 value=29.000000
+step=54 value=28.000000
+step=55 value=13.000000
+step=56 value=0.000000
+step=57 value=0.000000
+step=58 value=0.000000
+step=59 value=0.000000
+step=60 value=22.000000
+step=61 value=22.000000
+step=62 value=23.000000
+step=63 value=22.000000
+step=64 value=22.000000
+step=65 value=0.000000
+step=66 value=41.000000
+step=67 value=17.000000
+step=68 value=16.000000
+step=69 value=21.000000
+step=70 value=33.000000
+step=71 value=34.000000
+step=72 value=33.000000
+step=73 value=30.000000
+step=74 value=20.000000
+step=75 value=16.000000
+step=76 value=15.000000
+step=77 value=13.000000
+step=78 value=9.000000
+step=79 value=6.000000
+step=80 value=7.000000
+step=81 value=6.000000
+step=82 value=0.000000
+step=83 value=3.000000
+step=84 value=10.000000
+step=85 value=13.000000
+step=86 value=12.000000
+step=87 value=10.000000
+step=88 value=11.000000
+step=89 value=8.000000
+step=90 value=5.000000
+step=91 value=0.000000
+step=92 value=13.000000
+step=93 value=15.000000
+step=94 value=18.000000
+step=95 value=18.000000
+step=96 value=20.000000
+step=97 value=13.000000
+step=98 value=0.000000
+step=99 value=11.000000
+step=100 value=17.000000
+step=101 value=19.000000
+step=102 value=20.000000
+step=103 value=18.000000
+step=104 value=20.000000
+step=105 value=17.000000
+step=106 value=9.000000
+step=107 value=0.000000
+step=108 value=0.000000
+step=109 value=0.000000
+step=110 value=0.000000
+step=111 value=0.000000
+step=112 value=0.000000
+step=113 value=18.000000
+step=114 value=16.000000
+step=115 value=15.000000
+step=116 value=15.000000
+step=117 value=14.000000
+step=118 value=14.000000
+step=119 value=14.000000
+step=120 value=15.000000
+step=121 value=14.000000
+step=122 value=14.000000
+step=123 value=13.000000
+step=124 value=13.000000
+step=125 value=13.000000
+step=126 value=13.000000
+step=127 value=16.000000
+step=128 value=18.000000
+
+[Episode/UniqueResourcesVisited]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=1.000000
+step=3 value=1.000000
+step=4 value=1.000000
+step=5 value=1.000000
+step=6 value=1.000000
+step=7 value=1.000000
+step=8 value=0.000000
+step=9 value=1.000000
+step=10 value=1.000000
+step=11 value=0.000000
+step=12 value=1.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=1.000000
+step=16 value=1.000000
+step=17 value=0.000000
+step=18 value=1.000000
+step=19 value=0.000000
+step=20 value=1.000000
+step=21 value=0.000000
+step=22 value=1.000000
+step=23 value=1.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=1.000000
+step=27 value=1.000000
+step=28 value=0.000000
+step=29 value=0.000000
+step=30 value=0.000000
+step=31 value=1.000000
+step=32 value=1.000000
+step=33 value=1.000000
+step=34 value=1.000000
+step=35 value=1.000000
+step=36 value=1.000000
+step=37 value=1.000000
+step=38 value=1.000000
+step=39 value=1.000000
+step=40 value=1.000000
+step=41 value=1.000000
+step=42 value=1.000000
+step=43 value=1.000000
+step=44 value=1.000000
+step=45 value=1.000000
+step=46 value=1.000000
+step=47 value=1.000000
+step=48 value=1.000000
+step=49 value=1.000000
+step=50 value=1.000000
+step=51 value=1.000000
+step=52 value=1.000000
+step=53 value=1.000000
+step=54 value=1.000000
+step=55 value=1.000000
+step=56 value=0.000000
+step=57 value=0.000000
+step=58 value=0.000000
+step=59 value=0.000000
+step=60 value=1.000000
+step=61 value=1.000000
+step=62 value=1.000000
+step=63 value=1.000000
+step=64 value=1.000000
+step=65 value=0.000000
+step=66 value=1.000000
+step=67 value=1.000000
+step=68 value=1.000000
+step=69 value=1.000000
+step=70 value=1.000000
+step=71 value=1.000000
+step=72 value=1.000000
+step=73 value=1.000000
+step=74 value=1.000000
+step=75 value=1.000000
+step=76 value=1.000000
+step=77 value=1.000000
+step=78 value=1.000000
+step=79 value=1.000000
+step=80 value=1.000000
+step=81 value=1.000000
+step=82 value=0.000000
+step=83 value=1.000000
+step=84 value=1.000000
+step=85 value=1.000000
+step=86 value=1.000000
+step=87 value=1.000000
+step=88 value=1.000000
+step=89 value=1.000000
+step=90 value=1.000000
+step=91 value=0.000000
+step=92 value=1.000000
+step=93 value=1.000000
+step=94 value=1.000000
+step=95 value=1.000000
+step=96 value=1.000000
+step=97 value=1.000000
+step=98 value=0.000000
+step=99 value=1.000000
+step=100 value=1.000000
+step=101 value=1.000000
+step=102 value=1.000000
+step=103 value=1.000000
+step=104 value=1.000000
+step=105 value=1.000000
+step=106 value=1.000000
+step=107 value=0.000000
+step=108 value=0.000000
+step=109 value=0.000000
+step=110 value=0.000000
+step=111 value=0.000000
+step=112 value=0.000000
+step=113 value=1.000000
+step=114 value=1.000000
+step=115 value=1.000000
+step=116 value=1.000000
+step=117 value=1.000000
+step=118 value=1.000000
+step=119 value=1.000000
+step=120 value=1.000000
+step=121 value=1.000000
+step=122 value=1.000000
+step=123 value=1.000000
+step=124 value=1.000000
+step=125 value=1.000000
+step=126 value=1.000000
+step=127 value=1.000000
+step=128 value=1.000000
+
+[Episode/WaterVisits]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=2.000000
+step=5 value=7.000000
+step=6 value=5.000000
+step=7 value=0.000000
+step=8 value=0.000000
+step=9 value=0.000000
+step=10 value=0.000000
+step=11 value=0.000000
+step=12 value=0.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=0.000000
+step=16 value=0.000000
+step=17 value=0.000000
+step=18 value=0.000000
+step=19 value=0.000000
+step=20 value=0.000000
+step=21 value=0.000000
+step=22 value=0.000000
+step=23 value=0.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=0.000000
+step=27 value=0.000000
+step=28 value=0.000000
+step=29 value=0.000000
+step=30 value=0.000000
+step=31 value=0.000000
+step=32 value=0.000000
+step=33 value=0.000000
+step=34 value=0.000000
+step=35 value=0.000000
+step=36 value=0.000000
+step=37 value=0.000000
+step=38 value=0.000000
+step=39 value=0.000000
+step=40 value=0.000000
+step=41 value=0.000000
+step=42 value=0.000000
+step=43 value=0.000000
+step=44 value=0.000000
+step=45 value=0.000000
+step=46 value=0.000000
+step=47 value=0.000000
+step=48 value=0.000000
+step=49 value=0.000000
+step=50 value=0.000000
+step=51 value=0.000000
+step=52 value=0.000000
+step=53 value=0.000000
+step=54 value=0.000000
+step=55 value=0.000000
+step=56 value=0.000000
+step=57 value=0.000000
+step=58 value=0.000000
+step=59 value=0.000000
+step=60 value=0.000000
+step=61 value=0.000000
+step=62 value=0.000000
+step=63 value=0.000000
+step=64 value=0.000000
+step=65 value=0.000000
+step=66 value=0.000000
+step=67 value=0.000000
+step=68 value=0.000000
+step=69 value=0.000000
+step=70 value=0.000000
+step=71 value=0.000000
+step=72 value=0.000000
+step=73 value=0.000000
+step=74 value=0.000000
+step=75 value=0.000000
+step=76 value=0.000000
+step=77 value=0.000000
+step=78 value=0.000000
+step=79 value=0.000000
+step=80 value=0.000000
+step=81 value=0.000000
+step=82 value=0.000000
+step=83 value=0.000000
+step=84 value=0.000000
+step=85 value=0.000000
+step=86 value=0.000000
+step=87 value=0.000000
+step=88 value=0.000000
+step=89 value=0.000000
+step=90 value=0.000000
+step=91 value=0.000000
+step=92 value=0.000000
+step=93 value=0.000000
+step=94 value=0.000000
+step=95 value=0.000000
+step=96 value=0.000000
+step=97 value=0.000000
+step=98 value=0.000000
+step=99 value=0.000000
+step=100 value=0.000000
+step=101 value=0.000000
+step=102 value=0.000000
+step=103 value=0.000000
+step=104 value=0.000000
+step=105 value=0.000000
+step=106 value=0.000000
+step=107 value=0.000000
+step=108 value=0.000000
+step=109 value=0.000000
+step=110 value=0.000000
+step=111 value=0.000000
+step=112 value=0.000000
+step=113 value=1.000000
+step=114 value=1.000000
+step=115 value=1.000000
+step=116 value=1.000000
+step=117 value=1.000000
+step=118 value=1.000000
+step=119 value=1.000000
+step=120 value=1.000000
+step=121 value=1.000000
+step=122 value=1.000000
+step=123 value=1.000000
+step=124 value=1.000000
+step=125 value=1.000000
+step=126 value=1.000000
+step=127 value=1.000000
+step=128 value=1.000000
+
+[Eval/1-navigation/full_actor/AlternatingVisitCount]
+step=19 value=0.000000
+step=39 value=0.000000
+
+[Eval/1-navigation/full_actor/AvgConsumption]
+step=19 value=0.000000
+step=39 value=16.400000
+
+[Eval/1-navigation/full_actor/ConsumedAnyRate]
+step=19 value=0.000000
+step=39 value=1.000000
+
+[Eval/1-navigation/full_actor/ConsumedBefore200Rate]
+step=19 value=0.000000
+step=39 value=1.000000
+
+[Eval/1-navigation/full_actor/FinalDrive]
+step=19 value=1.672089
+step=39 value=1.029212
+
+[Eval/1-navigation/full_actor/FirstConsumption]
+step=19 value=1000.000000
+step=39 value=96.000000
+
+[Eval/1-navigation/full_actor/FirstFoodStep]
+step=19 value=1000.000000
+step=39 value=96.000000
+
+[Eval/1-navigation/full_actor/FirstWaterStep]
+step=19 value=1000.000000
+step=39 value=1000.000000
+
+[Eval/1-navigation/full_actor/FoodToWaterSuccess]
+step=19 value=0.000000
+step=39 value=0.000000
+
+[Eval/1-navigation/full_actor/Length]
+step=19 value=124.599998
+step=39 value=127.199997
+
+[Eval/1-navigation/full_actor/MinimumDistance]
+step=19 value=2.730235
+step=39 value=0.765279
+
+[Eval/1-navigation/full_actor/NearestResource]
+step=19 value=2.730235
+step=39 value=0.765279
+
+[Eval/1-navigation/full_actor/ResourceEntered]
+step=19 value=0.000000
+step=39 value=1.000000
+
+[Eval/1-navigation/full_actor/Reward]
+step=19 value=-1.482930
+step=39 value=-1.034071
+
+[Eval/1-navigation/full_actor/Survived]
+step=19 value=0.000000
+step=39 value=0.000000
+
+[Eval/1-navigation/full_actor/WaterToFoodSuccess]
+step=19 value=0.000000
+step=39 value=0.000000
+
+[Eval/1-navigation/full_actor_target/AlternatingVisitCount]
+step=19 value=0.000000
+step=39 value=0.000000
+
+[Eval/1-navigation/full_actor_target/AvgConsumption]
+step=19 value=0.000000
+step=39 value=0.000000
+
+[Eval/1-navigation/full_actor_target/ConsumedAnyRate]
+step=19 value=0.000000
+step=39 value=0.000000
+
+[Eval/1-navigation/full_actor_target/ConsumedBefore200Rate]
+step=19 value=0.000000
+step=39 value=0.000000
+
+[Eval/1-navigation/full_actor_target/FinalDrive]
+step=19 value=1.672089
+step=39 value=1.672089
+
+[Eval/1-navigation/full_actor_target/FirstConsumption]
+step=19 value=1000.000000
+step=39 value=1000.000000
+
+[Eval/1-navigation/full_actor_target/FirstFoodStep]
+step=19 value=1000.000000
+step=39 value=1000.000000
+
+[Eval/1-navigation/full_actor_target/FirstWaterStep]
+step=19 value=1000.000000
+step=39 value=1000.000000
+
+[Eval/1-navigation/full_actor_target/FoodToWaterSuccess]
+step=19 value=0.000000
+step=39 value=0.000000
+
+[Eval/1-navigation/full_actor_target/Length]
+step=19 value=124.599998
+step=39 value=124.599998
+
+[Eval/1-navigation/full_actor_target/MinimumDistance]
+step=19 value=2.730235
+step=39 value=1.582741
+
+[Eval/1-navigation/full_actor_target/NearestResource]
+step=19 value=2.730235
+step=39 value=1.582741
+
+[Eval/1-navigation/full_actor_target/ResourceEntered]
+step=19 value=0.000000
+step=39 value=0.000000
+
+[Eval/1-navigation/full_actor_target/Reward]
+step=19 value=-1.482930
+step=39 value=-1.531590
+
+[Eval/1-navigation/full_actor_target/Survived]
+step=19 value=0.000000
+step=39 value=0.000000
+
+[Eval/1-navigation/full_actor_target/WaterToFoodSuccess]
+step=19 value=0.000000
+step=39 value=0.000000
+
+[Eval/1-navigation/stage_actor/AlternatingVisitCount]
+step=19 value=0.000000
+step=39 value=0.000000
+
+[Eval/1-navigation/stage_actor/AvgConsumption]
+step=19 value=7.000000
+step=39 value=91.199997
+
+[Eval/1-navigation/stage_actor/ConsumedAnyRate]
+step=19 value=0.400000
+step=39 value=1.000000
+
+[Eval/1-navigation/stage_actor/ConsumedBefore200Rate]
+step=19 value=0.400000
+step=39 value=1.000000
+
+[Eval/1-navigation/stage_actor/FinalDrive]
+step=19 value=1.365732
+step=39 value=1.816325
+
+[Eval/1-navigation/stage_actor/FirstConsumption]
+step=19 value=652.799988
+step=39 value=16.799999
+
+[Eval/1-navigation/stage_actor/FirstFoodStep]
+step=19 value=652.799988
+step=39 value=16.799999
+
+[Eval/1-navigation/stage_actor/FirstWaterStep]
+step=19 value=1000.000000
+step=39 value=1000.000000
+
+[Eval/1-navigation/stage_actor/FoodToWaterSuccess]
+step=19 value=0.000000
+step=39 value=0.000000
+
+[Eval/1-navigation/stage_actor/Length]
+step=19 value=124.599998
+step=39 value=127.199997
+
+[Eval/1-navigation/stage_actor/MinimumDistance]
+step=19 value=1.026685
+step=39 value=0.104052
+
+[Eval/1-navigation/stage_actor/NearestResource]
+step=19 value=1.026685
+step=39 value=0.104052
+
+[Eval/1-navigation/stage_actor/ResourceEntered]
+step=19 value=0.400000
+step=39 value=1.000000
+
+[Eval/1-navigation/stage_actor/Reward]
+step=19 value=-0.548597
+step=39 value=-1.237427
+
+[Eval/1-navigation/stage_actor/Survived]
+step=19 value=0.000000
+step=39 value=0.000000
+
+[Eval/1-navigation/stage_actor/WaterToFoodSuccess]
+step=19 value=0.000000
+step=39 value=0.000000
+
+[Eval/1-navigation/stage_actor_target/AlternatingVisitCount]
+step=19 value=0.000000
+step=39 value=0.000000
+
+[Eval/1-navigation/stage_actor_target/AvgConsumption]
+step=19 value=7.000000
+step=39 value=94.000000
+
+[Eval/1-navigation/stage_actor_target/ConsumedAnyRate]
+step=19 value=0.400000
+step=39 value=1.000000
+
+[Eval/1-navigation/stage_actor_target/ConsumedBefore200Rate]
+step=19 value=0.400000
+step=39 value=1.000000
+
+[Eval/1-navigation/stage_actor_target/FinalDrive]
+step=19 value=1.365732
+step=39 value=2.000000
+
+[Eval/1-navigation/stage_actor_target/FirstConsumption]
+step=19 value=652.799988
+step=39 value=34.200001
+
+[Eval/1-navigation/stage_actor_target/FirstFoodStep]
+step=19 value=652.799988
+step=39 value=34.200001
+
+[Eval/1-navigation/stage_actor_target/FirstWaterStep]
+step=19 value=1000.000000
+step=39 value=1000.000000
+
+[Eval/1-navigation/stage_actor_target/FoodToWaterSuccess]
+step=19 value=0.000000
+step=39 value=0.000000
+
+[Eval/1-navigation/stage_actor_target/Length]
+step=19 value=124.599998
+step=39 value=127.199997
+
+[Eval/1-navigation/stage_actor_target/MinimumDistance]
+step=19 value=1.026685
+step=39 value=0.147732
+
+[Eval/1-navigation/stage_actor_target/NearestResource]
+step=19 value=1.026685
+step=39 value=0.147732
+
+[Eval/1-navigation/stage_actor_target/ResourceEntered]
+step=19 value=0.400000
+step=39 value=1.000000
+
+[Eval/1-navigation/stage_actor_target/Reward]
+step=19 value=-0.548597
+step=39 value=-1.308114
+
+[Eval/1-navigation/stage_actor_target/Survived]
+step=19 value=0.000000
+step=39 value=0.000000
+
+[Eval/1-navigation/stage_actor_target/WaterToFoodSuccess]
+step=19 value=0.000000
+step=39 value=0.000000
+
+[Eval/2-four-resources/full_actor/AlternatingVisitCount]
+step=59 value=0.000000
+
+[Eval/2-four-resources/full_actor/AvgConsumption]
+step=59 value=21.000000
+
+[Eval/2-four-resources/full_actor/ConsumedAnyRate]
+step=59 value=1.000000
+
+[Eval/2-four-resources/full_actor/ConsumedBefore200Rate]
+step=59 value=1.000000
+
+[Eval/2-four-resources/full_actor/FinalDrive]
+step=59 value=1.112111
+
+[Eval/2-four-resources/full_actor/FirstConsumption]
+step=59 value=49.599998
+
+[Eval/2-four-resources/full_actor/FirstFoodStep]
+step=59 value=49.599998
+
+[Eval/2-four-resources/full_actor/FirstWaterStep]
+step=59 value=1000.000000
+
+[Eval/2-four-resources/full_actor/FoodToWaterSuccess]
+step=59 value=0.000000
+
+[Eval/2-four-resources/full_actor/Length]
+step=59 value=127.199997
+
+[Eval/2-four-resources/full_actor/MinimumDistance]
+step=59 value=0.306683
+
+[Eval/2-four-resources/full_actor/NearestResource]
+step=59 value=0.306683
+
+[Eval/2-four-resources/full_actor/ResourceEntered]
+step=59 value=1.000000
+
+[Eval/2-four-resources/full_actor/Reward]
+step=59 value=-1.486742
+
+[Eval/2-four-resources/full_actor/Survived]
+step=59 value=0.000000
+
+[Eval/2-four-resources/full_actor/WaterToFoodSuccess]
+step=59 value=0.000000
+
+[Eval/2-four-resources/full_actor_target/AlternatingVisitCount]
+step=59 value=0.000000
+
+[Eval/2-four-resources/full_actor_target/AvgConsumption]
+step=59 value=21.000000
+
+[Eval/2-four-resources/full_actor_target/ConsumedAnyRate]
+step=59 value=1.000000
+
+[Eval/2-four-resources/full_actor_target/ConsumedBefore200Rate]
+step=59 value=1.000000
+
+[Eval/2-four-resources/full_actor_target/FinalDrive]
+step=59 value=1.112111
+
+[Eval/2-four-resources/full_actor_target/FirstConsumption]
+step=59 value=53.400002
+
+[Eval/2-four-resources/full_actor_target/FirstFoodStep]
+step=59 value=53.400002
+
+[Eval/2-four-resources/full_actor_target/FirstWaterStep]
+step=59 value=1000.000000
+
+[Eval/2-four-resources/full_actor_target/FoodToWaterSuccess]
+step=59 value=0.000000
+
+[Eval/2-four-resources/full_actor_target/Length]
+step=59 value=127.199997
+
+[Eval/2-four-resources/full_actor_target/MinimumDistance]
+step=59 value=0.344963
+
+[Eval/2-four-resources/full_actor_target/NearestResource]
+step=59 value=0.344963
+
+[Eval/2-four-resources/full_actor_target/ResourceEntered]
+step=59 value=1.000000
+
+[Eval/2-four-resources/full_actor_target/Reward]
+step=59 value=-1.445179
+
+[Eval/2-four-resources/full_actor_target/Survived]
+step=59 value=0.000000
+
+[Eval/2-four-resources/full_actor_target/WaterToFoodSuccess]
+step=59 value=0.000000
+
+[Eval/2-four-resources/stage_actor/AlternatingVisitCount]
+step=59 value=0.000000
+
+[Eval/2-four-resources/stage_actor/AvgConsumption]
+step=59 value=10.400000
+
+[Eval/2-four-resources/stage_actor/ConsumedAnyRate]
+step=59 value=1.000000
+
+[Eval/2-four-resources/stage_actor/ConsumedBefore200Rate]
+step=59 value=1.000000
+
+[Eval/2-four-resources/stage_actor/FinalDrive]
+step=59 value=1.092848
+
+[Eval/2-four-resources/stage_actor/FirstConsumption]
+step=59 value=31.799999
+
+[Eval/2-four-resources/stage_actor/FirstFoodStep]
+step=59 value=31.799999
+
+[Eval/2-four-resources/stage_actor/FirstWaterStep]
+step=59 value=1000.000000
+
+[Eval/2-four-resources/stage_actor/FoodToWaterSuccess]
+step=59 value=0.000000
+
+[Eval/2-four-resources/stage_actor/Length]
+step=59 value=127.199997
+
+[Eval/2-four-resources/stage_actor/MinimumDistance]
+step=59 value=0.957921
+
+[Eval/2-four-resources/stage_actor/NearestResource]
+step=59 value=0.957921
+
+[Eval/2-four-resources/stage_actor/ResourceEntered]
+step=59 value=1.000000
+
+[Eval/2-four-resources/stage_actor/Reward]
+step=59 value=-0.869642
+
+[Eval/2-four-resources/stage_actor/Survived]
+step=59 value=0.000000
+
+[Eval/2-four-resources/stage_actor/WaterToFoodSuccess]
+step=59 value=0.000000
+
+[Eval/2-four-resources/stage_actor_target/AlternatingVisitCount]
+step=59 value=0.000000
+
+[Eval/2-four-resources/stage_actor_target/AvgConsumption]
+step=59 value=19.200001
+
+[Eval/2-four-resources/stage_actor_target/ConsumedAnyRate]
+step=59 value=1.000000
+
+[Eval/2-four-resources/stage_actor_target/ConsumedBefore200Rate]
+step=59 value=1.000000
+
+[Eval/2-four-resources/stage_actor_target/FinalDrive]
+step=59 value=1.140469
+
+[Eval/2-four-resources/stage_actor_target/FirstConsumption]
+step=59 value=28.000000
+
+[Eval/2-four-resources/stage_actor_target/FirstFoodStep]
+step=59 value=28.000000
+
+[Eval/2-four-resources/stage_actor_target/FirstWaterStep]
+step=59 value=1000.000000
+
+[Eval/2-four-resources/stage_actor_target/FoodToWaterSuccess]
+step=59 value=0.000000
+
+[Eval/2-four-resources/stage_actor_target/Length]
+step=59 value=127.199997
+
+[Eval/2-four-resources/stage_actor_target/MinimumDistance]
+step=59 value=0.894914
+
+[Eval/2-four-resources/stage_actor_target/NearestResource]
+step=59 value=0.894914
+
+[Eval/2-four-resources/stage_actor_target/ResourceEntered]
+step=59 value=1.000000
+
+[Eval/2-four-resources/stage_actor_target/Reward]
+step=59 value=-0.867352
+
+[Eval/2-four-resources/stage_actor_target/Survived]
+step=59 value=0.000000
+
+[Eval/2-four-resources/stage_actor_target/WaterToFoodSuccess]
+step=59 value=0.000000
+
+[Eval/3-six-resources/full_actor/AlternatingVisitCount]
+step=79 value=0.000000
+
+[Eval/3-six-resources/full_actor/AvgConsumption]
+step=79 value=4.600000
+
+[Eval/3-six-resources/full_actor/ConsumedAnyRate]
+step=79 value=0.800000
+
+[Eval/3-six-resources/full_actor/ConsumedBefore200Rate]
+step=79 value=0.800000
+
+[Eval/3-six-resources/full_actor/FinalDrive]
+step=79 value=1.338240
+
+[Eval/3-six-resources/full_actor/FirstConsumption]
+step=79 value=226.800003
+
+[Eval/3-six-resources/full_actor/FirstFoodStep]
+step=79 value=226.800003
+
+[Eval/3-six-resources/full_actor/FirstWaterStep]
+step=79 value=1000.000000
+
+[Eval/3-six-resources/full_actor/FoodToWaterSuccess]
+step=79 value=0.000000
+
+[Eval/3-six-resources/full_actor/Length]
+step=79 value=124.599998
+
+[Eval/3-six-resources/full_actor/MinimumDistance]
+step=79 value=0.961919
+
+[Eval/3-six-resources/full_actor/NearestResource]
+step=79 value=0.961919
+
+[Eval/3-six-resources/full_actor/ResourceEntered]
+step=79 value=0.800000
+
+[Eval/3-six-resources/full_actor/Reward]
+step=79 value=-2.698574
+
+[Eval/3-six-resources/full_actor/Survived]
+step=79 value=0.000000
+
+[Eval/3-six-resources/full_actor/WaterToFoodSuccess]
+step=79 value=0.000000
+
+[Eval/3-six-resources/full_actor_target/AlternatingVisitCount]
+step=79 value=0.000000
+
+[Eval/3-six-resources/full_actor_target/AvgConsumption]
+step=79 value=20.799999
+
+[Eval/3-six-resources/full_actor_target/ConsumedAnyRate]
+step=79 value=1.000000
+
+[Eval/3-six-resources/full_actor_target/ConsumedBefore200Rate]
+step=79 value=1.000000
+
+[Eval/3-six-resources/full_actor_target/FinalDrive]
+step=79 value=1.179475
+
+[Eval/3-six-resources/full_actor_target/FirstConsumption]
+step=79 value=36.799999
+
+[Eval/3-six-resources/full_actor_target/FirstFoodStep]
+step=79 value=36.799999
+
+[Eval/3-six-resources/full_actor_target/FirstWaterStep]
+step=79 value=1000.000000
+
+[Eval/3-six-resources/full_actor_target/FoodToWaterSuccess]
+step=79 value=0.000000
+
+[Eval/3-six-resources/full_actor_target/Length]
+step=79 value=127.199997
+
+[Eval/3-six-resources/full_actor_target/MinimumDistance]
+step=79 value=0.393174
+
+[Eval/3-six-resources/full_actor_target/NearestResource]
+step=79 value=0.393174
+
+[Eval/3-six-resources/full_actor_target/ResourceEntered]
+step=79 value=1.000000
+
+[Eval/3-six-resources/full_actor_target/Reward]
+step=79 value=-1.997673
+
+[Eval/3-six-resources/full_actor_target/Survived]
+step=79 value=0.000000
+
+[Eval/3-six-resources/full_actor_target/WaterToFoodSuccess]
+step=79 value=0.000000
+
+[Eval/3-six-resources/stage_actor/AlternatingVisitCount]
+step=79 value=0.000000
+
+[Eval/3-six-resources/stage_actor/AvgConsumption]
+step=79 value=4.600000
+
+[Eval/3-six-resources/stage_actor/ConsumedAnyRate]
+step=79 value=0.800000
+
+[Eval/3-six-resources/stage_actor/ConsumedBefore200Rate]
+step=79 value=0.800000
+
+[Eval/3-six-resources/stage_actor/FinalDrive]
+step=79 value=1.338240
+
+[Eval/3-six-resources/stage_actor/FirstConsumption]
+step=79 value=226.800003
+
+[Eval/3-six-resources/stage_actor/FirstFoodStep]
+step=79 value=226.800003
+
+[Eval/3-six-resources/stage_actor/FirstWaterStep]
+step=79 value=1000.000000
+
+[Eval/3-six-resources/stage_actor/FoodToWaterSuccess]
+step=79 value=0.000000
+
+[Eval/3-six-resources/stage_actor/Length]
+step=79 value=124.599998
+
+[Eval/3-six-resources/stage_actor/MinimumDistance]
+step=79 value=0.961350
+
+[Eval/3-six-resources/stage_actor/NearestResource]
+step=79 value=0.961350
+
+[Eval/3-six-resources/stage_actor/ResourceEntered]
+step=79 value=0.800000
+
+[Eval/3-six-resources/stage_actor/Reward]
+step=79 value=-2.689214
+
+[Eval/3-six-resources/stage_actor/Survived]
+step=79 value=0.000000
+
+[Eval/3-six-resources/stage_actor/WaterToFoodSuccess]
+step=79 value=0.000000
+
+[Eval/3-six-resources/stage_actor_target/AlternatingVisitCount]
+step=79 value=0.000000
+
+[Eval/3-six-resources/stage_actor_target/AvgConsumption]
+step=79 value=22.799999
+
+[Eval/3-six-resources/stage_actor_target/ConsumedAnyRate]
+step=79 value=1.000000
+
+[Eval/3-six-resources/stage_actor_target/ConsumedBefore200Rate]
+step=79 value=1.000000
+
+[Eval/3-six-resources/stage_actor_target/FinalDrive]
+step=79 value=1.315516
+
+[Eval/3-six-resources/stage_actor_target/FirstConsumption]
+step=79 value=36.799999
+
+[Eval/3-six-resources/stage_actor_target/FirstFoodStep]
+step=79 value=36.799999
+
+[Eval/3-six-resources/stage_actor_target/FirstWaterStep]
+step=79 value=1000.000000
+
+[Eval/3-six-resources/stage_actor_target/FoodToWaterSuccess]
+step=79 value=0.000000
+
+[Eval/3-six-resources/stage_actor_target/Length]
+step=79 value=127.199997
+
+[Eval/3-six-resources/stage_actor_target/MinimumDistance]
+step=79 value=0.376761
+
+[Eval/3-six-resources/stage_actor_target/NearestResource]
+step=79 value=0.376761
+
+[Eval/3-six-resources/stage_actor_target/ResourceEntered]
+step=79 value=1.000000
+
+[Eval/3-six-resources/stage_actor_target/Reward]
+step=79 value=-2.094368
+
+[Eval/3-six-resources/stage_actor_target/Survived]
+step=79 value=0.000000
+
+[Eval/3-six-resources/stage_actor_target/WaterToFoodSuccess]
+step=79 value=0.000000
+
+[Eval/4-depletion/full_actor/AlternatingVisitCount]
+step=99 value=0.000000
+
+[Eval/4-depletion/full_actor/AvgConsumption]
+step=99 value=12.800000
+
+[Eval/4-depletion/full_actor/ConsumedAnyRate]
+step=99 value=1.000000
+
+[Eval/4-depletion/full_actor/ConsumedBefore200Rate]
+step=99 value=1.000000
+
+[Eval/4-depletion/full_actor/FinalDrive]
+step=99 value=1.026921
+
+[Eval/4-depletion/full_actor/FirstConsumption]
+step=99 value=33.799999
+
+[Eval/4-depletion/full_actor/FirstFoodStep]
+step=99 value=33.799999
+
+[Eval/4-depletion/full_actor/FirstWaterStep]
+step=99 value=1000.000000
+
+[Eval/4-depletion/full_actor/FoodToWaterSuccess]
+step=99 value=0.000000
+
+[Eval/4-depletion/full_actor/Length]
+step=99 value=127.199997
+
+[Eval/4-depletion/full_actor/MinimumDistance]
+step=99 value=0.691601
+
+[Eval/4-depletion/full_actor/NearestResource]
+step=99 value=0.691601
+
+[Eval/4-depletion/full_actor/ResourceEntered]
+step=99 value=1.000000
+
+[Eval/4-depletion/full_actor/Reward]
+step=99 value=-2.188253
+
+[Eval/4-depletion/full_actor/Survived]
+step=99 value=0.000000
+
+[Eval/4-depletion/full_actor/WaterToFoodSuccess]
+step=99 value=0.000000
+
+[Eval/4-depletion/full_actor_target/AlternatingVisitCount]
+step=99 value=0.000000
+
+[Eval/4-depletion/full_actor_target/AvgConsumption]
+step=99 value=18.400000
+
+[Eval/4-depletion/full_actor_target/ConsumedAnyRate]
+step=99 value=1.000000
+
+[Eval/4-depletion/full_actor_target/ConsumedBefore200Rate]
+step=99 value=1.000000
+
+[Eval/4-depletion/full_actor_target/FinalDrive]
+step=99 value=1.114329
+
+[Eval/4-depletion/full_actor_target/FirstConsumption]
+step=99 value=28.600000
+
+[Eval/4-depletion/full_actor_target/FirstFoodStep]
+step=99 value=28.600000
+
+[Eval/4-depletion/full_actor_target/FirstWaterStep]
+step=99 value=1000.000000
+
+[Eval/4-depletion/full_actor_target/FoodToWaterSuccess]
+step=99 value=0.000000
+
+[Eval/4-depletion/full_actor_target/Length]
+step=99 value=127.199997
+
+[Eval/4-depletion/full_actor_target/MinimumDistance]
+step=99 value=0.326284
+
+[Eval/4-depletion/full_actor_target/NearestResource]
+step=99 value=0.326284
+
+[Eval/4-depletion/full_actor_target/ResourceEntered]
+step=99 value=1.000000
+
+[Eval/4-depletion/full_actor_target/Reward]
+step=99 value=-2.280989
+
+[Eval/4-depletion/full_actor_target/Survived]
+step=99 value=0.000000
+
+[Eval/4-depletion/full_actor_target/WaterToFoodSuccess]
+step=99 value=0.000000
+
+[Eval/4-depletion/stage_actor/AlternatingVisitCount]
+step=99 value=0.000000
+
+[Eval/4-depletion/stage_actor/AvgConsumption]
+step=99 value=12.800000
+
+[Eval/4-depletion/stage_actor/ConsumedAnyRate]
+step=99 value=1.000000
+
+[Eval/4-depletion/stage_actor/ConsumedBefore200Rate]
+step=99 value=1.000000
+
+[Eval/4-depletion/stage_actor/FinalDrive]
+step=99 value=1.026921
+
+[Eval/4-depletion/stage_actor/FirstConsumption]
+step=99 value=33.799999
+
+[Eval/4-depletion/stage_actor/FirstFoodStep]
+step=99 value=33.799999
+
+[Eval/4-depletion/stage_actor/FirstWaterStep]
+step=99 value=1000.000000
+
+[Eval/4-depletion/stage_actor/FoodToWaterSuccess]
+step=99 value=0.000000
+
+[Eval/4-depletion/stage_actor/Length]
+step=99 value=127.199997
+
+[Eval/4-depletion/stage_actor/MinimumDistance]
+step=99 value=0.691601
+
+[Eval/4-depletion/stage_actor/NearestResource]
+step=99 value=0.691601
+
+[Eval/4-depletion/stage_actor/ResourceEntered]
+step=99 value=1.000000
+
+[Eval/4-depletion/stage_actor/Reward]
+step=99 value=-2.188253
+
+[Eval/4-depletion/stage_actor/Survived]
+step=99 value=0.000000
+
+[Eval/4-depletion/stage_actor/WaterToFoodSuccess]
+step=99 value=0.000000
+
+[Eval/4-depletion/stage_actor_target/AlternatingVisitCount]
+step=99 value=0.000000
+
+[Eval/4-depletion/stage_actor_target/AvgConsumption]
+step=99 value=18.400000
+
+[Eval/4-depletion/stage_actor_target/ConsumedAnyRate]
+step=99 value=1.000000
+
+[Eval/4-depletion/stage_actor_target/ConsumedBefore200Rate]
+step=99 value=1.000000
+
+[Eval/4-depletion/stage_actor_target/FinalDrive]
+step=99 value=1.114329
+
+[Eval/4-depletion/stage_actor_target/FirstConsumption]
+step=99 value=28.600000
+
+[Eval/4-depletion/stage_actor_target/FirstFoodStep]
+step=99 value=28.600000
+
+[Eval/4-depletion/stage_actor_target/FirstWaterStep]
+step=99 value=1000.000000
+
+[Eval/4-depletion/stage_actor_target/FoodToWaterSuccess]
+step=99 value=0.000000
+
+[Eval/4-depletion/stage_actor_target/Length]
+step=99 value=127.199997
+
+[Eval/4-depletion/stage_actor_target/MinimumDistance]
+step=99 value=0.326284
+
+[Eval/4-depletion/stage_actor_target/NearestResource]
+step=99 value=0.326284
+
+[Eval/4-depletion/stage_actor_target/ResourceEntered]
+step=99 value=1.000000
+
+[Eval/4-depletion/stage_actor_target/Reward]
+step=99 value=-2.280989
+
+[Eval/4-depletion/stage_actor_target/Survived]
+step=99 value=0.000000
+
+[Eval/4-depletion/stage_actor_target/WaterToFoodSuccess]
+step=99 value=0.000000
+
+[Eval/5-regen-delay/full_actor/AlternatingVisitCount]
+step=119 value=0.000000
+
+[Eval/5-regen-delay/full_actor/AvgConsumption]
+step=119 value=13.000000
+
+[Eval/5-regen-delay/full_actor/ConsumedAnyRate]
+step=119 value=1.000000
+
+[Eval/5-regen-delay/full_actor/ConsumedBefore200Rate]
+step=119 value=1.000000
+
+[Eval/5-regen-delay/full_actor/FinalDrive]
+step=119 value=1.544232
+
+[Eval/5-regen-delay/full_actor/FirstConsumption]
+step=119 value=23.000000
+
+[Eval/5-regen-delay/full_actor/FirstFoodStep]
+step=119 value=1000.000000
+
+[Eval/5-regen-delay/full_actor/FirstWaterStep]
+step=119 value=23.000000
+
+[Eval/5-regen-delay/full_actor/FoodToWaterSuccess]
+step=119 value=0.000000
+
+[Eval/5-regen-delay/full_actor/Length]
+step=119 value=161.199997
+
+[Eval/5-regen-delay/full_actor/MinimumDistance]
+step=119 value=0.408812
+
+[Eval/5-regen-delay/full_actor/NearestResource]
+step=119 value=0.408812
+
+[Eval/5-regen-delay/full_actor/ResourceEntered]
+step=119 value=1.000000
+
+[Eval/5-regen-delay/full_actor/Reward]
+step=119 value=-4.327637
+
+[Eval/5-regen-delay/full_actor/Survived]
+step=119 value=0.000000
+
+[Eval/5-regen-delay/full_actor/WaterToFoodSuccess]
+step=119 value=0.000000
+
+[Eval/5-regen-delay/full_actor_target/AlternatingVisitCount]
+step=119 value=0.000000
+
+[Eval/5-regen-delay/full_actor_target/AvgConsumption]
+step=119 value=16.000000
+
+[Eval/5-regen-delay/full_actor_target/ConsumedAnyRate]
+step=119 value=1.000000
+
+[Eval/5-regen-delay/full_actor_target/ConsumedBefore200Rate]
+step=119 value=1.000000
+
+[Eval/5-regen-delay/full_actor_target/FinalDrive]
+step=119 value=1.404823
+
+[Eval/5-regen-delay/full_actor_target/FirstConsumption]
+step=119 value=23.000000
+
+[Eval/5-regen-delay/full_actor_target/FirstFoodStep]
+step=119 value=1000.000000
+
+[Eval/5-regen-delay/full_actor_target/FirstWaterStep]
+step=119 value=23.000000
+
+[Eval/5-regen-delay/full_actor_target/FoodToWaterSuccess]
+step=119 value=0.000000
+
+[Eval/5-regen-delay/full_actor_target/Length]
+step=119 value=161.199997
+
+[Eval/5-regen-delay/full_actor_target/MinimumDistance]
+step=119 value=0.211752
+
+[Eval/5-regen-delay/full_actor_target/NearestResource]
+step=119 value=0.211752
+
+[Eval/5-regen-delay/full_actor_target/ResourceEntered]
+step=119 value=1.000000
+
+[Eval/5-regen-delay/full_actor_target/Reward]
+step=119 value=-3.655950
+
+[Eval/5-regen-delay/full_actor_target/Survived]
+step=119 value=0.000000
+
+[Eval/5-regen-delay/full_actor_target/WaterToFoodSuccess]
+step=119 value=0.000000
+
+[Eval/5-regen-delay/stage_actor/AlternatingVisitCount]
+step=119 value=0.000000
+
+[Eval/5-regen-delay/stage_actor/AvgConsumption]
+step=119 value=13.000000
+
+[Eval/5-regen-delay/stage_actor/ConsumedAnyRate]
+step=119 value=1.000000
+
+[Eval/5-regen-delay/stage_actor/ConsumedBefore200Rate]
+step=119 value=1.000000
+
+[Eval/5-regen-delay/stage_actor/FinalDrive]
+step=119 value=1.544232
+
+[Eval/5-regen-delay/stage_actor/FirstConsumption]
+step=119 value=23.000000
+
+[Eval/5-regen-delay/stage_actor/FirstFoodStep]
+step=119 value=1000.000000
+
+[Eval/5-regen-delay/stage_actor/FirstWaterStep]
+step=119 value=23.000000
+
+[Eval/5-regen-delay/stage_actor/FoodToWaterSuccess]
+step=119 value=0.000000
+
+[Eval/5-regen-delay/stage_actor/Length]
+step=119 value=161.199997
+
+[Eval/5-regen-delay/stage_actor/MinimumDistance]
+step=119 value=0.408812
+
+[Eval/5-regen-delay/stage_actor/NearestResource]
+step=119 value=0.408812
+
+[Eval/5-regen-delay/stage_actor/ResourceEntered]
+step=119 value=1.000000
+
+[Eval/5-regen-delay/stage_actor/Reward]
+step=119 value=-4.327637
+
+[Eval/5-regen-delay/stage_actor/Survived]
+step=119 value=0.000000
+
+[Eval/5-regen-delay/stage_actor/WaterToFoodSuccess]
+step=119 value=0.000000
+
+[Eval/5-regen-delay/stage_actor_target/AlternatingVisitCount]
+step=119 value=0.000000
+
+[Eval/5-regen-delay/stage_actor_target/AvgConsumption]
+step=119 value=16.000000
+
+[Eval/5-regen-delay/stage_actor_target/ConsumedAnyRate]
+step=119 value=1.000000
+
+[Eval/5-regen-delay/stage_actor_target/ConsumedBefore200Rate]
+step=119 value=1.000000
+
+[Eval/5-regen-delay/stage_actor_target/FinalDrive]
+step=119 value=1.404823
+
+[Eval/5-regen-delay/stage_actor_target/FirstConsumption]
+step=119 value=23.000000
+
+[Eval/5-regen-delay/stage_actor_target/FirstFoodStep]
+step=119 value=1000.000000
+
+[Eval/5-regen-delay/stage_actor_target/FirstWaterStep]
+step=119 value=23.000000
+
+[Eval/5-regen-delay/stage_actor_target/FoodToWaterSuccess]
+step=119 value=0.000000
+
+[Eval/5-regen-delay/stage_actor_target/Length]
+step=119 value=161.199997
+
+[Eval/5-regen-delay/stage_actor_target/MinimumDistance]
+step=119 value=0.211752
+
+[Eval/5-regen-delay/stage_actor_target/NearestResource]
+step=119 value=0.211752
+
+[Eval/5-regen-delay/stage_actor_target/ResourceEntered]
+step=119 value=1.000000
+
+[Eval/5-regen-delay/stage_actor_target/Reward]
+step=119 value=-3.655950
+
+[Eval/5-regen-delay/stage_actor_target/Survived]
+step=119 value=0.000000
+
+[Eval/5-regen-delay/stage_actor_target/WaterToFoodSuccess]
+step=119 value=0.000000
+
+[Exploration/Sigma]
+step=0 value=0.100000
+step=1 value=0.100000
+step=2 value=0.100000
+step=3 value=0.100000
+step=4 value=0.100000
+step=5 value=0.100000
+step=6 value=0.100000
+step=7 value=0.100000
+step=8 value=0.100000
+step=9 value=0.100000
+step=10 value=0.100000
+step=11 value=0.100000
+step=12 value=0.100000
+step=13 value=0.100000
+step=14 value=0.100000
+step=15 value=0.100000
+step=16 value=0.100000
+step=17 value=0.100000
+step=18 value=0.100000
+step=19 value=0.100000
+step=20 value=0.100000
+step=21 value=0.100000
+step=22 value=0.100000
+step=23 value=0.100000
+step=24 value=0.100000
+step=25 value=0.100000
+step=26 value=0.100000
+step=27 value=0.100000
+step=28 value=0.100000
+step=29 value=0.100000
+step=30 value=0.100000
+step=31 value=0.100000
+step=32 value=0.100000
+step=33 value=0.100000
+step=34 value=0.100000
+step=35 value=0.100000
+step=36 value=0.100000
+step=37 value=0.100000
+step=38 value=0.100000
+step=39 value=0.100000
+step=40 value=0.100000
+step=41 value=0.100000
+step=42 value=0.100000
+step=43 value=0.100000
+step=44 value=0.100000
+step=45 value=0.094944
+step=46 value=0.094831
+step=47 value=0.094719
+step=48 value=0.094607
+step=49 value=0.094494
+step=50 value=0.094382
+step=51 value=0.094270
+step=52 value=0.094157
+step=53 value=0.094045
+step=54 value=0.093933
+step=55 value=0.093820
+step=56 value=0.093708
+step=57 value=0.093596
+step=58 value=0.093483
+step=59 value=0.093371
+step=60 value=0.093258
+step=61 value=0.093146
+step=62 value=0.093034
+step=63 value=0.092921
+step=64 value=0.092809
+step=65 value=0.120000
+step=66 value=0.119600
+step=67 value=0.119200
+step=68 value=0.118800
+step=69 value=0.118400
+step=70 value=0.118000
+step=71 value=0.117600
+step=72 value=0.117200
+step=73 value=0.116800
+step=74 value=0.116400
+step=75 value=0.116000
+step=76 value=0.115600
+step=77 value=0.115200
+step=78 value=0.114800
+step=79 value=0.114400
+step=80 value=0.114000
+step=81 value=0.113600
+step=82 value=0.113200
+step=83 value=0.112800
+step=84 value=0.112400
+step=85 value=0.090449
+step=86 value=0.090337
+step=87 value=0.090225
+step=88 value=0.090112
+step=89 value=0.090000
+step=90 value=0.089888
+step=91 value=0.089775
+step=92 value=0.089663
+step=93 value=0.089551
+step=94 value=0.089438
+step=95 value=0.089326
+step=96 value=0.089213
+step=97 value=0.089101
+step=98 value=0.088989
+step=99 value=0.088876
+step=100 value=0.088764
+step=101 value=0.088652
+step=102 value=0.088539
+step=103 value=0.088427
+step=104 value=0.088315
+step=105 value=0.088202
+step=106 value=0.088090
+step=107 value=0.087978
+step=108 value=0.087865
+step=109 value=0.087753
+step=110 value=0.087640
+step=111 value=0.087528
+step=112 value=0.087416
+step=113 value=0.087303
+step=114 value=0.087191
+step=115 value=0.087079
+step=116 value=0.086966
+step=117 value=0.086854
+step=118 value=0.086742
+step=119 value=0.086629
+step=120 value=0.086517
+step=121 value=0.086404
+step=122 value=0.086292
+step=123 value=0.086180
+step=124 value=0.086067
+step=125 value=0.085955
+step=126 value=0.085843
+step=127 value=0.085730
+step=128 value=0.085618
+
+[Homeostasis/AverageFinalDrive]
+step=0 value=1.430838
+step=1 value=1.691809
+step=2 value=1.499382
+step=3 value=1.440394
+step=4 value=1.354039
+step=5 value=1.461699
+step=6 value=1.538599
+step=7 value=1.596274
+step=8 value=1.576600
+step=9 value=1.553906
+step=10 value=1.594460
+step=11 value=1.571814
+step=12 value=1.604751
+step=13 value=1.611366
+step=14 value=1.617180
+step=15 value=1.605417
+step=16 value=1.628627
+step=17 value=1.640514
+step=18 value=1.659435
+step=19 value=1.674887
+step=20 value=1.690369
+step=21 value=1.674173
+step=22 value=1.685317
+step=23 value=1.698429
+step=24 value=1.696720
+step=25 value=1.685312
+step=26 value=1.664859
+step=27 value=1.651461
+step=28 value=1.661438
+step=29 value=1.656124
+step=30 value=1.661934
+step=31 value=1.672498
+step=32 value=1.655738
+step=33 value=1.665864
+step=34 value=1.675411
+step=35 value=1.684427
+step=36 value=1.691359
+step=37 value=1.699481
+step=38 value=1.702546
+step=39 value=1.706838
+step=40 value=1.700876
+step=41 value=1.707998
+step=42 value=1.699222
+step=43 value=1.690081
+step=44 value=1.683566
+step=45 value=1.230400
+step=46 value=1.411650
+step=47 value=1.302467
+step=48 value=1.286875
+step=49 value=1.307625
+step=50 value=1.296371
+step=51 value=1.265232
+step=52 value=1.273313
+step=53 value=1.298956
+step=54 value=1.299384
+step=55 value=1.310584
+step=56 value=1.366601
+step=57 value=1.380866
+step=58 value=1.407245
+step=59 value=1.423533
+step=60 value=1.398310
+step=61 value=1.407268
+step=62 value=1.389797
+step=63 value=1.371401
+step=64 value=1.365849
+step=65 value=1.772448
+step=66 value=1.747474
+step=67 value=1.498723
+step=68 value=1.432561
+step=69 value=1.362525
+step=70 value=1.375808
+step=71 value=1.382479
+step=72 value=1.389947
+step=73 value=1.363519
+step=74 value=1.361482
+step=75 value=1.329084
+step=76 value=1.302761
+step=77 value=1.288440
+step=78 value=1.280678
+step=79 value=1.328558
+step=80 value=1.344001
+step=81 value=1.326561
+step=82 value=1.356182
+step=83 value=1.383869
+step=84 value=1.366875
+step=85 value=1.307796
+step=86 value=1.267206
+step=87 value=1.206835
+step=88 value=1.175223
+step=89 value=1.167187
+step=90 value=1.298601
+step=91 value=1.382592
+step=92 value=1.335352
+step=93 value=1.298097
+step=94 value=1.270187
+step=95 value=1.252021
+step=96 value=1.241190
+step=97 value=1.227459
+step=98 value=1.282641
+step=99 value=1.279948
+step=100 value=1.266164
+step=101 value=1.263337
+step=102 value=1.248740
+step=103 value=1.236529
+step=104 value=1.228914
+step=105 value=1.015936
+step=106 value=1.103411
+step=107 value=1.252471
+step=108 value=1.316639
+step=109 value=1.382440
+step=110 value=1.479176
+step=111 value=1.529096
+step=112 value=1.571414
+step=113 value=1.529893
+step=114 value=1.486317
+step=115 value=1.444148
+step=116 value=1.463734
+step=117 value=1.447244
+step=118 value=1.422263
+step=119 value=1.434707
+step=120 value=1.413317
+step=121 value=1.440707
+step=122 value=1.426843
+step=123 value=1.414143
+step=124 value=1.420848
+step=125 value=1.440886
+step=126 value=1.433544
+step=127 value=1.422454
+step=128 value=1.411752
+
+[Homeostasis/Best_Drive]
+step=0 value=0.176093
+step=1 value=0.229733
+step=2 value=0.050176
+step=3 value=0.069880
+step=4 value=0.022896
+step=5 value=0.278557
+step=6 value=0.262421
+step=7 value=0.099224
+step=8 value=0.168466
+step=9 value=0.297389
+step=10 value=0.275037
+step=11 value=0.195723
+step=12 value=0.205675
+step=13 value=0.132867
+step=14 value=0.082752
+step=15 value=0.147415
+step=16 value=0.063215
+step=17 value=0.024108
+step=18 value=0.249368
+step=19 value=0.235877
+step=20 value=0.173616
+step=21 value=0.215374
+step=22 value=0.049986
+step=23 value=0.079234
+step=24 value=0.069436
+step=25 value=0.239490
+step=26 value=0.033604
+step=27 value=0.427292
+step=28 value=0.213004
+step=29 value=0.150739
+step=30 value=0.423234
+step=31 value=0.105097
+step=32 value=0.091804
+step=33 value=0.246816
+step=34 value=0.034832
+step=35 value=0.037730
+step=36 value=0.086666
+step=37 value=0.277052
+step=38 value=0.142982
+step=39 value=0.245862
+step=40 value=0.095541
+step=41 value=0.215374
+step=42 value=0.047095
+step=43 value=0.042921
+step=44 value=0.069436
+step=45 value=0.032192
+step=46 value=0.320459
+step=47 value=0.025461
+step=48 value=0.099356
+step=49 value=0.164017
+step=50 value=0.137653
+step=51 value=0.036057
+step=52 value=0.262050
+step=53 value=0.212859
+step=54 value=0.251194
+step=55 value=0.050761
+step=56 value=0.341407
+step=57 value=0.112022
+step=58 value=0.298106
+step=59 value=0.045936
+step=60 value=0.140008
+step=61 value=0.215374
+step=62 value=0.049986
+step=63 value=0.079234
+step=64 value=0.069436
+step=65 value=0.282111
+step=66 value=0.296697
+step=67 value=0.254143
+step=68 value=0.147838
+step=69 value=0.438827
+step=70 value=0.311611
+step=71 value=0.117654
+step=72 value=0.116742
+step=73 value=0.010680
+step=74 value=0.158521
+step=75 value=0.025078
+step=76 value=0.031191
+step=77 value=0.101516
+step=78 value=0.010426
+step=79 value=0.192910
+step=80 value=0.166755
+step=81 value=0.215374
+step=82 value=0.049986
+step=83 value=0.079234
+step=84 value=0.069436
+step=85 value=0.072885
+step=86 value=0.180260
+step=87 value=0.346008
+step=88 value=0.394141
+step=89 value=0.026215
+step=90 value=0.065471
+step=91 value=0.173425
+step=92 value=0.288020
+step=93 value=0.396663
+step=94 value=0.088704
+step=95 value=0.112008
+step=96 value=0.210773
+step=97 value=0.049852
+step=98 value=0.000604
+step=99 value=0.277139
+step=100 value=0.159823
+step=101 value=0.215374
+step=102 value=0.049986
+step=103 value=0.079234
+step=104 value=0.069436
+step=105 value=0.018840
+step=106 value=0.051962
+step=107 value=0.078048
+step=108 value=0.180722
+step=109 value=0.122624
+step=110 value=0.332379
+step=111 value=0.184782
+step=112 value=0.009237
+step=113 value=0.031116
+step=114 value=0.029809
+step=115 value=0.114066
+step=116 value=0.056137
+step=117 value=0.073752
+step=118 value=0.105336
+step=119 value=0.189923
+step=120 value=0.173616
+step=121 value=0.067127
+step=122 value=0.049986
+step=123 value=0.079234
+step=124 value=0.054042
+step=125 value=0.118805
+step=126 value=0.033604
+step=127 value=0.427292
+step=128 value=0.213004
+
+[Homeostasis/Final_Drive]
+step=0 value=1.430838
+step=1 value=1.952779
+step=2 value=1.114529
+step=3 value=1.263429
+step=4 value=1.008618
+step=5 value=2.000000
+step=6 value=2.000000
+step=7 value=2.000000
+step=8 value=1.419208
+step=9 value=1.349655
+step=10 value=2.000000
+step=11 value=1.322711
+step=12 value=2.000000
+step=13 value=1.697362
+step=14 value=1.698577
+step=15 value=1.428958
+step=16 value=2.000000
+step=17 value=1.842593
+step=18 value=2.000000
+step=19 value=1.968483
+step=20 value=2.000000
+step=21 value=1.334068
+step=22 value=1.930482
+step=23 value=2.000000
+step=24 value=1.655702
+step=25 value=1.400116
+step=26 value=1.133094
+step=27 value=1.289697
+step=28 value=1.940808
+step=29 value=1.502024
+step=30 value=1.836216
+step=31 value=2.000000
+step=32 value=1.119419
+step=33 value=2.000000
+step=34 value=2.000000
+step=35 value=2.000000
+step=36 value=1.940900
+step=37 value=2.000000
+step=38 value=1.819025
+step=39 value=1.874225
+step=40 value=1.462400
+step=41 value=2.000000
+step=42 value=1.330625
+step=43 value=1.297025
+step=44 value=1.396900
+step=45 value=1.230400
+step=46 value=1.592900
+step=47 value=1.084100
+step=48 value=1.240100
+step=49 value=1.390625
+step=50 value=1.240100
+step=51 value=1.078400
+step=52 value=1.329880
+step=53 value=1.504100
+step=54 value=1.303235
+step=55 value=1.422580
+step=56 value=1.982798
+step=57 value=1.552039
+step=58 value=1.750170
+step=59 value=1.651576
+step=60 value=1.019961
+step=61 value=1.550585
+step=62 value=1.092790
+step=63 value=1.040289
+step=64 value=1.260351
+step=65 value=1.772448
+step=66 value=1.722500
+step=67 value=1.001220
+step=68 value=1.234075
+step=69 value=1.082382
+step=70 value=1.442225
+step=71 value=1.422500
+step=72 value=1.442225
+step=73 value=1.152100
+step=74 value=1.343145
+step=75 value=1.005105
+step=76 value=1.013207
+step=77 value=1.116592
+step=78 value=1.179767
+step=79 value=1.998883
+step=80 value=1.575649
+step=81 value=1.047518
+step=82 value=1.859726
+step=83 value=1.882244
+step=84 value=1.043997
+step=85 value=1.307796
+step=86 value=1.226615
+step=87 value=1.086092
+step=88 value=1.080389
+step=89 value=1.135043
+step=90 value=1.955672
+step=91 value=1.886538
+step=92 value=1.004672
+step=93 value=1.000056
+step=94 value=1.018992
+step=95 value=1.070366
+step=96 value=1.122052
+step=97 value=1.062688
+step=98 value=2.000000
+step=99 value=1.242251
+step=100 value=1.059397
+step=101 value=1.218102
+step=102 value=1.000606
+step=103 value=1.016713
+step=104 value=1.084243
+step=105 value=1.015936
+step=106 value=1.190885
+step=107 value=1.550590
+step=108 value=1.509145
+step=109 value=1.645641
+step=110 value=1.962859
+step=111 value=1.828617
+step=112 value=1.867635
+step=113 value=1.197726
+step=114 value=1.094130
+step=115 value=1.022460
+step=116 value=1.679186
+step=117 value=1.249360
+step=118 value=1.097514
+step=119 value=1.608920
+step=120 value=1.092461
+step=121 value=1.878956
+step=122 value=1.191156
+step=123 value=1.185542
+step=124 value=1.548232
+step=125 value=1.841648
+step=126 value=1.279364
+step=127 value=1.178481
+step=128 value=1.165613
+
+[InternalState/Food]
+step=0 value=0.638617
+step=1 value=0.348896
+step=2 value=0.486184
+step=3 value=0.838690
+step=4 value=0.444005
+step=5 value=0.387387
+step=6 value=0.305179
+step=7 value=0.902089
+step=8 value=0.295438
+step=9 value=0.505366
+step=10 value=0.849785
+step=11 value=0.277689
+step=12 value=0.561167
+step=13 value=0.335042
+step=14 value=0.363105
+step=15 value=0.469757
+step=16 value=1.210242
+step=17 value=0.512071
+step=18 value=0.572331
+step=19 value=0.340885
+step=20 value=0.590470
+step=21 value=0.692014
+step=22 value=0.567677
+step=23 value=0.627685
+step=24 value=0.562746
+step=25 value=0.629953
+step=26 value=0.439927
+step=27 value=0.443505
+step=28 value=0.360047
+step=29 value=0.308376
+step=30 value=0.248550
+step=31 value=0.916132
+step=32 value=0.432789
+step=33 value=0.823541
+step=34 value=0.927705
+step=35 value=1.516660
+step=36 value=1.669768
+step=37 value=1.569769
+step=38 value=1.664532
+step=39 value=1.637119
+step=40 value=1.686313
+step=41 value=1.755005
+step=42 value=1.708736
+step=43 value=1.716283
+step=44 value=1.764049
+step=45 value=1.621294
+step=46 value=1.530461
+step=47 value=1.510036
+step=48 value=1.546011
+step=49 value=1.558500
+step=50 value=1.547325
+step=51 value=1.478615
+step=52 value=1.491232
+step=53 value=1.588997
+step=54 value=1.406556
+step=55 value=0.692742
+step=56 value=0.301139
+step=57 value=0.594507
+step=58 value=0.411376
+step=59 value=0.391387
+step=60 value=1.234506
+step=61 value=1.339904
+step=62 value=1.235430
+step=63 value=1.141665
+step=64 value=1.306346
+step=65 value=0.282932
+step=66 value=1.029135
+step=67 value=0.698453
+step=68 value=0.659994
+step=69 value=0.899022
+step=70 value=1.330747
+step=71 value=1.442078
+step=72 value=1.459296
+step=73 value=1.476539
+step=74 value=1.352220
+step=75 value=1.218554
+step=76 value=1.100051
+step=77 value=0.897515
+step=78 value=0.916119
+step=79 value=0.365243
+step=80 value=0.556101
+step=81 value=0.934766
+step=82 value=0.404617
+step=83 value=0.461779
+step=84 value=1.028746
+step=85 value=0.762815
+step=86 value=0.751018
+step=87 value=0.799085
+step=88 value=0.784086
+step=89 value=0.963051
+step=90 value=0.461261
+step=91 value=0.335977
+step=92 value=0.986294
+step=93 value=0.968805
+step=94 value=1.086756
+step=95 value=1.334439
+step=96 value=1.298262
+step=97 value=1.008294
+step=98 value=0.491842
+step=99 value=0.675584
+step=100 value=0.931837
+step=101 value=1.343941
+step=102 value=1.210654
+step=103 value=1.059636
+step=104 value=1.343746
+step=105 value=1.126088
+step=106 value=0.822329
+step=107 value=0.620482
+step=108 value=0.583956
+step=109 value=0.336765
+step=110 value=0.288770
+step=111 value=0.326657
+step=112 value=0.523530
+step=113 value=0.455202
+step=114 value=0.412831
+step=115 value=0.329926
+step=116 value=0.474337
+step=117 value=0.398121
+step=118 value=0.346195
+step=119 value=0.386051
+step=120 value=0.313814
+step=121 value=0.479530
+step=122 value=0.404617
+step=123 value=0.373250
+step=124 value=0.465271
+step=125 value=0.444967
+step=126 value=0.427707
+step=127 value=0.263251
+step=128 value=0.342583
+
+[InternalState/Water]
+step=0 value=0.290686
+step=1 value=0.323742
+step=2 value=0.470333
+step=3 value=0.365766
+step=4 value=0.824567
+step=5 value=1.218153
+step=6 value=1.352064
+step=7 value=0.480948
+step=8 value=0.650037
+step=9 value=0.298193
+step=10 value=0.251105
+step=11 value=0.711924
+step=12 value=0.374849
+step=13 value=0.502418
+step=14 value=0.531691
+step=15 value=0.386050
+step=16 value=0.493474
+step=17 value=0.425965
+step=18 value=0.349058
+step=19 value=0.322536
+step=20 value=0.400950
+step=21 value=0.267497
+step=22 value=0.440298
+step=23 value=0.434258
+step=24 value=0.372076
+step=25 value=0.260109
+step=26 value=0.438971
+step=27 value=0.272552
+step=28 value=0.328059
+step=29 value=0.603964
+step=30 value=0.335551
+step=31 value=0.366881
+step=32 value=0.415499
+step=33 value=0.429431
+step=34 value=0.470027
+step=35 value=0.493320
+step=36 value=0.425312
+step=37 value=0.312209
+step=38 value=0.382616
+step=39 value=0.293930
+step=40 value=0.400950
+step=41 value=0.267497
+step=42 value=0.440298
+step=43 value=0.434258
+step=44 value=0.372076
+step=45 value=0.413666
+step=46 value=0.248491
+step=47 value=0.491177
+step=48 value=0.389929
+step=49 value=0.320101
+step=50 value=0.375163
+step=51 value=0.472581
+step=52 value=0.308007
+step=53 value=0.267954
+step=54 value=0.334669
+step=55 value=0.492253
+step=56 value=0.287687
+step=57 value=0.334802
+step=58 value=0.273860
+step=59 value=0.587798
+step=60 value=0.400950
+step=61 value=0.267497
+step=62 value=0.440298
+step=63 value=0.434258
+step=64 value=0.372076
+step=65 value=0.406110
+step=66 value=0.328349
+step=67 value=0.312743
+step=68 value=0.487087
+step=69 value=0.256671
+step=70 value=0.335495
+step=71 value=0.353596
+step=72 value=0.344647
+step=73 value=0.476297
+step=74 value=0.299484
+step=75 value=0.421425
+step=76 value=0.437894
+step=77 value=0.419129
+step=78 value=0.452938
+step=79 value=0.438059
+step=80 value=0.400950
+step=81 value=0.267497
+step=82 value=0.477786
+step=83 value=0.434258
+step=84 value=0.372076
+step=85 value=0.452555
+step=86 value=0.375761
+step=87 value=0.266094
+step=88 value=0.262652
+step=89 value=0.418272
+step=90 value=0.481662
+step=91 value=0.398439
+step=92 value=0.273133
+step=93 value=0.251035
+step=94 value=0.431486
+step=95 value=0.344440
+step=96 value=0.304028
+step=97 value=0.425720
+step=98 value=0.488588
+step=99 value=0.338929
+step=100 value=0.400950
+step=101 value=0.267497
+step=102 value=0.440298
+step=103 value=0.434258
+step=104 value=0.372076
+step=105 value=0.465670
+step=106 value=0.402399
+step=107 value=0.358674
+step=108 value=0.294275
+step=109 value=0.533982
+step=110 value=0.311246
+step=111 value=0.417216
+step=112 value=0.451342
+step=113 value=0.901255
+step=114 value=1.012360
+step=115 value=1.069013
+step=116 value=0.571161
+step=117 value=0.816937
+step=118 value=0.931978
+step=119 value=0.520718
+step=120 value=0.894480
+step=121 value=0.472989
+step=122 value=0.882111
+step=123 value=0.862938
+step=124 value=0.659759
+step=125 value=0.456781
+step=126 value=0.825503
+step=127 value=0.677670
+step=128 value=0.794294
+
+[Loss/Actor]
+step=34 value=-0.011771
+step=35 value=-0.013858
+step=36 value=-0.014966
+step=37 value=-0.016056
+step=38 value=-0.015511
+step=39 value=-0.017014
+step=40 value=-0.014625
+step=41 value=-0.013317
+step=42 value=-0.012214
+step=43 value=-0.012931
+step=44 value=-0.013548
+step=45 value=-0.010246
+step=46 value=-0.011060
+step=47 value=-0.008951
+step=48 value=-0.009035
+step=49 value=-0.009009
+step=50 value=-0.004347
+step=51 value=-0.007086
+step=52 value=-0.005179
+step=53 value=-0.002951
+step=54 value=-0.000496
+step=55 value=0.000120
+step=56 value=-0.005174
+step=57 value=-0.005915
+step=58 value=-0.008818
+step=59 value=-0.010803
+step=60 value=-0.007677
+step=61 value=-0.008163
+step=62 value=-0.004656
+step=63 value=-0.004427
+step=64 value=-0.002475
+step=65 value=0.064361
+step=66 value=0.056078
+step=67 value=0.050515
+step=68 value=0.054553
+step=69 value=0.054033
+step=70 value=0.052400
+step=71 value=0.054274
+step=72 value=0.050717
+step=73 value=0.055889
+step=74 value=0.055607
+step=75 value=0.053156
+step=76 value=0.059166
+step=77 value=0.056146
+step=78 value=0.058423
+step=79 value=0.052193
+step=80 value=0.056655
+step=81 value=0.055156
+step=82 value=0.058196
+step=83 value=0.056181
+step=84 value=0.053351
+step=85 value=0.005362
+step=86 value=0.007711
+step=87 value=0.009681
+step=88 value=0.015855
+step=89 value=0.021857
+step=90 value=0.017421
+step=91 value=0.023201
+step=92 value=0.020908
+step=93 value=0.025351
+step=94 value=0.024236
+step=95 value=0.034375
+step=96 value=0.028314
+step=97 value=0.033203
+step=98 value=0.028649
+step=99 value=0.036931
+step=100 value=0.033228
+step=101 value=0.035584
+step=102 value=0.030107
+step=103 value=0.029897
+step=104 value=0.029091
+step=105 value=0.031650
+step=106 value=0.031540
+step=107 value=0.031673
+step=108 value=0.035059
+step=109 value=0.032665
+step=110 value=0.034285
+step=111 value=0.037575
+step=112 value=0.035421
+step=113 value=0.046865
+step=114 value=0.053948
+step=115 value=0.048477
+step=116 value=0.065010
+step=117 value=0.069762
+step=118 value=0.071725
+step=119 value=0.072318
+step=120 value=0.075479
+step=121 value=0.076603
+step=122 value=0.086027
+step=123 value=0.083254
+step=124 value=0.090018
+step=125 value=0.091728
+step=126 value=0.094248
+step=127 value=0.102195
+step=128 value=0.098410
+
+[Loss/Critic]
+step=34 value=0.001282
+step=35 value=0.000917
+step=36 value=0.000745
+step=37 value=0.000688
+step=38 value=0.000573
+step=39 value=0.000548
+step=40 value=0.000506
+step=41 value=0.000490
+step=42 value=0.000444
+step=43 value=0.000476
+step=44 value=0.000450
+step=45 value=0.000487
+step=46 value=0.000542
+step=47 value=0.000533
+step=48 value=0.000623
+step=49 value=0.000675
+step=50 value=0.000685
+step=51 value=0.000638
+step=52 value=0.000659
+step=53 value=0.000643
+step=54 value=0.000684
+step=55 value=0.000729
+step=56 value=0.000764
+step=57 value=0.000987
+step=58 value=0.000987
+step=59 value=0.001079
+step=60 value=0.001058
+step=61 value=0.000996
+step=62 value=0.001231
+step=63 value=0.001151
+step=64 value=0.001172
+step=65 value=0.001146
+step=66 value=0.001262
+step=67 value=0.001238
+step=68 value=0.001169
+step=69 value=0.001043
+step=70 value=0.001134
+step=71 value=0.001111
+step=72 value=0.001057
+step=73 value=0.001086
+step=74 value=0.001087
+step=75 value=0.001054
+step=76 value=0.001270
+step=77 value=0.001242
+step=78 value=0.001436
+step=79 value=0.001293
+step=80 value=0.001355
+step=81 value=0.001469
+step=82 value=0.001303
+step=83 value=0.001397
+step=84 value=0.001650
+step=85 value=0.002392
+step=86 value=0.002169
+step=87 value=0.002691
+step=88 value=0.002339
+step=89 value=0.002468
+step=90 value=0.002521
+step=91 value=0.002338
+step=92 value=0.002729
+step=93 value=0.002959
+step=94 value=0.002864
+step=95 value=0.002700
+step=96 value=0.003177
+step=97 value=0.003075
+step=98 value=0.002676
+step=99 value=0.002824
+step=100 value=0.003103
+step=101 value=0.003343
+step=102 value=0.003150
+step=103 value=0.003046
+step=104 value=0.003031
+step=105 value=0.003178
+step=106 value=0.003350
+step=107 value=0.003301
+step=108 value=0.003150
+step=109 value=0.003222
+step=110 value=0.003705
+step=111 value=0.003118
+step=112 value=0.003603
+step=113 value=0.004627
+step=114 value=0.004508
+step=115 value=0.004497
+step=116 value=0.004377
+step=117 value=0.004971
+step=118 value=0.004476
+step=119 value=0.004714
+step=120 value=0.004342
+step=121 value=0.004120
+step=122 value=0.003771
+step=123 value=0.005017
+step=124 value=0.004376
+step=125 value=0.004482
+step=126 value=0.004196
+step=127 value=0.004495
+step=128 value=0.004436
+
+[Q/Q1]
+step=34 value=0.010865
+step=35 value=0.011801
+step=36 value=0.011712
+step=37 value=0.011161
+step=38 value=0.010385
+step=39 value=0.009913
+step=40 value=0.009110
+step=41 value=0.008477
+step=42 value=0.007420
+step=43 value=0.006938
+step=44 value=0.005677
+step=45 value=0.003482
+step=46 value=0.003022
+step=47 value=0.000908
+step=48 value=0.001341
+step=49 value=-0.000606
+step=50 value=-0.003211
+step=51 value=-0.004491
+step=52 value=-0.003697
+step=53 value=-0.007599
+step=54 value=-0.011084
+step=55 value=-0.012660
+step=56 value=-0.009529
+step=57 value=-0.008313
+step=58 value=-0.006946
+step=59 value=-0.005379
+step=60 value=-0.005133
+step=61 value=-0.010724
+step=62 value=-0.013064
+step=63 value=-0.016673
+step=64 value=-0.017449
+step=65 value=-0.067052
+step=66 value=-0.062564
+step=67 value=-0.064258
+step=68 value=-0.063586
+step=69 value=-0.063517
+step=70 value=-0.065654
+step=71 value=-0.064431
+step=72 value=-0.065608
+step=73 value=-0.066867
+step=74 value=-0.067596
+step=75 value=-0.069002
+step=76 value=-0.069823
+step=77 value=-0.072569
+step=78 value=-0.071537
+step=79 value=-0.071934
+step=80 value=-0.072602
+step=81 value=-0.074223
+step=82 value=-0.074436
+step=83 value=-0.074284
+step=84 value=-0.074696
+step=85 value=-0.023421
+step=86 value=-0.026168
+step=87 value=-0.027730
+step=88 value=-0.027281
+step=89 value=-0.032239
+step=90 value=-0.032631
+step=91 value=-0.038890
+step=92 value=-0.035483
+step=93 value=-0.037514
+step=94 value=-0.038115
+step=95 value=-0.040516
+step=96 value=-0.042085
+step=97 value=-0.042238
+step=98 value=-0.043226
+step=99 value=-0.045486
+step=100 value=-0.044014
+step=101 value=-0.048278
+step=102 value=-0.045072
+step=103 value=-0.045336
+step=104 value=-0.043402
+step=105 value=-0.044291
+step=106 value=-0.048936
+step=107 value=-0.044911
+step=108 value=-0.048772
+step=109 value=-0.050939
+step=110 value=-0.049495
+step=111 value=-0.056079
+step=112 value=-0.055167
+step=113 value=-0.068406
+step=114 value=-0.076651
+step=115 value=-0.078157
+step=116 value=-0.087961
+step=117 value=-0.090638
+step=118 value=-0.095113
+step=119 value=-0.097702
+step=120 value=-0.102469
+step=121 value=-0.103903
+step=122 value=-0.110694
+step=123 value=-0.111120
+step=124 value=-0.115012
+step=125 value=-0.116555
+step=126 value=-0.119747
+step=127 value=-0.122080
+step=128 value=-0.130302
+
+[Q/Q1_minus_Q2]
+step=34 value=0.007319
+step=35 value=0.004611
+step=36 value=0.005618
+step=37 value=0.005378
+step=38 value=0.004934
+step=39 value=0.006828
+step=40 value=0.006562
+step=41 value=0.007294
+step=42 value=0.005743
+step=43 value=0.006665
+step=44 value=0.006737
+step=45 value=0.006931
+step=46 value=0.006825
+step=47 value=0.006759
+step=48 value=0.007049
+step=49 value=0.007871
+step=50 value=0.007787
+step=51 value=0.008032
+step=52 value=0.007496
+step=53 value=0.006501
+step=54 value=0.007465
+step=55 value=0.007805
+step=56 value=0.007716
+step=57 value=0.009211
+step=58 value=0.009224
+step=59 value=0.009165
+step=60 value=0.008910
+step=61 value=0.007593
+step=62 value=0.009820
+step=63 value=0.007997
+step=64 value=0.009413
+step=65 value=0.008361
+step=66 value=0.008287
+step=67 value=0.008726
+step=68 value=0.008027
+step=69 value=0.007405
+step=70 value=0.007977
+step=71 value=0.008195
+step=72 value=0.007696
+step=73 value=0.008398
+step=74 value=0.008389
+step=75 value=0.008422
+step=76 value=0.008786
+step=77 value=0.008528
+step=78 value=0.008914
+step=79 value=0.008753
+step=80 value=0.009061
+step=81 value=0.010844
+step=82 value=0.008602
+step=83 value=0.008748
+step=84 value=0.009436
+step=85 value=0.010140
+step=86 value=0.010727
+step=87 value=0.011188
+step=88 value=0.009916
+step=89 value=0.010393
+step=90 value=0.010622
+step=91 value=0.009564
+step=92 value=0.009692
+step=93 value=0.010875
+step=94 value=0.010895
+step=95 value=0.010482
+step=96 value=0.011004
+step=97 value=0.011279
+step=98 value=0.011114
+step=99 value=0.011496
+step=100 value=0.010789
+step=101 value=0.011990
+step=102 value=0.011440
+step=103 value=0.011036
+step=104 value=0.011004
+step=105 value=0.011062
+step=106 value=0.012093
+step=107 value=0.011964
+step=108 value=0.011152
+step=109 value=0.011664
+step=110 value=0.012983
+step=111 value=0.011597
+step=112 value=0.012351
+step=113 value=0.014826
+step=114 value=0.014222
+step=115 value=0.012802
+step=116 value=0.014511
+step=117 value=0.014666
+step=118 value=0.015248
+step=119 value=0.014340
+step=120 value=0.014769
+step=121 value=0.014365
+step=122 value=0.013853
+step=123 value=0.014760
+step=124 value=0.013677
+step=125 value=0.013804
+step=126 value=0.012813
+step=127 value=0.013791
+step=128 value=0.013100
+
+[Q/Q2]
+step=34 value=0.010807
+step=35 value=0.011872
+step=36 value=0.011766
+step=37 value=0.011132
+step=38 value=0.010417
+step=39 value=0.009907
+step=40 value=0.009083
+step=41 value=0.008567
+step=42 value=0.007429
+step=43 value=0.006924
+step=44 value=0.005726
+step=45 value=0.003488
+step=46 value=0.002988
+step=47 value=0.000895
+step=48 value=0.001414
+step=49 value=-0.000755
+step=50 value=-0.003094
+step=51 value=-0.004506
+step=52 value=-0.003689
+step=53 value=-0.007641
+step=54 value=-0.011051
+step=55 value=-0.012661
+step=56 value=-0.009509
+step=57 value=-0.008335
+step=58 value=-0.006910
+step=59 value=-0.005411
+step=60 value=-0.005106
+step=61 value=-0.010767
+step=62 value=-0.012971
+step=63 value=-0.016609
+step=64 value=-0.017479
+step=65 value=-0.067131
+step=66 value=-0.062480
+step=67 value=-0.064138
+step=68 value=-0.063624
+step=69 value=-0.063559
+step=70 value=-0.065589
+step=71 value=-0.064378
+step=72 value=-0.065642
+step=73 value=-0.066808
+step=74 value=-0.067715
+step=75 value=-0.069001
+step=76 value=-0.069797
+step=77 value=-0.072530
+step=78 value=-0.071543
+step=79 value=-0.071970
+step=80 value=-0.072607
+step=81 value=-0.074148
+step=82 value=-0.074365
+step=83 value=-0.074387
+step=84 value=-0.074623
+step=85 value=-0.023382
+step=86 value=-0.026118
+step=87 value=-0.027902
+step=88 value=-0.027178
+step=89 value=-0.032166
+step=90 value=-0.032702
+step=91 value=-0.038814
+step=92 value=-0.035431
+step=93 value=-0.037524
+step=94 value=-0.038120
+step=95 value=-0.040389
+step=96 value=-0.042167
+step=97 value=-0.042257
+step=98 value=-0.043193
+step=99 value=-0.045453
+step=100 value=-0.044073
+step=101 value=-0.048227
+step=102 value=-0.045027
+step=103 value=-0.045347
+step=104 value=-0.043454
+step=105 value=-0.044183
+step=106 value=-0.049010
+step=107 value=-0.044874
+step=108 value=-0.048775
+step=109 value=-0.051102
+step=110 value=-0.049387
+step=111 value=-0.056068
+step=112 value=-0.055260
+step=113 value=-0.068463
+step=114 value=-0.076646
+step=115 value=-0.078191
+step=116 value=-0.087917
+step=117 value=-0.090663
+step=118 value=-0.095214
+step=119 value=-0.097735
+step=120 value=-0.102616
+step=121 value=-0.103859
+step=122 value=-0.110713
+step=123 value=-0.111107
+step=124 value=-0.115066
+step=125 value=-0.116526
+step=126 value=-0.119753
+step=127 value=-0.122026
+step=128 value=-0.130327
+
+[Replay/AverageAge]
+step=0 value=60.000000
+step=1 value=125.500000
+step=2 value=220.500000
+step=3 value=295.000000
+step=4 value=384.500000
+step=5 value=463.000000
+step=6 value=525.000000
+step=7 value=622.000000
+step=8 value=682.000000
+step=9 value=742.500000
+step=10 value=793.500000
+step=11 value=850.000000
+step=12 value=926.000000
+step=13 value=994.000000
+step=14 value=1068.000000
+step=15 value=1146.000000
+step=16 value=1246.000000
+step=17 value=1332.500000
+step=18 value=1403.500000
+step=19 value=1469.000000
+step=20 value=1550.500000
+step=21 value=1605.000000
+step=22 value=1694.000000
+step=23 value=1781.500000
+step=24 value=1856.500000
+step=25 value=1909.500000
+step=26 value=1998.500000
+step=27 value=2054.000000
+step=28 value=2120.500000
+step=29 value=2183.500000
+step=30 value=2234.000000
+step=31 value=2308.000000
+step=32 value=2392.500000
+step=33 value=2479.500000
+step=34 value=2575.000000
+step=35 value=2675.000000
+step=36 value=2761.500000
+step=37 value=2824.500000
+step=38 value=2902.000000
+step=39 value=2962.000000
+step=40 value=3043.500000
+step=41 value=3098.000000
+step=42 value=3187.000000
+step=43 value=3274.500000
+step=44 value=3349.500000
+step=45 value=3433.000000
+step=46 value=3484.000000
+step=47 value=3583.000000
+step=48 value=3661.500000
+step=49 value=3727.000000
+step=50 value=3803.500000
+step=51 value=3899.000000
+step=52 value=3961.500000
+step=53 value=4016.500000
+step=54 value=4084.000000
+step=55 value=4183.000000
+step=56 value=4242.000000
+step=57 value=4310.000000
+step=58 value=4366.000000
+step=59 value=4445.500000
+step=60 value=4527.000000
+step=61 value=4581.500000
+step=62 value=4670.500000
+step=63 value=4758.000000
+step=64 value=4833.000000
+step=65 value=4890.500000
+step=66 value=4957.000000
+step=67 value=5020.500000
+step=68 value=5119.000000
+step=69 value=5171.500000
+step=70 value=5239.500000
+step=71 value=5311.500000
+step=72 value=5381.000000
+step=73 value=5477.500000
+step=74 value=5538.500000
+step=75 value=5624.000000
+step=76 value=5713.000000
+step=77 value=5798.000000
+step=78 value=5890.000000
+step=79 value=5978.000000
+step=80 value=6059.500000
+step=81 value=6114.000000
+step=82 value=6195.500000
+step=83 value=6283.000000
+step=84 value=6358.000000
+step=85 value=6450.000000
+step=86 value=6526.500000
+step=87 value=6580.500000
+step=88 value=6634.000000
+step=89 value=6718.500000
+step=90 value=6816.000000
+step=91 value=6884.500000
+step=92 value=6940.500000
+step=93 value=6991.500000
+step=94 value=7078.500000
+step=95 value=7148.000000
+step=96 value=7209.500000
+step=97 value=7296.000000
+step=98 value=7395.000000
+step=99 value=7463.500000
+step=100 value=7545.000000
+step=101 value=7599.500000
+step=102 value=7688.500000
+step=103 value=7776.000000
+step=104 value=7851.000000
+step=105 value=7945.500000
+step=106 value=8027.000000
+step=107 value=8100.000000
+step=108 value=8160.000000
+step=109 value=8228.000000
+step=110 value=8287.000000
+step=111 value=8353.000000
+step=112 value=8444.500000
+step=113 value=8537.000000
+step=114 value=8621.000000
+step=115 value=8688.000000
+step=116 value=8783.500000
+step=117 value=8864.500000
+step=118 value=8934.500000
+step=119 value=9013.000000
+step=120 value=9077.000000
+step=121 value=9174.000000
+step=122 value=9255.500000
+step=123 value=9331.500000
+step=124 value=9426.000000
+step=125 value=9516.000000
+step=126 value=9603.000000
+step=127 value=9656.500000
+step=128 value=9726.500000
+
+[Replay/Size]
+step=0 value=119.000000
+step=1 value=250.000000
+step=2 value=440.000000
+step=3 value=589.000000
+step=4 value=768.000000
+step=5 value=925.000000
+step=6 value=1049.000000
+step=7 value=1243.000000
+step=8 value=1363.000000
+step=9 value=1484.000000
+step=10 value=1586.000000
+step=11 value=1699.000000
+step=12 value=1851.000000
+step=13 value=1987.000000
+step=14 value=2135.000000
+step=15 value=2291.000000
+step=16 value=2491.000000
+step=17 value=2664.000000
+step=18 value=2806.000000
+step=19 value=2937.000000
+step=20 value=3100.000000
+step=21 value=3209.000000
+step=22 value=3387.000000
+step=23 value=3562.000000
+step=24 value=3712.000000
+step=25 value=3818.000000
+step=26 value=3996.000000
+step=27 value=4107.000000
+step=28 value=4240.000000
+step=29 value=4366.000000
+step=30 value=4467.000000
+step=31 value=4615.000000
+step=32 value=4784.000000
+step=33 value=4958.000000
+step=34 value=5149.000000
+step=35 value=5349.000000
+step=36 value=5522.000000
+step=37 value=5648.000000
+step=38 value=5803.000000
+step=39 value=5923.000000
+step=40 value=6086.000000
+step=41 value=6195.000000
+step=42 value=6373.000000
+step=43 value=6548.000000
+step=44 value=6698.000000
+step=45 value=6865.000000
+step=46 value=6967.000000
+step=47 value=7165.000000
+step=48 value=7322.000000
+step=49 value=7453.000000
+step=50 value=7606.000000
+step=51 value=7797.000000
+step=52 value=7922.000000
+step=53 value=8032.000000
+step=54 value=8167.000000
+step=55 value=8365.000000
+step=56 value=8483.000000
+step=57 value=8619.000000
+step=58 value=8731.000000
+step=59 value=8890.000000
+step=60 value=9053.000000
+step=61 value=9162.000000
+step=62 value=9340.000000
+step=63 value=9515.000000
+step=64 value=9665.000000
+step=65 value=9780.000000
+step=66 value=9913.000000
+step=67 value=10040.000000
+step=68 value=10237.000000
+step=69 value=10342.000000
+step=70 value=10478.000000
+step=71 value=10622.000000
+step=72 value=10761.000000
+step=73 value=10954.000000
+step=74 value=11076.000000
+step=75 value=11247.000000
+step=76 value=11425.000000
+step=77 value=11595.000000
+step=78 value=11779.000000
+step=79 value=11955.000000
+step=80 value=12118.000000
+step=81 value=12227.000000
+step=82 value=12390.000000
+step=83 value=12565.000000
+step=84 value=12715.000000
+step=85 value=12899.000000
+step=86 value=13052.000000
+step=87 value=13160.000000
+step=88 value=13267.000000
+step=89 value=13436.000000
+step=90 value=13631.000000
+step=91 value=13768.000000
+step=92 value=13880.000000
+step=93 value=13982.000000
+step=94 value=14156.000000
+step=95 value=14295.000000
+step=96 value=14418.000000
+step=97 value=14591.000000
+step=98 value=14789.000000
+step=99 value=14926.000000
+step=100 value=15089.000000
+step=101 value=15198.000000
+step=102 value=15376.000000
+step=103 value=15551.000000
+step=104 value=15701.000000
+step=105 value=15890.000000
+step=106 value=16053.000000
+step=107 value=16199.000000
+step=108 value=16319.000000
+step=109 value=16455.000000
+step=110 value=16573.000000
+step=111 value=16705.000000
+step=112 value=16888.000000
+step=113 value=17073.000000
+step=114 value=17241.000000
+step=115 value=17375.000000
+step=116 value=17566.000000
+step=117 value=17728.000000
+step=118 value=17868.000000
+step=119 value=18025.000000
+step=120 value=18153.000000
+step=121 value=18347.000000
+step=122 value=18510.000000
+step=123 value=18662.000000
+step=124 value=18851.000000
+step=125 value=19031.000000
+step=126 value=19205.000000
+step=127 value=19312.000000
+step=128 value=19452.000000
+
+[Replay/Stage2Fraction]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+step=8 value=0.000000
+step=9 value=0.000000
+step=10 value=0.000000
+step=11 value=0.000000
+step=12 value=0.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=0.000000
+step=16 value=0.000000
+step=17 value=0.000000
+step=18 value=0.000000
+step=19 value=0.000000
+step=20 value=0.000000
+step=21 value=0.000000
+step=22 value=0.000000
+step=23 value=0.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=0.000000
+step=27 value=0.000000
+step=28 value=0.000000
+step=29 value=0.000000
+step=30 value=0.000000
+step=31 value=0.000000
+step=32 value=0.000000
+step=33 value=0.000000
+step=34 value=0.000000
+step=35 value=0.000000
+step=36 value=0.000000
+step=37 value=0.000000
+step=38 value=0.000000
+step=39 value=0.000000
+step=40 value=0.000000
+step=41 value=0.000000
+step=42 value=0.000000
+step=43 value=0.000000
+step=44 value=0.000000
+step=45 value=0.024326
+step=46 value=0.038611
+step=47 value=0.065178
+step=48 value=0.085223
+step=49 value=0.101301
+step=50 value=0.119379
+step=51 value=0.140952
+step=52 value=0.154506
+step=53 value=0.166086
+step=54 value=0.179870
+step=55 value=0.199283
+step=56 value=0.210421
+step=57 value=0.222880
+step=58 value=0.232848
+step=59 value=0.246569
+step=60 value=0.260135
+step=61 value=0.268937
+step=62 value=0.282869
+step=63 value=0.296059
+step=64 value=0.306984
+step=65 value=0.303374
+step=66 value=0.299304
+step=67 value=0.295518
+step=68 value=0.289831
+step=69 value=0.286888
+step=70 value=0.283165
+step=71 value=0.279326
+step=72 value=0.275718
+step=73 value=0.270860
+step=74 value=0.267876
+step=75 value=0.263804
+step=76 value=0.259694
+step=77 value=0.255886
+step=78 value=0.251889
+step=79 value=0.248181
+step=80 value=0.244842
+step=81 value=0.242660
+step=82 value=0.239467
+step=83 value=0.236132
+step=84 value=0.233346
+step=85 value=0.230018
+step=86 value=0.227321
+step=87 value=0.225456
+step=88 value=0.223638
+step=89 value=0.220825
+step=90 value=0.217666
+step=91 value=0.215500
+step=92 value=0.213761
+step=93 value=0.212201
+step=94 value=0.209593
+step=95 value=0.207555
+step=96 value=0.205784
+step=97 value=0.203345
+step=98 value=0.200622
+step=99 value=0.198781
+step=100 value=0.196633
+step=101 value=0.195223
+step=102 value=0.192963
+step=103 value=0.190792
+step=104 value=0.188969
+step=105 value=0.186721
+step=106 value=0.184825
+step=107 value=0.183159
+step=108 value=0.181813
+step=109 value=0.180310
+step=110 value=0.179026
+step=111 value=0.177612
+step=112 value=0.175687
+step=113 value=0.173783
+step=114 value=0.172090
+step=115 value=0.170763
+step=116 value=0.168906
+step=117 value=0.167362
+step=118 value=0.166051
+step=119 value=0.164605
+step=120 value=0.163444
+step=121 value=0.161716
+step=122 value=0.160292
+step=123 value=0.158986
+step=124 value=0.157392
+step=125 value=0.155904
+step=126 value=0.154491
+step=127 value=0.153635
+step=128 value=0.152529
+
+[Replay/SuccessRatio]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.431818
+step=3 value=0.575552
+step=4 value=0.674479
+step=5 value=0.729730
+step=6 value=0.761678
+step=7 value=0.798874
+step=8 value=0.728540
+step=9 value=0.750674
+step=10 value=0.766709
+step=11 value=0.715715
+step=12 value=0.739060
+step=13 value=0.688475
+step=14 value=0.640749
+step=15 value=0.665212
+step=16 value=0.692092
+step=17 value=0.647147
+step=18 value=0.665004
+step=19 value=0.635342
+step=20 value=0.654516
+step=21 value=0.632284
+step=22 value=0.651609
+step=23 value=0.668725
+step=24 value=0.641703
+step=25 value=0.623887
+step=26 value=0.640641
+step=27 value=0.650353
+step=28 value=0.629953
+step=29 value=0.611773
+step=30 value=0.597940
+step=31 value=0.610834
+step=32 value=0.624582
+step=33 value=0.637757
+step=34 value=0.651194
+step=35 value=0.664236
+step=36 value=0.674756
+step=37 value=0.682011
+step=38 value=0.690505
+step=39 value=0.696775
+step=40 value=0.704897
+step=41 value=0.710089
+step=42 value=0.718186
+step=43 value=0.725718
+step=44 value=0.731860
+step=45 value=0.738383
+step=46 value=0.742213
+step=47 value=0.749337
+step=48 value=0.754712
+step=49 value=0.759023
+step=50 value=0.763871
+step=51 value=0.769655
+step=52 value=0.773290
+step=53 value=0.776394
+step=54 value=0.780091
+step=55 value=0.785296
+step=56 value=0.774372
+step=57 value=0.762153
+step=58 value=0.752377
+step=59 value=0.738920
+step=60 value=0.743621
+step=61 value=0.746671
+step=62 value=0.751499
+step=63 value=0.756069
+step=64 value=0.759855
+step=65 value=0.750920
+step=66 value=0.754262
+step=67 value=0.757371
+step=68 value=0.762040
+step=69 value=0.764456
+step=70 value=0.767513
+step=71 value=0.770665
+step=72 value=0.773627
+step=73 value=0.777615
+step=74 value=0.780065
+step=75 value=0.783409
+step=76 value=0.786783
+step=77 value=0.789909
+step=78 value=0.793191
+step=79 value=0.796236
+step=80 value=0.798977
+step=81 value=0.800769
+step=82 value=0.790234
+step=83 value=0.793156
+step=84 value=0.795596
+step=85 value=0.798512
+step=86 value=0.800873
+step=87 value=0.802508
+step=88 value=0.804100
+step=89 value=0.806564
+step=90 value=0.809332
+step=91 value=0.801278
+step=92 value=0.802882
+step=93 value=0.804320
+step=94 value=0.806725
+step=95 value=0.808604
+step=96 value=0.810237
+step=97 value=0.812487
+step=98 value=0.801609
+step=99 value=0.803430
+step=100 value=0.805554
+step=101 value=0.806948
+step=102 value=0.809183
+step=103 value=0.811330
+step=104 value=0.813133
+step=105 value=0.815356
+step=106 value=0.817230
+step=107 value=0.809865
+step=108 value=0.803910
+step=109 value=0.797265
+step=110 value=0.791589
+step=111 value=0.785334
+step=112 value=0.776824
+step=113 value=0.779242
+step=114 value=0.781393
+step=115 value=0.783079
+step=116 value=0.785438
+step=117 value=0.787398
+step=118 value=0.789064
+step=119 value=0.790902
+step=120 value=0.792376
+step=121 value=0.794571
+step=122 value=0.796380
+step=123 value=0.798039
+step=124 value=0.800064
+step=125 value=0.801955
+step=126 value=0.803749
+step=127 value=0.804836
+step=128 value=0.806241
+
+[Reward/Episode]
+step=0 value=-1.488851
+step=1 value=-2.141476
+step=2 value=-1.283507
+step=3 value=-1.288130
+step=4 value=-1.047295
+step=5 value=-2.165210
+step=6 value=-1.644567
+step=7 value=-0.992968
+step=8 value=-0.633243
+step=9 value=-0.548915
+step=10 value=-1.255353
+step=11 value=-0.539598
+step=12 value=-1.147617
+step=13 value=-0.902392
+step=14 value=-0.846788
+step=15 value=-0.569687
+step=16 value=-0.978710
+step=17 value=-0.872705
+step=18 value=-1.168567
+step=19 value=-1.202705
+step=20 value=-1.119793
+step=21 value=-0.567129
+step=22 value=-0.955819
+step=23 value=-1.061905
+step=24 value=-0.779899
+step=25 value=-0.650448
+step=26 value=-0.186694
+step=27 value=-0.456773
+step=28 value=-1.174250
+step=29 value=-0.712713
+step=30 value=-1.064816
+step=31 value=-1.160816
+step=32 value=-0.224789
+step=33 value=-1.065805
+step=34 value=-0.975484
+step=35 value=-1.085845
+step=36 value=-1.236809
+step=37 value=-1.259006
+step=38 value=-1.107275
+step=39 value=-1.292523
+step=40 value=-0.810045
+step=41 value=-1.504077
+step=42 value=-0.746465
+step=43 value=-0.760529
+step=44 value=-1.009363
+step=45 value=-1.242858
+step=46 value=-1.344844
+step=47 value=-1.059815
+step=48 value=-1.148851
+step=49 value=-1.281468
+step=50 value=-1.323084
+step=51 value=-1.260338
+step=52 value=-1.185858
+step=53 value=-1.272052
+step=54 value=-0.887185
+step=55 value=-1.115147
+step=56 value=-1.871412
+step=57 value=-1.661573
+step=58 value=-1.859093
+step=59 value=-2.168681
+step=60 value=-0.560126
+step=61 value=-1.147130
+step=62 value=-0.604019
+step=63 value=-0.524151
+step=64 value=-0.849109
+step=65 value=-2.051828
+step=66 value=-1.776793
+step=67 value=-1.142788
+step=68 value=-1.909204
+step=69 value=-1.111312
+step=70 value=-1.758207
+step=71 value=-2.001273
+step=72 value=-2.072742
+step=73 value=-2.390954
+step=74 value=-1.975904
+step=75 value=-2.495401
+step=76 value=-2.810642
+step=77 value=-2.957937
+step=78 value=-3.279925
+step=79 value=-3.916983
+step=80 value=-3.368955
+step=81 value=-2.110379
+step=82 value=-3.825592
+step=83 value=-3.905866
+step=84 value=-2.609009
+step=85 value=-3.083667
+step=86 value=-2.669031
+step=87 value=-2.000706
+step=88 value=-1.954291
+step=89 value=-2.964928
+step=90 value=-3.941031
+step=91 value=-3.210487
+step=92 value=-1.974138
+step=93 value=-1.758945
+step=94 value=-2.659655
+step=95 value=-2.397166
+step=96 value=-2.153606
+step=97 value=-2.706993
+step=98 value=-3.889105
+step=99 value=-2.347895
+step=100 value=-2.541094
+step=101 value=-2.164608
+step=102 value=-2.775047
+step=103 value=-2.801431
+step=104 value=-2.625718
+step=105 value=-2.996390
+step=106 value=-2.854962
+step=107 value=-2.958058
+step=108 value=-2.526829
+step=109 value=-2.792618
+step=110 value=-2.600869
+step=111 value=-2.450615
+step=112 value=-2.424710
+step=113 value=-3.215602
+step=114 value=-3.777487
+step=115 value=-3.167651
+step=116 value=-4.821114
+step=117 value=-3.971307
+step=118 value=-3.399310
+step=119 value=-4.081447
+step=120 value=-3.177309
+step=121 value=-5.157578
+step=122 value=-4.009232
+step=123 value=-3.761168
+step=124 value=-4.771079
+step=125 value=-4.581814
+step=126 value=-3.527930
+step=127 value=-1.997235
+step=128 value=-2.443008
+
+[Run/TotalSteps]
+step=128 value=19452.000000
+
+[Stage/1-navigation/EpisodesCompleted]
+step=0 value=1.000000
+step=1 value=2.000000
+step=2 value=3.000000
+step=3 value=4.000000
+step=4 value=5.000000
+step=5 value=6.000000
+step=6 value=7.000000
+step=7 value=8.000000
+step=8 value=9.000000
+step=9 value=10.000000
+step=10 value=11.000000
+step=11 value=12.000000
+step=12 value=13.000000
+step=13 value=14.000000
+step=14 value=15.000000
+step=15 value=16.000000
+step=16 value=17.000000
+step=17 value=18.000000
+step=18 value=19.000000
+step=19 value=20.000000
+step=20 value=21.000000
+step=21 value=22.000000
+step=22 value=23.000000
+step=23 value=24.000000
+step=24 value=25.000000
+step=25 value=26.000000
+step=26 value=27.000000
+step=27 value=28.000000
+step=28 value=29.000000
+step=29 value=30.000000
+step=30 value=31.000000
+step=31 value=32.000000
+step=32 value=33.000000
+step=33 value=34.000000
+step=34 value=35.000000
+step=35 value=36.000000
+step=36 value=37.000000
+step=37 value=38.000000
+step=38 value=39.000000
+step=39 value=40.000000
+step=40 value=41.000000
+step=41 value=42.000000
+step=42 value=43.000000
+step=43 value=44.000000
+step=44 value=45.000000
+
+[Stage/1-navigation/SuccessRate]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.333333
+step=3 value=0.500000
+step=4 value=0.600000
+step=5 value=0.666667
+step=6 value=0.714286
+step=7 value=0.750000
+step=8 value=0.666667
+step=9 value=0.700000
+step=10 value=0.727273
+step=11 value=0.666667
+step=12 value=0.692308
+step=13 value=0.642857
+step=14 value=0.600000
+step=15 value=0.625000
+step=16 value=0.647059
+step=17 value=0.611111
+step=18 value=0.631579
+step=19 value=0.600000
+step=20 value=0.650000
+step=21 value=0.650000
+step=22 value=0.650000
+step=23 value=0.650000
+step=24 value=0.600000
+step=25 value=0.550000
+step=26 value=0.550000
+step=27 value=0.550000
+step=28 value=0.550000
+step=29 value=0.500000
+step=30 value=0.450000
+step=31 value=0.500000
+step=32 value=0.500000
+step=33 value=0.550000
+step=34 value=0.600000
+step=35 value=0.600000
+step=36 value=0.600000
+step=37 value=0.650000
+step=38 value=0.650000
+step=39 value=0.700000
+step=40 value=0.700000
+step=41 value=0.750000
+step=42 value=0.750000
+step=43 value=0.750000
+step=44 value=0.800000
+
+[Stage/2-four-resources/EpisodesCompleted]
+step=45 value=1.000000
+step=46 value=2.000000
+step=47 value=3.000000
+step=48 value=4.000000
+step=49 value=5.000000
+step=50 value=6.000000
+step=51 value=7.000000
+step=52 value=8.000000
+step=53 value=9.000000
+step=54 value=10.000000
+step=55 value=11.000000
+step=56 value=12.000000
+step=57 value=13.000000
+step=58 value=14.000000
+step=59 value=15.000000
+step=60 value=16.000000
+step=61 value=17.000000
+step=62 value=18.000000
+step=63 value=19.000000
+step=64 value=20.000000
+
+[Stage/2-four-resources/SuccessRate]
+step=45 value=1.000000
+step=46 value=1.000000
+step=47 value=1.000000
+step=48 value=1.000000
+step=49 value=1.000000
+step=50 value=1.000000
+step=51 value=1.000000
+step=52 value=1.000000
+step=53 value=1.000000
+step=54 value=1.000000
+step=55 value=1.000000
+step=56 value=0.916667
+step=57 value=0.846154
+step=58 value=0.785714
+step=59 value=0.733333
+step=60 value=0.750000
+step=61 value=0.764706
+step=62 value=0.777778
+step=63 value=0.789474
+step=64 value=0.800000
+
+[Stage/3-six-resources/EpisodesCompleted]
+step=65 value=1.000000
+step=66 value=2.000000
+step=67 value=3.000000
+step=68 value=4.000000
+step=69 value=5.000000
+step=70 value=6.000000
+step=71 value=7.000000
+step=72 value=8.000000
+step=73 value=9.000000
+step=74 value=10.000000
+step=75 value=11.000000
+step=76 value=12.000000
+step=77 value=13.000000
+step=78 value=14.000000
+step=79 value=15.000000
+step=80 value=16.000000
+step=81 value=17.000000
+step=82 value=18.000000
+step=83 value=19.000000
+step=84 value=20.000000
+
+[Stage/3-six-resources/SuccessRate]
+step=65 value=0.000000
+step=66 value=0.500000
+step=67 value=0.666667
+step=68 value=0.750000
+step=69 value=0.800000
+step=70 value=0.833333
+step=71 value=0.857143
+step=72 value=0.875000
+step=73 value=0.888889
+step=74 value=0.900000
+step=75 value=0.909091
+step=76 value=0.916667
+step=77 value=0.923077
+step=78 value=0.928571
+step=79 value=0.933333
+step=80 value=0.937500
+step=81 value=0.941176
+step=82 value=0.888889
+step=83 value=0.894737
+step=84 value=0.900000
+
+[Stage/4-depletion/EpisodesCompleted]
+step=85 value=1.000000
+step=86 value=2.000000
+step=87 value=3.000000
+step=88 value=4.000000
+step=89 value=5.000000
+step=90 value=6.000000
+step=91 value=7.000000
+step=92 value=8.000000
+step=93 value=9.000000
+step=94 value=10.000000
+step=95 value=11.000000
+step=96 value=12.000000
+step=97 value=13.000000
+step=98 value=14.000000
+step=99 value=15.000000
+step=100 value=16.000000
+step=101 value=17.000000
+step=102 value=18.000000
+step=103 value=19.000000
+step=104 value=20.000000
+
+[Stage/4-depletion/SuccessRate]
+step=85 value=1.000000
+step=86 value=1.000000
+step=87 value=1.000000
+step=88 value=1.000000
+step=89 value=1.000000
+step=90 value=1.000000
+step=91 value=0.857143
+step=92 value=0.875000
+step=93 value=0.888889
+step=94 value=0.900000
+step=95 value=0.909091
+step=96 value=0.916667
+step=97 value=0.923077
+step=98 value=0.857143
+step=99 value=0.866667
+step=100 value=0.875000
+step=101 value=0.882353
+step=102 value=0.888889
+step=103 value=0.894737
+step=104 value=0.900000
+
+[Stage/5-regen-delay/EpisodesCompleted]
+step=105 value=1.000000
+step=106 value=2.000000
+step=107 value=3.000000
+step=108 value=4.000000
+step=109 value=5.000000
+step=110 value=6.000000
+step=111 value=7.000000
+step=112 value=8.000000
+step=113 value=9.000000
+step=114 value=10.000000
+step=115 value=11.000000
+step=116 value=12.000000
+step=117 value=13.000000
+step=118 value=14.000000
+step=119 value=15.000000
+step=120 value=16.000000
+step=121 value=17.000000
+step=122 value=18.000000
+step=123 value=19.000000
+step=124 value=20.000000
+step=125 value=21.000000
+step=126 value=22.000000
+step=127 value=23.000000
+step=128 value=24.000000
+
+[Stage/5-regen-delay/SuccessRate]
+step=105 value=1.000000
+step=106 value=1.000000
+step=107 value=0.666667
+step=108 value=0.500000
+step=109 value=0.400000
+step=110 value=0.333333
+step=111 value=0.285714
+step=112 value=0.250000
+step=113 value=0.333333
+step=114 value=0.400000
+step=115 value=0.454545
+step=116 value=0.500000
+step=117 value=0.538462
+step=118 value=0.571429
+step=119 value=0.600000
+step=120 value=0.625000
+step=121 value=0.647059
+step=122 value=0.666667
+step=123 value=0.684211
+step=124 value=0.700000
+step=125 value=0.700000
+step=126 value=0.700000
+step=127 value=0.750000
+step=128 value=0.800000
+
+[Success/EpisodesSurviving1000]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+step=8 value=0.000000
+step=9 value=0.000000
+step=10 value=0.000000
+step=11 value=0.000000
+step=12 value=0.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=0.000000
+step=16 value=0.000000
+step=17 value=0.000000
+step=18 value=0.000000
+step=19 value=0.000000
+step=20 value=0.000000
+step=21 value=0.000000
+step=22 value=0.000000
+step=23 value=0.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=0.000000
+step=27 value=0.000000
+step=28 value=0.000000
+step=29 value=0.000000
+step=30 value=0.000000
+step=31 value=0.000000
+step=32 value=0.000000
+step=33 value=0.000000
+step=34 value=0.000000
+step=35 value=0.000000
+step=36 value=0.000000
+step=37 value=0.000000
+step=38 value=0.000000
+step=39 value=0.000000
+step=40 value=0.000000
+step=41 value=0.000000
+step=42 value=0.000000
+step=43 value=0.000000
+step=44 value=0.000000
+step=45 value=0.000000
+step=46 value=0.000000
+step=47 value=0.000000
+step=48 value=0.000000
+step=49 value=0.000000
+step=50 value=0.000000
+step=51 value=0.000000
+step=52 value=0.000000
+step=53 value=0.000000
+step=54 value=0.000000
+step=55 value=0.000000
+step=56 value=0.000000
+step=57 value=0.000000
+step=58 value=0.000000
+step=59 value=0.000000
+step=60 value=0.000000
+step=61 value=0.000000
+step=62 value=0.000000
+step=63 value=0.000000
+step=64 value=0.000000
+step=65 value=0.000000
+step=66 value=0.000000
+step=67 value=0.000000
+step=68 value=0.000000
+step=69 value=0.000000
+step=70 value=0.000000
+step=71 value=0.000000
+step=72 value=0.000000
+step=73 value=0.000000
+step=74 value=0.000000
+step=75 value=0.000000
+step=76 value=0.000000
+step=77 value=0.000000
+step=78 value=0.000000
+step=79 value=0.000000
+step=80 value=0.000000
+step=81 value=0.000000
+step=82 value=0.000000
+step=83 value=0.000000
+step=84 value=0.000000
+step=85 value=0.000000
+step=86 value=0.000000
+step=87 value=0.000000
+step=88 value=0.000000
+step=89 value=0.000000
+step=90 value=0.000000
+step=91 value=0.000000
+step=92 value=0.000000
+step=93 value=0.000000
+step=94 value=0.000000
+step=95 value=0.000000
+step=96 value=0.000000
+step=97 value=0.000000
+step=98 value=0.000000
+step=99 value=0.000000
+step=100 value=0.000000
+step=101 value=0.000000
+step=102 value=0.000000
+step=103 value=0.000000
+step=104 value=0.000000
+step=105 value=0.000000
+step=106 value=0.000000
+step=107 value=0.000000
+step=108 value=0.000000
+step=109 value=0.000000
+step=110 value=0.000000
+step=111 value=0.000000
+step=112 value=0.000000
+step=113 value=0.000000
+step=114 value=0.000000
+step=115 value=0.000000
+step=116 value=0.000000
+step=117 value=0.000000
+step=118 value=0.000000
+step=119 value=0.000000
+step=120 value=0.000000
+step=121 value=0.000000
+step=122 value=0.000000
+step=123 value=0.000000
+step=124 value=0.000000
+step=125 value=0.000000
+step=126 value=0.000000
+step=127 value=0.000000
+step=128 value=0.000000
+
+[Success/EpisodesSurviving500]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+step=8 value=0.000000
+step=9 value=0.000000
+step=10 value=0.000000
+step=11 value=0.000000
+step=12 value=0.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=0.000000
+step=16 value=0.000000
+step=17 value=0.000000
+step=18 value=0.000000
+step=19 value=0.000000
+step=20 value=0.000000
+step=21 value=0.000000
+step=22 value=0.000000
+step=23 value=0.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=0.000000
+step=27 value=0.000000
+step=28 value=0.000000
+step=29 value=0.000000
+step=30 value=0.000000
+step=31 value=0.000000
+step=32 value=0.000000
+step=33 value=0.000000
+step=34 value=0.000000
+step=35 value=0.000000
+step=36 value=0.000000
+step=37 value=0.000000
+step=38 value=0.000000
+step=39 value=0.000000
+step=40 value=0.000000
+step=41 value=0.000000
+step=42 value=0.000000
+step=43 value=0.000000
+step=44 value=0.000000
+step=45 value=0.000000
+step=46 value=0.000000
+step=47 value=0.000000
+step=48 value=0.000000
+step=49 value=0.000000
+step=50 value=0.000000
+step=51 value=0.000000
+step=52 value=0.000000
+step=53 value=0.000000
+step=54 value=0.000000
+step=55 value=0.000000
+step=56 value=0.000000
+step=57 value=0.000000
+step=58 value=0.000000
+step=59 value=0.000000
+step=60 value=0.000000
+step=61 value=0.000000
+step=62 value=0.000000
+step=63 value=0.000000
+step=64 value=0.000000
+step=65 value=0.000000
+step=66 value=0.000000
+step=67 value=0.000000
+step=68 value=0.000000
+step=69 value=0.000000
+step=70 value=0.000000
+step=71 value=0.000000
+step=72 value=0.000000
+step=73 value=0.000000
+step=74 value=0.000000
+step=75 value=0.000000
+step=76 value=0.000000
+step=77 value=0.000000
+step=78 value=0.000000
+step=79 value=0.000000
+step=80 value=0.000000
+step=81 value=0.000000
+step=82 value=0.000000
+step=83 value=0.000000
+step=84 value=0.000000
+step=85 value=0.000000
+step=86 value=0.000000
+step=87 value=0.000000
+step=88 value=0.000000
+step=89 value=0.000000
+step=90 value=0.000000
+step=91 value=0.000000
+step=92 value=0.000000
+step=93 value=0.000000
+step=94 value=0.000000
+step=95 value=0.000000
+step=96 value=0.000000
+step=97 value=0.000000
+step=98 value=0.000000
+step=99 value=0.000000
+step=100 value=0.000000
+step=101 value=0.000000
+step=102 value=0.000000
+step=103 value=0.000000
+step=104 value=0.000000
+step=105 value=0.000000
+step=106 value=0.000000
+step=107 value=0.000000
+step=108 value=0.000000
+step=109 value=0.000000
+step=110 value=0.000000
+step=111 value=0.000000
+step=112 value=0.000000
+step=113 value=0.000000
+step=114 value=0.000000
+step=115 value=0.000000
+step=116 value=0.000000
+step=117 value=0.000000
+step=118 value=0.000000
+step=119 value=0.000000
+step=120 value=0.000000
+step=121 value=0.000000
+step=122 value=0.000000
+step=123 value=0.000000
+step=124 value=0.000000
+step=125 value=0.000000
+step=126 value=0.000000
+step=127 value=0.000000
+step=128 value=0.000000
+
+[Success/EpisodesWithConsumption]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=1.000000
+step=3 value=2.000000
+step=4 value=3.000000
+step=5 value=4.000000
+step=6 value=5.000000
+step=7 value=6.000000
+step=8 value=6.000000
+step=9 value=7.000000
+step=10 value=8.000000
+step=11 value=8.000000
+step=12 value=9.000000
+step=13 value=9.000000
+step=14 value=9.000000
+step=15 value=10.000000
+step=16 value=11.000000
+step=17 value=11.000000
+step=18 value=12.000000
+step=19 value=12.000000
+step=20 value=13.000000
+step=21 value=13.000000
+step=22 value=14.000000
+step=23 value=15.000000
+step=24 value=15.000000
+step=25 value=15.000000
+step=26 value=16.000000
+step=27 value=17.000000
+step=28 value=17.000000
+step=29 value=17.000000
+step=30 value=17.000000
+step=31 value=18.000000
+step=32 value=19.000000
+step=33 value=20.000000
+step=34 value=21.000000
+step=35 value=22.000000
+step=36 value=23.000000
+step=37 value=24.000000
+step=38 value=25.000000
+step=39 value=26.000000
+step=40 value=27.000000
+step=41 value=28.000000
+step=42 value=29.000000
+step=43 value=30.000000
+step=44 value=31.000000
+step=45 value=32.000000
+step=46 value=33.000000
+step=47 value=34.000000
+step=48 value=35.000000
+step=49 value=36.000000
+step=50 value=37.000000
+step=51 value=38.000000
+step=52 value=39.000000
+step=53 value=40.000000
+step=54 value=41.000000
+step=55 value=42.000000
+step=56 value=42.000000
+step=57 value=42.000000
+step=58 value=42.000000
+step=59 value=42.000000
+step=60 value=43.000000
+step=61 value=44.000000
+step=62 value=45.000000
+step=63 value=46.000000
+step=64 value=47.000000
+step=65 value=47.000000
+step=66 value=48.000000
+step=67 value=49.000000
+step=68 value=50.000000
+step=69 value=51.000000
+step=70 value=52.000000
+step=71 value=53.000000
+step=72 value=54.000000
+step=73 value=55.000000
+step=74 value=56.000000
+step=75 value=57.000000
+step=76 value=58.000000
+step=77 value=59.000000
+step=78 value=60.000000
+step=79 value=61.000000
+step=80 value=62.000000
+step=81 value=63.000000
+step=82 value=63.000000
+step=83 value=64.000000
+step=84 value=65.000000
+step=85 value=66.000000
+step=86 value=67.000000
+step=87 value=68.000000
+step=88 value=69.000000
+step=89 value=70.000000
+step=90 value=71.000000
+step=91 value=71.000000
+step=92 value=72.000000
+step=93 value=73.000000
+step=94 value=74.000000
+step=95 value=75.000000
+step=96 value=76.000000
+step=97 value=77.000000
+step=98 value=77.000000
+step=99 value=78.000000
+step=100 value=79.000000
+step=101 value=80.000000
+step=102 value=81.000000
+step=103 value=82.000000
+step=104 value=83.000000
+step=105 value=84.000000
+step=106 value=85.000000
+step=107 value=85.000000
+step=108 value=85.000000
+step=109 value=85.000000
+step=110 value=85.000000
+step=111 value=85.000000
+step=112 value=85.000000
+step=113 value=86.000000
+step=114 value=87.000000
+step=115 value=88.000000
+step=116 value=89.000000
+step=117 value=90.000000
+step=118 value=91.000000
+step=119 value=92.000000
+step=120 value=93.000000
+step=121 value=94.000000
+step=122 value=95.000000
+step=123 value=96.000000
+step=124 value=97.000000
+step=125 value=98.000000
+step=126 value=99.000000
+step=127 value=100.000000
+step=128 value=101.000000
+
+[Success/LongestStreak]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=1.000000
+step=3 value=2.000000
+step=4 value=3.000000
+step=5 value=4.000000
+step=6 value=5.000000
+step=7 value=6.000000
+step=8 value=6.000000
+step=9 value=6.000000
+step=10 value=6.000000
+step=11 value=6.000000
+step=12 value=6.000000
+step=13 value=6.000000
+step=14 value=6.000000
+step=15 value=6.000000
+step=16 value=6.000000
+step=17 value=6.000000
+step=18 value=6.000000
+step=19 value=6.000000
+step=20 value=6.000000
+step=21 value=6.000000
+step=22 value=6.000000
+step=23 value=6.000000
+step=24 value=6.000000
+step=25 value=6.000000
+step=26 value=6.000000
+step=27 value=6.000000
+step=28 value=6.000000
+step=29 value=6.000000
+step=30 value=6.000000
+step=31 value=6.000000
+step=32 value=6.000000
+step=33 value=6.000000
+step=34 value=6.000000
+step=35 value=6.000000
+step=36 value=6.000000
+step=37 value=7.000000
+step=38 value=8.000000
+step=39 value=9.000000
+step=40 value=10.000000
+step=41 value=11.000000
+step=42 value=12.000000
+step=43 value=13.000000
+step=44 value=14.000000
+step=45 value=15.000000
+step=46 value=16.000000
+step=47 value=17.000000
+step=48 value=18.000000
+step=49 value=19.000000
+step=50 value=20.000000
+step=51 value=21.000000
+step=52 value=22.000000
+step=53 value=23.000000
+step=54 value=24.000000
+step=55 value=25.000000
+step=56 value=25.000000
+step=57 value=25.000000
+step=58 value=25.000000
+step=59 value=25.000000
+step=60 value=25.000000
+step=61 value=25.000000
+step=62 value=25.000000
+step=63 value=25.000000
+step=64 value=25.000000
+step=65 value=25.000000
+step=66 value=25.000000
+step=67 value=25.000000
+step=68 value=25.000000
+step=69 value=25.000000
+step=70 value=25.000000
+step=71 value=25.000000
+step=72 value=25.000000
+step=73 value=25.000000
+step=74 value=25.000000
+step=75 value=25.000000
+step=76 value=25.000000
+step=77 value=25.000000
+step=78 value=25.000000
+step=79 value=25.000000
+step=80 value=25.000000
+step=81 value=25.000000
+step=82 value=25.000000
+step=83 value=25.000000
+step=84 value=25.000000
+step=85 value=25.000000
+step=86 value=25.000000
+step=87 value=25.000000
+step=88 value=25.000000
+step=89 value=25.000000
+step=90 value=25.000000
+step=91 value=25.000000
+step=92 value=25.000000
+step=93 value=25.000000
+step=94 value=25.000000
+step=95 value=25.000000
+step=96 value=25.000000
+step=97 value=25.000000
+step=98 value=25.000000
+step=99 value=25.000000
+step=100 value=25.000000
+step=101 value=25.000000
+step=102 value=25.000000
+step=103 value=25.000000
+step=104 value=25.000000
+step=105 value=25.000000
+step=106 value=25.000000
+step=107 value=25.000000
+step=108 value=25.000000
+step=109 value=25.000000
+step=110 value=25.000000
+step=111 value=25.000000
+step=112 value=25.000000
+step=113 value=25.000000
+step=114 value=25.000000
+step=115 value=25.000000
+step=116 value=25.000000
+step=117 value=25.000000
+step=118 value=25.000000
+step=119 value=25.000000
+step=120 value=25.000000
+step=121 value=25.000000
+step=122 value=25.000000
+step=123 value=25.000000
+step=124 value=25.000000
+step=125 value=25.000000
+step=126 value=25.000000
+step=127 value=25.000000
+step=128 value=25.000000
+
+[Success/RateLast100]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.333333
+step=3 value=0.500000
+step=4 value=0.600000
+step=5 value=0.666667
+step=6 value=0.714286
+step=7 value=0.750000
+step=8 value=0.666667
+step=9 value=0.700000
+step=10 value=0.727273
+step=11 value=0.666667
+step=12 value=0.692308
+step=13 value=0.642857
+step=14 value=0.600000
+step=15 value=0.625000
+step=16 value=0.647059
+step=17 value=0.611111
+step=18 value=0.631579
+step=19 value=0.600000
+step=20 value=0.619048
+step=21 value=0.590909
+step=22 value=0.608696
+step=23 value=0.625000
+step=24 value=0.600000
+step=25 value=0.576923
+step=26 value=0.592593
+step=27 value=0.607143
+step=28 value=0.586207
+step=29 value=0.566667
+step=30 value=0.548387
+step=31 value=0.562500
+step=32 value=0.575758
+step=33 value=0.588235
+step=34 value=0.600000
+step=35 value=0.611111
+step=36 value=0.621622
+step=37 value=0.631579
+step=38 value=0.641026
+step=39 value=0.650000
+step=40 value=0.658537
+step=41 value=0.666667
+step=42 value=0.674419
+step=43 value=0.681818
+step=44 value=0.688889
+step=45 value=0.695652
+step=46 value=0.702128
+step=47 value=0.708333
+step=48 value=0.714286
+step=49 value=0.720000
+step=50 value=0.725490
+step=51 value=0.730769
+step=52 value=0.735849
+step=53 value=0.740741
+step=54 value=0.745455
+step=55 value=0.750000
+step=56 value=0.736842
+step=57 value=0.724138
+step=58 value=0.711864
+step=59 value=0.700000
+step=60 value=0.704918
+step=61 value=0.709677
+step=62 value=0.714286
+step=63 value=0.718750
+step=64 value=0.723077
+step=65 value=0.712121
+step=66 value=0.716418
+step=67 value=0.720588
+step=68 value=0.724638
+step=69 value=0.728571
+step=70 value=0.732394
+step=71 value=0.736111
+step=72 value=0.739726
+step=73 value=0.743243
+step=74 value=0.746667
+step=75 value=0.750000
+step=76 value=0.753247
+step=77 value=0.756410
+step=78 value=0.759494
+step=79 value=0.762500
+step=80 value=0.765432
+step=81 value=0.768293
+step=82 value=0.759036
+step=83 value=0.761905
+step=84 value=0.764706
+step=85 value=0.767442
+step=86 value=0.770115
+step=87 value=0.772727
+step=88 value=0.775281
+step=89 value=0.777778
+step=90 value=0.780220
+step=91 value=0.771739
+step=92 value=0.774194
+step=93 value=0.776596
+step=94 value=0.778947
+step=95 value=0.781250
+step=96 value=0.783505
+step=97 value=0.785714
+step=98 value=0.777778
+step=99 value=0.780000
+step=100 value=0.790000
+step=101 value=0.800000
+step=102 value=0.800000
+step=103 value=0.800000
+step=104 value=0.800000
+step=105 value=0.800000
+step=106 value=0.800000
+step=107 value=0.790000
+step=108 value=0.790000
+step=109 value=0.780000
+step=110 value=0.770000
+step=111 value=0.770000
+step=112 value=0.760000
+step=113 value=0.770000
+step=114 value=0.780000
+step=115 value=0.780000
+step=116 value=0.780000
+step=117 value=0.790000
+step=118 value=0.790000
+step=119 value=0.800000
+step=120 value=0.800000
+step=121 value=0.810000
+step=122 value=0.810000
+step=123 value=0.810000
+step=124 value=0.820000
+step=125 value=0.830000
+step=126 value=0.830000
+step=127 value=0.830000
+step=128 value=0.840000
+
+[Transition/2-four-resources_to_3-six-resources/actor/AlternatingVisitCount]
+step=64 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor/AvgConsumption]
+step=64 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor/ConsumedAnyRate]
+step=64 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor/ConsumedBefore200Rate]
+step=64 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor/FinalDrive]
+step=64 value=1.672089
+
+[Transition/2-four-resources_to_3-six-resources/actor/FirstFoodStep]
+step=64 value=1000.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor/FirstWaterStep]
+step=64 value=1000.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor/FoodToWaterSuccess]
+step=64 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor/MinimumDistance]
+step=64 value=1.080128
+
+[Transition/2-four-resources_to_3-six-resources/actor/NearestResource]
+step=64 value=1.080128
+
+[Transition/2-four-resources_to_3-six-resources/actor/Survived]
+step=64 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor/WaterToFoodSuccess]
+step=64 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/AlternatingVisitCount]
+step=64 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/AvgConsumption]
+step=64 value=21.799999
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/ConsumedAnyRate]
+step=64 value=1.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/ConsumedBefore200Rate]
+step=64 value=1.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/FinalDrive]
+step=64 value=1.112607
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/FirstFoodStep]
+step=64 value=59.200001
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/FirstWaterStep]
+step=64 value=1000.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/FoodToWaterSuccess]
+step=64 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/MinimumDistance]
+step=64 value=0.127133
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/NearestResource]
+step=64 value=0.127133
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/Survived]
+step=64 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/WaterToFoodSuccess]
+step=64 value=0.000000
+

@@ -1,0 +1,1625 @@
+[Action/Average]
+step=0 value=0.083093
+step=1 value=0.083740
+step=2 value=0.086235
+step=3 value=0.083502
+step=4 value=0.091826
+step=5 value=0.081216
+step=6 value=0.090011
+step=7 value=0.089958
+step=8 value=0.081484
+step=9 value=0.087693
+step=10 value=0.094756
+step=11 value=0.074327
+step=12 value=0.080654
+step=13 value=0.076103
+step=14 value=0.076424
+step=15 value=0.077436
+step=16 value=0.085883
+step=17 value=0.086761
+step=18 value=0.086177
+step=19 value=0.084006
+step=20 value=0.091438
+step=21 value=0.088246
+step=22 value=0.085671
+step=23 value=0.079132
+step=24 value=0.066418
+step=25 value=0.093946
+step=26 value=0.096646
+step=27 value=0.096659
+step=28 value=0.099447
+step=29 value=0.095137
+
+[Capability/ConsumedAnyRate]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+step=8 value=0.000000
+step=9 value=0.000000
+step=10 value=0.000000
+step=11 value=0.000000
+step=12 value=0.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=0.000000
+step=16 value=0.000000
+step=17 value=0.000000
+step=18 value=0.000000
+step=19 value=0.000000
+step=20 value=0.000000
+step=21 value=0.000000
+step=22 value=0.000000
+step=23 value=0.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=0.000000
+step=27 value=0.000000
+step=28 value=0.000000
+step=29 value=0.000000
+
+[Capability/ConsumedBefore200Rate]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+step=8 value=0.000000
+step=9 value=0.000000
+step=10 value=0.000000
+step=11 value=0.000000
+step=12 value=0.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=0.000000
+step=16 value=0.000000
+step=17 value=0.000000
+step=18 value=0.000000
+step=19 value=0.000000
+step=20 value=0.000000
+step=21 value=0.000000
+step=22 value=0.000000
+step=23 value=0.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=0.000000
+step=27 value=0.000000
+step=28 value=0.000000
+step=29 value=0.000000
+
+[Capability/EnteredResourceRate]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+step=8 value=0.000000
+step=9 value=0.000000
+step=10 value=0.000000
+step=11 value=0.000000
+step=12 value=0.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=0.000000
+step=16 value=0.000000
+step=17 value=0.000000
+step=18 value=0.000000
+step=19 value=0.000000
+step=20 value=0.000000
+step=21 value=0.000000
+step=22 value=0.000000
+step=23 value=0.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=0.000000
+step=27 value=0.000000
+step=28 value=0.000000
+step=29 value=0.000000
+
+[Distance/Nearest_Food]
+step=0 value=1.419571
+step=1 value=1.402610
+step=2 value=1.366352
+step=3 value=1.379265
+step=4 value=1.411010
+step=5 value=1.392395
+step=6 value=1.478730
+step=7 value=1.483546
+step=8 value=1.355821
+step=9 value=1.499171
+step=10 value=1.435296
+step=11 value=1.396601
+step=12 value=1.360488
+step=13 value=1.465270
+step=14 value=1.462879
+step=15 value=1.389608
+step=16 value=1.565226
+step=17 value=1.442994
+step=18 value=1.415917
+step=19 value=1.547973
+step=20 value=1.912930
+step=21 value=1.922229
+step=22 value=1.916317
+step=23 value=1.909593
+step=24 value=1.966965
+step=25 value=3.503402
+step=26 value=3.462645
+step=27 value=3.585863
+step=28 value=3.630300
+step=29 value=3.687073
+
+[Distance/Nearest_Water]
+step=0 value=1.581346
+step=1 value=1.597620
+step=2 value=1.634628
+step=3 value=1.621679
+step=4 value=1.590940
+step=5 value=1.612077
+step=6 value=1.523448
+step=7 value=1.517945
+step=8 value=1.646525
+step=9 value=1.502099
+step=10 value=1.564906
+step=11 value=1.603870
+step=12 value=1.639875
+step=13 value=1.534883
+step=14 value=1.540048
+step=15 value=1.611026
+step=16 value=1.446244
+step=17 value=1.567307
+step=18 value=1.597947
+step=19 value=1.460629
+step=20 value=2.099097
+step=21 value=2.096202
+step=22 value=2.103958
+step=23 value=2.103796
+step=24 value=2.040697
+step=25 value=3.870318
+step=26 value=3.848506
+step=27 value=3.811525
+step=28 value=3.762326
+step=29 value=3.731592
+
+[Episode/AvgConsumptionPerVisit]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+step=8 value=0.000000
+step=9 value=0.000000
+step=10 value=0.000000
+step=11 value=0.000000
+step=12 value=0.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=0.000000
+step=16 value=0.000000
+step=17 value=0.000000
+step=18 value=0.000000
+step=19 value=0.000000
+step=20 value=0.000000
+step=21 value=0.000000
+step=22 value=0.000000
+step=23 value=0.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=0.000000
+step=27 value=0.000000
+step=28 value=0.000000
+step=29 value=0.000000
+
+[Episode/ConsumedAny]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+step=8 value=0.000000
+step=9 value=0.000000
+step=10 value=0.000000
+step=11 value=0.000000
+step=12 value=0.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=0.000000
+step=16 value=0.000000
+step=17 value=0.000000
+step=18 value=0.000000
+step=19 value=0.000000
+step=20 value=0.000000
+step=21 value=0.000000
+step=22 value=0.000000
+step=23 value=0.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=0.000000
+step=27 value=0.000000
+step=28 value=0.000000
+step=29 value=0.000000
+
+[Episode/ConsumedBefore200]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+step=8 value=0.000000
+step=9 value=0.000000
+step=10 value=0.000000
+step=11 value=0.000000
+step=12 value=0.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=0.000000
+step=16 value=0.000000
+step=17 value=0.000000
+step=18 value=0.000000
+step=19 value=0.000000
+step=20 value=0.000000
+step=21 value=0.000000
+step=22 value=0.000000
+step=23 value=0.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=0.000000
+step=27 value=0.000000
+step=28 value=0.000000
+step=29 value=0.000000
+
+[Episode/ConsumptionEvents]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+step=8 value=0.000000
+step=9 value=0.000000
+step=10 value=0.000000
+step=11 value=0.000000
+step=12 value=0.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=0.000000
+step=16 value=0.000000
+step=17 value=0.000000
+step=18 value=0.000000
+step=19 value=0.000000
+step=20 value=0.000000
+step=21 value=0.000000
+step=22 value=0.000000
+step=23 value=0.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=0.000000
+step=27 value=0.000000
+step=28 value=0.000000
+step=29 value=0.000000
+
+[Episode/DistanceTravelled]
+step=0 value=0.519393
+step=1 value=0.529523
+step=2 value=0.556207
+step=3 value=0.540174
+step=4 value=0.570343
+step=5 value=0.495254
+step=6 value=0.570989
+step=7 value=0.559619
+step=8 value=0.502560
+step=9 value=0.545405
+step=10 value=0.597190
+step=11 value=0.467159
+step=12 value=0.512109
+step=13 value=0.476004
+step=14 value=0.471482
+step=15 value=0.484157
+step=16 value=0.548662
+step=17 value=0.542061
+step=18 value=0.549200
+step=19 value=0.533183
+step=20 value=0.566145
+step=21 value=0.546738
+step=22 value=0.553530
+step=23 value=0.495617
+step=24 value=0.427380
+step=25 value=0.604205
+step=26 value=0.591425
+step=27 value=0.596004
+step=28 value=0.615980
+step=29 value=0.607627
+
+[Episode/EnteredResource]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+step=8 value=0.000000
+step=9 value=0.000000
+step=10 value=0.000000
+step=11 value=0.000000
+step=12 value=0.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=0.000000
+step=16 value=0.000000
+step=17 value=0.000000
+step=18 value=0.000000
+step=19 value=0.000000
+step=20 value=0.000000
+step=21 value=0.000000
+step=22 value=0.000000
+step=23 value=0.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=0.000000
+step=27 value=0.000000
+step=28 value=0.000000
+step=29 value=0.000000
+
+[Episode/FirstConsumptionStep]
+step=0 value=40.000000
+step=1 value=40.000000
+step=2 value=40.000000
+step=3 value=40.000000
+step=4 value=40.000000
+step=5 value=40.000000
+step=6 value=40.000000
+step=7 value=40.000000
+step=8 value=40.000000
+step=9 value=40.000000
+step=10 value=40.000000
+step=11 value=40.000000
+step=12 value=40.000000
+step=13 value=40.000000
+step=14 value=40.000000
+step=15 value=40.000000
+step=16 value=40.000000
+step=17 value=40.000000
+step=18 value=40.000000
+step=19 value=40.000000
+step=20 value=40.000000
+step=21 value=40.000000
+step=22 value=40.000000
+step=23 value=40.000000
+step=24 value=40.000000
+step=25 value=40.000000
+step=26 value=40.000000
+step=27 value=40.000000
+step=28 value=40.000000
+step=29 value=40.000000
+
+[Episode/FirstFoodStep]
+step=0 value=40.000000
+step=1 value=40.000000
+step=2 value=40.000000
+step=3 value=40.000000
+step=4 value=40.000000
+step=5 value=40.000000
+step=6 value=40.000000
+step=7 value=40.000000
+step=8 value=40.000000
+step=9 value=40.000000
+step=10 value=40.000000
+step=11 value=40.000000
+step=12 value=40.000000
+step=13 value=40.000000
+step=14 value=40.000000
+step=15 value=40.000000
+step=16 value=40.000000
+step=17 value=40.000000
+step=18 value=40.000000
+step=19 value=40.000000
+step=20 value=40.000000
+step=21 value=40.000000
+step=22 value=40.000000
+step=23 value=40.000000
+step=24 value=40.000000
+step=25 value=40.000000
+step=26 value=40.000000
+step=27 value=40.000000
+step=28 value=40.000000
+step=29 value=40.000000
+
+[Episode/FirstWaterStep]
+step=0 value=40.000000
+step=1 value=40.000000
+step=2 value=40.000000
+step=3 value=40.000000
+step=4 value=40.000000
+step=5 value=40.000000
+step=6 value=40.000000
+step=7 value=40.000000
+step=8 value=40.000000
+step=9 value=40.000000
+step=10 value=40.000000
+step=11 value=40.000000
+step=12 value=40.000000
+step=13 value=40.000000
+step=14 value=40.000000
+step=15 value=40.000000
+step=16 value=40.000000
+step=17 value=40.000000
+step=18 value=40.000000
+step=19 value=40.000000
+step=20 value=40.000000
+step=21 value=40.000000
+step=22 value=40.000000
+step=23 value=40.000000
+step=24 value=40.000000
+step=25 value=40.000000
+step=26 value=40.000000
+step=27 value=40.000000
+step=28 value=40.000000
+step=29 value=40.000000
+
+[Episode/FoodVisits]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+step=8 value=0.000000
+step=9 value=0.000000
+step=10 value=0.000000
+step=11 value=0.000000
+step=12 value=0.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=0.000000
+step=16 value=0.000000
+step=17 value=0.000000
+step=18 value=0.000000
+step=19 value=0.000000
+step=20 value=0.000000
+step=21 value=0.000000
+step=22 value=0.000000
+step=23 value=0.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=0.000000
+step=27 value=0.000000
+step=28 value=0.000000
+step=29 value=0.000000
+
+[Episode/Length]
+step=0 value=40.000000
+step=1 value=40.000000
+step=2 value=40.000000
+step=3 value=40.000000
+step=4 value=40.000000
+step=5 value=40.000000
+step=6 value=40.000000
+step=7 value=40.000000
+step=8 value=40.000000
+step=9 value=40.000000
+step=10 value=40.000000
+step=11 value=40.000000
+step=12 value=40.000000
+step=13 value=40.000000
+step=14 value=40.000000
+step=15 value=40.000000
+step=16 value=40.000000
+step=17 value=40.000000
+step=18 value=40.000000
+step=19 value=40.000000
+step=20 value=40.000000
+step=21 value=40.000000
+step=22 value=40.000000
+step=23 value=40.000000
+step=24 value=40.000000
+step=25 value=40.000000
+step=26 value=40.000000
+step=27 value=40.000000
+step=28 value=40.000000
+step=29 value=40.000000
+
+[Episode/Survived1000]
+step=0 value=1.000000
+step=1 value=1.000000
+step=2 value=1.000000
+step=3 value=1.000000
+step=4 value=1.000000
+step=5 value=1.000000
+step=6 value=1.000000
+step=7 value=1.000000
+step=8 value=1.000000
+step=9 value=1.000000
+step=10 value=1.000000
+step=11 value=1.000000
+step=12 value=1.000000
+step=13 value=1.000000
+step=14 value=1.000000
+step=15 value=1.000000
+step=16 value=1.000000
+step=17 value=1.000000
+step=18 value=1.000000
+step=19 value=1.000000
+step=20 value=1.000000
+step=21 value=1.000000
+step=22 value=1.000000
+step=23 value=1.000000
+step=24 value=1.000000
+step=25 value=1.000000
+step=26 value=1.000000
+step=27 value=1.000000
+step=28 value=1.000000
+step=29 value=1.000000
+
+[Episode/Survived500]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+step=8 value=0.000000
+step=9 value=0.000000
+step=10 value=0.000000
+step=11 value=0.000000
+step=12 value=0.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=0.000000
+step=16 value=0.000000
+step=17 value=0.000000
+step=18 value=0.000000
+step=19 value=0.000000
+step=20 value=0.000000
+step=21 value=0.000000
+step=22 value=0.000000
+step=23 value=0.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=0.000000
+step=27 value=0.000000
+step=28 value=0.000000
+step=29 value=0.000000
+
+[Episode/TimeInsideRadius]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+step=8 value=0.000000
+step=9 value=0.000000
+step=10 value=0.000000
+step=11 value=0.000000
+step=12 value=0.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=0.000000
+step=16 value=0.000000
+step=17 value=0.000000
+step=18 value=0.000000
+step=19 value=0.000000
+step=20 value=0.000000
+step=21 value=0.000000
+step=22 value=0.000000
+step=23 value=0.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=0.000000
+step=27 value=0.000000
+step=28 value=0.000000
+step=29 value=0.000000
+
+[Episode/UniqueResourcesVisited]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+step=8 value=0.000000
+step=9 value=0.000000
+step=10 value=0.000000
+step=11 value=0.000000
+step=12 value=0.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=0.000000
+step=16 value=0.000000
+step=17 value=0.000000
+step=18 value=0.000000
+step=19 value=0.000000
+step=20 value=0.000000
+step=21 value=0.000000
+step=22 value=0.000000
+step=23 value=0.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=0.000000
+step=27 value=0.000000
+step=28 value=0.000000
+step=29 value=0.000000
+
+[Episode/WaterVisits]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+step=8 value=0.000000
+step=9 value=0.000000
+step=10 value=0.000000
+step=11 value=0.000000
+step=12 value=0.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=0.000000
+step=16 value=0.000000
+step=17 value=0.000000
+step=18 value=0.000000
+step=19 value=0.000000
+step=20 value=0.000000
+step=21 value=0.000000
+step=22 value=0.000000
+step=23 value=0.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=0.000000
+step=27 value=0.000000
+step=28 value=0.000000
+step=29 value=0.000000
+
+[Eval/1-navigation/full_actor/AvgConsumption]
+step=19 value=0.000000
+
+[Eval/1-navigation/full_actor/ConsumedAnyRate]
+step=19 value=0.000000
+
+[Eval/1-navigation/full_actor/ConsumedBefore200Rate]
+step=19 value=1.000000
+
+[Eval/1-navigation/full_actor/FinalDrive]
+step=19 value=0.328921
+
+[Eval/1-navigation/full_actor/FirstConsumption]
+step=19 value=40.000000
+
+[Eval/1-navigation/full_actor/Length]
+step=19 value=40.000000
+
+[Eval/1-navigation/full_actor/MinimumDistance]
+step=19 value=3.407954
+
+[Eval/1-navigation/full_actor/NearestResource]
+step=19 value=3.407954
+
+[Eval/1-navigation/full_actor/ResourceEntered]
+step=19 value=0.000000
+
+[Eval/1-navigation/full_actor/Reward]
+step=19 value=-0.241598
+
+[Eval/1-navigation/full_actor/Survived]
+step=19 value=1.000000
+
+[Eval/1-navigation/full_actor_target/AvgConsumption]
+step=19 value=0.000000
+
+[Eval/1-navigation/full_actor_target/ConsumedAnyRate]
+step=19 value=0.000000
+
+[Eval/1-navigation/full_actor_target/ConsumedBefore200Rate]
+step=19 value=1.000000
+
+[Eval/1-navigation/full_actor_target/FinalDrive]
+step=19 value=0.328921
+
+[Eval/1-navigation/full_actor_target/FirstConsumption]
+step=19 value=40.000000
+
+[Eval/1-navigation/full_actor_target/Length]
+step=19 value=40.000000
+
+[Eval/1-navigation/full_actor_target/MinimumDistance]
+step=19 value=3.283450
+
+[Eval/1-navigation/full_actor_target/NearestResource]
+step=19 value=3.283450
+
+[Eval/1-navigation/full_actor_target/ResourceEntered]
+step=19 value=0.000000
+
+[Eval/1-navigation/full_actor_target/Reward]
+step=19 value=-0.240425
+
+[Eval/1-navigation/full_actor_target/Survived]
+step=19 value=1.000000
+
+[Eval/1-navigation/stage_actor/AvgConsumption]
+step=19 value=0.000000
+
+[Eval/1-navigation/stage_actor/ConsumedAnyRate]
+step=19 value=0.000000
+
+[Eval/1-navigation/stage_actor/ConsumedBefore200Rate]
+step=19 value=1.000000
+
+[Eval/1-navigation/stage_actor/FinalDrive]
+step=19 value=0.328921
+
+[Eval/1-navigation/stage_actor/FirstConsumption]
+step=19 value=40.000000
+
+[Eval/1-navigation/stage_actor/Length]
+step=19 value=40.000000
+
+[Eval/1-navigation/stage_actor/MinimumDistance]
+step=19 value=1.438758
+
+[Eval/1-navigation/stage_actor/NearestResource]
+step=19 value=1.438758
+
+[Eval/1-navigation/stage_actor/ResourceEntered]
+step=19 value=0.000000
+
+[Eval/1-navigation/stage_actor/Reward]
+step=19 value=0.090094
+
+[Eval/1-navigation/stage_actor/Survived]
+step=19 value=1.000000
+
+[Eval/1-navigation/stage_actor_target/AvgConsumption]
+step=19 value=0.000000
+
+[Eval/1-navigation/stage_actor_target/ConsumedAnyRate]
+step=19 value=0.000000
+
+[Eval/1-navigation/stage_actor_target/ConsumedBefore200Rate]
+step=19 value=1.000000
+
+[Eval/1-navigation/stage_actor_target/FinalDrive]
+step=19 value=0.328921
+
+[Eval/1-navigation/stage_actor_target/FirstConsumption]
+step=19 value=40.000000
+
+[Eval/1-navigation/stage_actor_target/Length]
+step=19 value=40.000000
+
+[Eval/1-navigation/stage_actor_target/MinimumDistance]
+step=19 value=1.363000
+
+[Eval/1-navigation/stage_actor_target/NearestResource]
+step=19 value=1.363000
+
+[Eval/1-navigation/stage_actor_target/ResourceEntered]
+step=19 value=0.000000
+
+[Eval/1-navigation/stage_actor_target/Reward]
+step=19 value=0.090415
+
+[Eval/1-navigation/stage_actor_target/Survived]
+step=19 value=1.000000
+
+[Exploration/Sigma]
+step=0 value=0.100000
+step=1 value=0.100000
+step=2 value=0.100000
+step=3 value=0.100000
+step=4 value=0.100000
+step=5 value=0.100000
+step=6 value=0.100000
+step=7 value=0.100000
+step=8 value=0.100000
+step=9 value=0.100000
+step=10 value=0.100000
+step=11 value=0.100000
+step=12 value=0.100000
+step=13 value=0.100000
+step=14 value=0.100000
+step=15 value=0.100000
+step=16 value=0.100000
+step=17 value=0.100000
+step=18 value=0.100000
+step=19 value=0.100000
+step=20 value=0.080000
+step=21 value=0.080000
+step=22 value=0.080000
+step=23 value=0.080000
+step=24 value=0.080000
+step=25 value=0.120000
+step=26 value=0.119600
+step=27 value=0.119200
+step=28 value=0.118800
+step=29 value=0.118400
+
+[Homeostasis/AverageFinalDrive]
+step=0 value=0.518738
+step=1 value=0.424191
+step=2 value=0.457915
+step=3 value=0.474817
+step=4 value=0.437610
+step=5 value=0.449934
+step=6 value=0.409744
+step=7 value=0.394004
+step=8 value=0.395558
+step=9 value=0.432808
+step=10 value=0.422125
+step=11 value=0.411826
+step=12 value=0.410327
+step=13 value=0.415961
+step=14 value=0.432299
+step=15 value=0.412032
+step=16 value=0.405211
+step=17 value=0.397335
+step=18 value=0.388976
+step=19 value=0.397790
+step=20 value=0.748770
+step=21 value=0.600931
+step=22 value=0.593689
+step=23 value=0.545510
+step=24 value=0.565502
+step=25 value=0.616192
+step=26 value=0.562730
+step=27 value=0.564952
+step=28 value=0.517134
+step=29 value=0.527215
+
+[Homeostasis/Best_Drive]
+step=0 value=0.235733
+step=1 value=0.097211
+step=2 value=0.241720
+step=3 value=0.225398
+step=4 value=0.078998
+step=5 value=0.198763
+step=6 value=0.026463
+step=7 value=0.078832
+step=8 value=0.158925
+step=9 value=0.360971
+step=10 value=0.082776
+step=11 value=0.073393
+step=12 value=0.127146
+step=13 value=0.222883
+step=14 value=0.300422
+step=15 value=0.003984
+step=16 value=0.073635
+step=17 value=0.059831
+step=18 value=0.051370
+step=19 value=0.227022
+step=20 value=0.347783
+step=21 value=0.164714
+step=22 value=0.251254
+step=23 value=0.144350
+step=24 value=0.281370
+step=25 value=0.267540
+step=26 value=0.229803
+step=27 value=0.237407
+step=28 value=0.115359
+step=29 value=0.231094
+
+[Homeostasis/Final_Drive]
+step=0 value=0.518738
+step=1 value=0.329643
+step=2 value=0.525365
+step=3 value=0.525522
+step=4 value=0.288783
+step=5 value=0.511551
+step=6 value=0.168603
+step=7 value=0.283827
+step=8 value=0.407991
+step=9 value=0.768057
+step=10 value=0.315291
+step=11 value=0.298538
+step=12 value=0.392341
+step=13 value=0.489206
+step=14 value=0.661027
+step=15 value=0.108030
+step=16 value=0.296070
+step=17 value=0.263442
+step=18 value=0.238522
+step=19 value=0.565244
+step=20 value=0.748770
+step=21 value=0.453093
+step=22 value=0.579204
+step=23 value=0.400974
+step=24 value=0.645468
+step=25 value=0.616192
+step=26 value=0.509268
+step=27 value=0.569398
+step=28 value=0.373679
+step=29 value=0.567537
+
+[InternalState/Food]
+step=0 value=0.419301
+step=1 value=0.793711
+step=2 value=0.860015
+step=3 value=0.441524
+step=4 value=0.630534
+step=5 value=0.513766
+step=6 value=0.895565
+step=7 value=0.627243
+step=8 value=0.506729
+step=9 value=0.458958
+step=10 value=0.735801
+step=11 value=0.723993
+step=12 value=0.590945
+step=13 value=0.886451
+step=14 value=0.668539
+step=15 value=0.840081
+step=16 value=0.674873
+step=17 value=0.682656
+step=18 value=0.833521
+step=19 value=0.543240
+step=20 value=0.504562
+step=21 value=0.539426
+step=22 value=0.433499
+step=23 value=0.807303
+step=24 value=0.598841
+step=25 value=0.445184
+step=26 value=0.425168
+step=27 value=0.469325
+step=28 value=0.724258
+step=29 value=0.632693
+
+[InternalState/Water]
+step=0 value=0.855046
+step=1 value=0.610309
+step=2 value=0.412689
+step=3 value=0.788927
+step=4 value=0.831557
+step=5 value=0.684213
+step=6 value=0.739973
+step=7 value=0.847131
+step=8 value=0.854640
+step=9 value=0.497232
+step=10 value=0.668007
+step=11 value=0.698714
+step=12 value=0.729067
+step=13 value=0.430669
+step=14 value=0.406834
+step=15 value=0.893134
+step=16 value=0.754781
+step=17 value=0.795265
+step=18 value=0.686602
+step=19 value=0.589524
+step=20 value=0.467267
+step=21 value=0.721141
+step=22 value=0.725604
+step=23 value=0.534685
+step=24 value=0.467574
+step=25 value=0.660835
+step=26 value=0.858256
+step=27 value=0.679416
+step=28 value=0.613383
+step=29 value=0.504634
+
+[Loss/Actor]
+step=0 value=-0.012248
+step=1 value=-0.016343
+step=2 value=-0.018408
+step=3 value=-0.018287
+step=4 value=-0.017717
+step=5 value=-0.018620
+step=6 value=-0.019444
+step=7 value=-0.019145
+step=8 value=-0.019635
+step=9 value=-0.019702
+step=10 value=-0.019963
+step=11 value=-0.020410
+step=12 value=-0.019853
+step=13 value=-0.019631
+step=14 value=-0.020077
+step=15 value=-0.020047
+step=16 value=-0.022183
+step=17 value=-0.021219
+step=18 value=-0.021482
+step=19 value=-0.021683
+step=20 value=-0.020274
+step=21 value=-0.018716
+step=22 value=-0.017880
+step=23 value=-0.016856
+step=24 value=-0.016605
+step=25 value=-0.016561
+step=26 value=-0.016645
+step=27 value=-0.017878
+step=28 value=-0.016454
+step=29 value=-0.018584
+
+[Loss/Critic]
+step=0 value=0.000416
+step=1 value=0.000039
+step=2 value=0.000033
+step=3 value=0.000023
+step=4 value=0.000019
+step=5 value=0.000018
+step=6 value=0.000013
+step=7 value=0.000012
+step=8 value=0.000014
+step=9 value=0.000013
+step=10 value=0.000013
+step=11 value=0.000014
+step=12 value=0.000010
+step=13 value=0.000008
+step=14 value=0.000006
+step=15 value=0.000007
+step=16 value=0.000005
+step=17 value=0.000006
+step=18 value=0.000007
+step=19 value=0.000008
+step=20 value=0.000226
+step=21 value=0.000018
+step=22 value=0.000007
+step=23 value=0.000008
+step=24 value=0.000008
+step=25 value=0.000061
+step=26 value=0.000014
+step=27 value=0.000008
+step=28 value=0.000007
+step=29 value=0.000013
+
+[Q/Q1]
+step=0 value=0.014285
+step=1 value=0.016775
+step=2 value=0.017995
+step=3 value=0.018473
+step=4 value=0.018173
+step=5 value=0.018428
+step=6 value=0.019016
+step=7 value=0.019126
+step=8 value=0.019608
+step=9 value=0.018898
+step=10 value=0.019848
+step=11 value=0.019148
+step=12 value=0.019883
+step=13 value=0.019686
+step=14 value=0.019888
+step=15 value=0.020176
+step=16 value=0.021083
+step=17 value=0.020623
+step=18 value=0.021375
+step=19 value=0.021546
+step=20 value=0.021672
+step=21 value=0.018861
+step=22 value=0.017572
+step=23 value=0.016119
+step=24 value=0.015825
+step=25 value=0.015569
+step=26 value=0.016520
+step=27 value=0.017060
+step=28 value=0.017983
+step=29 value=0.018125
+
+[Q/Q1_minus_Q2]
+step=0 value=0.011755
+step=1 value=0.000953
+step=2 value=0.001253
+step=3 value=0.001239
+step=4 value=0.000827
+step=5 value=0.000672
+step=6 value=0.000643
+step=7 value=0.000893
+step=8 value=0.001185
+step=9 value=0.000770
+step=10 value=0.000896
+step=11 value=0.001264
+step=12 value=0.001381
+step=13 value=0.000832
+step=14 value=0.000681
+step=15 value=0.001016
+step=16 value=0.000872
+step=17 value=0.000959
+step=18 value=0.000959
+step=19 value=0.000883
+step=20 value=0.003861
+step=21 value=0.002548
+step=22 value=0.001262
+step=23 value=0.001413
+step=24 value=0.001610
+step=25 value=0.003366
+step=26 value=0.002132
+step=27 value=0.001532
+step=28 value=0.001799
+step=29 value=0.001940
+
+[Q/Q2]
+step=0 value=0.014496
+step=1 value=0.016670
+step=2 value=0.017874
+step=3 value=0.018580
+step=4 value=0.018187
+step=5 value=0.018378
+step=6 value=0.018997
+step=7 value=0.019185
+step=8 value=0.019566
+step=9 value=0.018909
+step=10 value=0.019848
+step=11 value=0.019142
+step=12 value=0.019868
+step=13 value=0.019674
+step=14 value=0.019911
+step=15 value=0.020177
+step=16 value=0.021096
+step=17 value=0.020568
+step=18 value=0.021398
+step=19 value=0.021624
+step=20 value=0.021524
+step=21 value=0.018838
+step=22 value=0.017617
+step=23 value=0.016124
+step=24 value=0.015778
+step=25 value=0.015465
+step=26 value=0.016697
+step=27 value=0.017078
+step=28 value=0.017934
+step=29 value=0.017962
+
+[Replay/AverageAge]
+step=0 value=20.500000
+step=1 value=40.500000
+step=2 value=60.500000
+step=3 value=80.500000
+step=4 value=100.500000
+step=5 value=120.500000
+step=6 value=140.500000
+step=7 value=160.500000
+step=8 value=180.500000
+step=9 value=200.500000
+step=10 value=220.500000
+step=11 value=240.500000
+step=12 value=260.500000
+step=13 value=280.500000
+step=14 value=300.500000
+step=15 value=300.500000
+step=16 value=300.500000
+step=17 value=300.500000
+step=18 value=300.500000
+step=19 value=300.500000
+step=20 value=300.500000
+step=21 value=300.500000
+step=22 value=300.500000
+step=23 value=300.500000
+step=24 value=300.500000
+step=25 value=300.500000
+step=26 value=300.500000
+step=27 value=300.500000
+step=28 value=300.500000
+step=29 value=300.500000
+
+[Replay/Size]
+step=0 value=40.000000
+step=1 value=80.000000
+step=2 value=120.000000
+step=3 value=160.000000
+step=4 value=200.000000
+step=5 value=240.000000
+step=6 value=280.000000
+step=7 value=320.000000
+step=8 value=360.000000
+step=9 value=400.000000
+step=10 value=440.000000
+step=11 value=480.000000
+step=12 value=520.000000
+step=13 value=560.000000
+step=14 value=600.000000
+step=15 value=600.000000
+step=16 value=600.000000
+step=17 value=600.000000
+step=18 value=600.000000
+step=19 value=600.000000
+step=20 value=600.000000
+step=21 value=600.000000
+step=22 value=600.000000
+step=23 value=600.000000
+step=24 value=600.000000
+step=25 value=600.000000
+step=26 value=600.000000
+step=27 value=600.000000
+step=28 value=600.000000
+step=29 value=600.000000
+
+[Replay/Stage2Fraction]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+step=8 value=0.000000
+step=9 value=0.000000
+step=10 value=0.000000
+step=11 value=0.000000
+step=12 value=0.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=0.000000
+step=16 value=0.000000
+step=17 value=0.000000
+step=18 value=0.000000
+step=19 value=0.000000
+step=20 value=0.066667
+step=21 value=0.133333
+step=22 value=0.200000
+step=23 value=0.266667
+step=24 value=0.333333
+step=25 value=0.333333
+step=26 value=0.333333
+step=27 value=0.333333
+step=28 value=0.333333
+step=29 value=0.333333
+
+[Replay/SuccessRatio]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+step=8 value=0.000000
+step=9 value=0.000000
+step=10 value=0.000000
+step=11 value=0.000000
+step=12 value=0.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=0.000000
+step=16 value=0.000000
+step=17 value=0.000000
+step=18 value=0.000000
+step=19 value=0.000000
+step=20 value=0.000000
+step=21 value=0.000000
+step=22 value=0.000000
+step=23 value=0.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=0.000000
+step=27 value=0.000000
+step=28 value=0.000000
+step=29 value=0.000000
+
+[Reward/Episode]
+step=0 value=-0.018608
+step=1 value=0.082813
+step=2 value=-0.022085
+step=3 value=-0.034997
+step=4 value=0.114270
+step=5 value=-0.041623
+step=6 value=0.213593
+step=7 value=0.120924
+step=8 value=0.043696
+step=9 value=-0.192783
+step=10 value=0.085385
+step=11 value=0.100621
+step=12 value=0.034462
+step=13 value=0.006491
+step=14 value=-0.123712
+step=15 value=0.270347
+step=16 value=0.102399
+step=17 value=0.129231
+step=18 value=0.151184
+step=19 value=-0.080147
+step=20 value=-0.300444
+step=21 value=-0.153887
+step=22 value=-0.209307
+step=23 value=-0.114073
+step=24 value=-0.248927
+step=25 value=-0.367756
+step=26 value=-0.296186
+step=27 value=-0.349538
+step=28 value=-0.274708
+step=29 value=-0.355221
+
+[Run/TotalSteps]
+step=29 value=1200.000000
+
+[Stage/1-navigation/EpisodesCompleted]
+step=0 value=1.000000
+step=1 value=2.000000
+step=2 value=3.000000
+step=3 value=4.000000
+step=4 value=5.000000
+step=5 value=6.000000
+step=6 value=7.000000
+step=7 value=8.000000
+step=8 value=9.000000
+step=9 value=10.000000
+step=10 value=11.000000
+step=11 value=12.000000
+step=12 value=13.000000
+step=13 value=14.000000
+step=14 value=15.000000
+step=15 value=16.000000
+step=16 value=17.000000
+step=17 value=18.000000
+step=18 value=19.000000
+step=19 value=20.000000
+
+[Stage/1-navigation/SuccessRate]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+step=8 value=0.000000
+step=9 value=0.000000
+step=10 value=0.000000
+step=11 value=0.000000
+step=12 value=0.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=0.000000
+step=16 value=0.000000
+step=17 value=0.000000
+step=18 value=0.000000
+step=19 value=0.000000
+
+[Stage/2-four-resources/EpisodesCompleted]
+step=20 value=1.000000
+step=21 value=2.000000
+step=22 value=3.000000
+step=23 value=4.000000
+step=24 value=5.000000
+
+[Stage/2-four-resources/SuccessRate]
+step=20 value=0.000000
+step=21 value=0.000000
+step=22 value=0.000000
+step=23 value=0.000000
+step=24 value=0.000000
+
+[Stage/3-six-resources/EpisodesCompleted]
+step=25 value=1.000000
+step=26 value=2.000000
+step=27 value=3.000000
+step=28 value=4.000000
+step=29 value=5.000000
+
+[Stage/3-six-resources/SuccessRate]
+step=25 value=0.000000
+step=26 value=0.000000
+step=27 value=0.000000
+step=28 value=0.000000
+step=29 value=0.000000
+
+[Success/EpisodesSurviving1000]
+step=0 value=1.000000
+step=1 value=2.000000
+step=2 value=3.000000
+step=3 value=4.000000
+step=4 value=5.000000
+step=5 value=6.000000
+step=6 value=7.000000
+step=7 value=8.000000
+step=8 value=9.000000
+step=9 value=10.000000
+step=10 value=11.000000
+step=11 value=12.000000
+step=12 value=13.000000
+step=13 value=14.000000
+step=14 value=15.000000
+step=15 value=16.000000
+step=16 value=17.000000
+step=17 value=18.000000
+step=18 value=19.000000
+step=19 value=20.000000
+step=20 value=21.000000
+step=21 value=22.000000
+step=22 value=23.000000
+step=23 value=24.000000
+step=24 value=25.000000
+step=25 value=26.000000
+step=26 value=27.000000
+step=27 value=28.000000
+step=28 value=29.000000
+step=29 value=30.000000
+
+[Success/EpisodesSurviving500]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+step=8 value=0.000000
+step=9 value=0.000000
+step=10 value=0.000000
+step=11 value=0.000000
+step=12 value=0.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=0.000000
+step=16 value=0.000000
+step=17 value=0.000000
+step=18 value=0.000000
+step=19 value=0.000000
+step=20 value=0.000000
+step=21 value=0.000000
+step=22 value=0.000000
+step=23 value=0.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=0.000000
+step=27 value=0.000000
+step=28 value=0.000000
+step=29 value=0.000000
+
+[Success/EpisodesWithConsumption]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+step=8 value=0.000000
+step=9 value=0.000000
+step=10 value=0.000000
+step=11 value=0.000000
+step=12 value=0.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=0.000000
+step=16 value=0.000000
+step=17 value=0.000000
+step=18 value=0.000000
+step=19 value=0.000000
+step=20 value=0.000000
+step=21 value=0.000000
+step=22 value=0.000000
+step=23 value=0.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=0.000000
+step=27 value=0.000000
+step=28 value=0.000000
+step=29 value=0.000000
+
+[Success/LongestStreak]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+step=8 value=0.000000
+step=9 value=0.000000
+step=10 value=0.000000
+step=11 value=0.000000
+step=12 value=0.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=0.000000
+step=16 value=0.000000
+step=17 value=0.000000
+step=18 value=0.000000
+step=19 value=0.000000
+step=20 value=0.000000
+step=21 value=0.000000
+step=22 value=0.000000
+step=23 value=0.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=0.000000
+step=27 value=0.000000
+step=28 value=0.000000
+step=29 value=0.000000
+
+[Success/RateLast100]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+step=8 value=0.000000
+step=9 value=0.000000
+step=10 value=0.000000
+step=11 value=0.000000
+step=12 value=0.000000
+step=13 value=0.000000
+step=14 value=0.000000
+step=15 value=0.000000
+step=16 value=0.000000
+step=17 value=0.000000
+step=18 value=0.000000
+step=19 value=0.000000
+step=20 value=0.000000
+step=21 value=0.000000
+step=22 value=0.000000
+step=23 value=0.000000
+step=24 value=0.000000
+step=25 value=0.000000
+step=26 value=0.000000
+step=27 value=0.000000
+step=28 value=0.000000
+step=29 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor/AvgConsumption]
+step=24 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor/ConsumedAnyRate]
+step=24 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor/ConsumedBefore200Rate]
+step=24 value=1.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor/FinalDrive]
+step=24 value=0.328921
+
+[Transition/2-four-resources_to_3-six-resources/actor/MinimumDistance]
+step=24 value=3.382954
+
+[Transition/2-four-resources_to_3-six-resources/actor/NearestResource]
+step=24 value=3.382954
+
+[Transition/2-four-resources_to_3-six-resources/actor/Survived]
+step=24 value=1.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/AvgConsumption]
+step=24 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/ConsumedAnyRate]
+step=24 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/ConsumedBefore200Rate]
+step=24 value=1.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/FinalDrive]
+step=24 value=0.328921
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/MinimumDistance]
+step=24 value=3.311709
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/NearestResource]
+step=24 value=3.311709
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/Survived]
+step=24 value=1.000000
+

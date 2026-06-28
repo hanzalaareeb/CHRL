@@ -1,0 +1,1561 @@
+[Action/Average]
+step=0 value=0.076778
+step=1 value=0.088164
+step=2 value=0.078844
+step=3 value=0.074298
+step=4 value=0.113860
+step=5 value=0.098681
+step=6 value=0.058174
+step=7 value=0.064446
+
+[Capability/ConsumedAnyRate]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Capability/ConsumedBefore200Rate]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Capability/EnteredResourceRate]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Distance/Nearest_Food]
+step=0 value=1.425998
+step=1 value=1.351666
+step=2 value=1.743841
+step=3 value=1.808051
+step=4 value=3.431971
+step=5 value=3.304639
+step=6 value=3.447515
+step=7 value=3.352146
+
+[Distance/Nearest_Water]
+step=0 value=1.574775
+step=1 value=1.649117
+step=2 value=2.256787
+step=3 value=2.192365
+step=4 value=3.908701
+step=5 value=4.032607
+step=6 value=3.913096
+step=7 value=3.986040
+
+[Episode/AvgConsumptionPerVisit]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Episode/ConsumedAny]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Episode/ConsumedBefore200]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Episode/ConsumptionEvents]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Episode/DistanceTravelled]
+step=0 value=0.722190
+step=1 value=0.847997
+step=2 value=0.754143
+step=3 value=0.690291
+step=4 value=1.081431
+step=5 value=0.909298
+step=6 value=0.558153
+step=7 value=0.596067
+
+[Episode/EnteredResource]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Episode/FirstConsumptionStep]
+step=0 value=60.000000
+step=1 value=60.000000
+step=2 value=60.000000
+step=3 value=60.000000
+step=4 value=60.000000
+step=5 value=60.000000
+step=6 value=60.000000
+step=7 value=60.000000
+
+[Episode/FirstFoodStep]
+step=0 value=60.000000
+step=1 value=60.000000
+step=2 value=60.000000
+step=3 value=60.000000
+step=4 value=60.000000
+step=5 value=60.000000
+step=6 value=60.000000
+step=7 value=60.000000
+
+[Episode/FirstWaterStep]
+step=0 value=60.000000
+step=1 value=60.000000
+step=2 value=60.000000
+step=3 value=60.000000
+step=4 value=60.000000
+step=5 value=60.000000
+step=6 value=60.000000
+step=7 value=60.000000
+
+[Episode/FoodVisits]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Episode/Length]
+step=0 value=60.000000
+step=1 value=60.000000
+step=2 value=60.000000
+step=3 value=60.000000
+step=4 value=60.000000
+step=5 value=60.000000
+step=6 value=60.000000
+step=7 value=60.000000
+
+[Episode/Survived1000]
+step=0 value=1.000000
+step=1 value=1.000000
+step=2 value=1.000000
+step=3 value=1.000000
+step=4 value=1.000000
+step=5 value=1.000000
+step=6 value=1.000000
+step=7 value=1.000000
+
+[Episode/Survived500]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Episode/TimeInsideRadius]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Episode/UniqueResourcesVisited]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Episode/WaterVisits]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/1-navigation/full_actor/AlternatingVisitCount]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/full_actor/AvgConsumption]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/full_actor/ConsumedAnyRate]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/full_actor/ConsumedBefore200Rate]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/full_actor/FinalDrive]
+step=0 value=0.668815
+step=1 value=0.668815
+
+[Eval/1-navigation/full_actor/FirstConsumption]
+step=0 value=60.000000
+step=1 value=60.000000
+
+[Eval/1-navigation/full_actor/FirstFoodStep]
+step=0 value=60.000000
+step=1 value=60.000000
+
+[Eval/1-navigation/full_actor/FirstWaterStep]
+step=0 value=60.000000
+step=1 value=60.000000
+
+[Eval/1-navigation/full_actor/FoodToWaterSuccess]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/full_actor/Length]
+step=0 value=60.000000
+step=1 value=60.000000
+
+[Eval/1-navigation/full_actor/MinimumDistance]
+step=0 value=3.003050
+step=1 value=2.975520
+
+[Eval/1-navigation/full_actor/NearestResource]
+step=0 value=3.003050
+step=1 value=2.975520
+
+[Eval/1-navigation/full_actor/ResourceEntered]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/full_actor/Reward]
+step=0 value=-0.499287
+step=1 value=-0.499345
+
+[Eval/1-navigation/full_actor/Survived]
+step=0 value=1.000000
+step=1 value=1.000000
+
+[Eval/1-navigation/full_actor/WaterToFoodSuccess]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/full_actor_target/AlternatingVisitCount]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/full_actor_target/AvgConsumption]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/full_actor_target/ConsumedAnyRate]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/full_actor_target/ConsumedBefore200Rate]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/full_actor_target/FinalDrive]
+step=0 value=0.668815
+step=1 value=0.668815
+
+[Eval/1-navigation/full_actor_target/FirstConsumption]
+step=0 value=60.000000
+step=1 value=60.000000
+
+[Eval/1-navigation/full_actor_target/FirstFoodStep]
+step=0 value=60.000000
+step=1 value=60.000000
+
+[Eval/1-navigation/full_actor_target/FirstWaterStep]
+step=0 value=60.000000
+step=1 value=60.000000
+
+[Eval/1-navigation/full_actor_target/FoodToWaterSuccess]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/full_actor_target/Length]
+step=0 value=60.000000
+step=1 value=60.000000
+
+[Eval/1-navigation/full_actor_target/MinimumDistance]
+step=0 value=3.100897
+step=1 value=3.092232
+
+[Eval/1-navigation/full_actor_target/NearestResource]
+step=0 value=3.100897
+step=1 value=3.092232
+
+[Eval/1-navigation/full_actor_target/ResourceEntered]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/full_actor_target/Reward]
+step=0 value=-0.498139
+step=1 value=-0.498205
+
+[Eval/1-navigation/full_actor_target/Survived]
+step=0 value=1.000000
+step=1 value=1.000000
+
+[Eval/1-navigation/full_actor_target/WaterToFoodSuccess]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/stage_actor/AlternatingVisitCount]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/stage_actor/AvgConsumption]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/stage_actor/ConsumedAnyRate]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/stage_actor/ConsumedBefore200Rate]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/stage_actor/FinalDrive]
+step=0 value=0.668815
+step=1 value=0.668815
+
+[Eval/1-navigation/stage_actor/FirstConsumption]
+step=0 value=60.000000
+step=1 value=60.000000
+
+[Eval/1-navigation/stage_actor/FirstFoodStep]
+step=0 value=60.000000
+step=1 value=60.000000
+
+[Eval/1-navigation/stage_actor/FirstWaterStep]
+step=0 value=60.000000
+step=1 value=60.000000
+
+[Eval/1-navigation/stage_actor/FoodToWaterSuccess]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/stage_actor/Length]
+step=0 value=60.000000
+step=1 value=60.000000
+
+[Eval/1-navigation/stage_actor/MinimumDistance]
+step=0 value=1.203494
+step=1 value=1.202196
+
+[Eval/1-navigation/stage_actor/NearestResource]
+step=0 value=1.203494
+step=1 value=1.202196
+
+[Eval/1-navigation/stage_actor/ResourceEntered]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/stage_actor/Reward]
+step=0 value=-0.084410
+step=1 value=-0.084727
+
+[Eval/1-navigation/stage_actor/Survived]
+step=0 value=1.000000
+step=1 value=1.000000
+
+[Eval/1-navigation/stage_actor/WaterToFoodSuccess]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/stage_actor_target/AlternatingVisitCount]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/stage_actor_target/AvgConsumption]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/stage_actor_target/ConsumedAnyRate]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/stage_actor_target/ConsumedBefore200Rate]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/stage_actor_target/FinalDrive]
+step=0 value=0.668815
+step=1 value=0.668815
+
+[Eval/1-navigation/stage_actor_target/FirstConsumption]
+step=0 value=60.000000
+step=1 value=60.000000
+
+[Eval/1-navigation/stage_actor_target/FirstFoodStep]
+step=0 value=60.000000
+step=1 value=60.000000
+
+[Eval/1-navigation/stage_actor_target/FirstWaterStep]
+step=0 value=60.000000
+step=1 value=60.000000
+
+[Eval/1-navigation/stage_actor_target/FoodToWaterSuccess]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/stage_actor_target/Length]
+step=0 value=60.000000
+step=1 value=60.000000
+
+[Eval/1-navigation/stage_actor_target/MinimumDistance]
+step=0 value=1.269627
+step=1 value=1.264313
+
+[Eval/1-navigation/stage_actor_target/NearestResource]
+step=0 value=1.269627
+step=1 value=1.264313
+
+[Eval/1-navigation/stage_actor_target/ResourceEntered]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/1-navigation/stage_actor_target/Reward]
+step=0 value=-0.083661
+step=1 value=-0.083717
+
+[Eval/1-navigation/stage_actor_target/Survived]
+step=0 value=1.000000
+step=1 value=1.000000
+
+[Eval/1-navigation/stage_actor_target/WaterToFoodSuccess]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Eval/2-four-resources/full_actor/AlternatingVisitCount]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/full_actor/AvgConsumption]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/full_actor/ConsumedAnyRate]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/full_actor/ConsumedBefore200Rate]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/full_actor/FinalDrive]
+step=2 value=0.668815
+step=3 value=0.668815
+
+[Eval/2-four-resources/full_actor/FirstConsumption]
+step=2 value=60.000000
+step=3 value=60.000000
+
+[Eval/2-four-resources/full_actor/FirstFoodStep]
+step=2 value=60.000000
+step=3 value=60.000000
+
+[Eval/2-four-resources/full_actor/FirstWaterStep]
+step=2 value=60.000000
+step=3 value=60.000000
+
+[Eval/2-four-resources/full_actor/FoodToWaterSuccess]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/full_actor/Length]
+step=2 value=60.000000
+step=3 value=60.000000
+
+[Eval/2-four-resources/full_actor/MinimumDistance]
+step=2 value=2.981134
+step=3 value=3.060320
+
+[Eval/2-four-resources/full_actor/NearestResource]
+step=2 value=2.981134
+step=3 value=3.060320
+
+[Eval/2-four-resources/full_actor/ResourceEntered]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/full_actor/Reward]
+step=2 value=-0.499086
+step=3 value=-0.497567
+
+[Eval/2-four-resources/full_actor/Survived]
+step=2 value=1.000000
+step=3 value=1.000000
+
+[Eval/2-four-resources/full_actor/WaterToFoodSuccess]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/full_actor_target/AlternatingVisitCount]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/full_actor_target/AvgConsumption]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/full_actor_target/ConsumedAnyRate]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/full_actor_target/ConsumedBefore200Rate]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/full_actor_target/FinalDrive]
+step=2 value=0.668815
+step=3 value=0.668815
+
+[Eval/2-four-resources/full_actor_target/FirstConsumption]
+step=2 value=60.000000
+step=3 value=60.000000
+
+[Eval/2-four-resources/full_actor_target/FirstFoodStep]
+step=2 value=60.000000
+step=3 value=60.000000
+
+[Eval/2-four-resources/full_actor_target/FirstWaterStep]
+step=2 value=60.000000
+step=3 value=60.000000
+
+[Eval/2-four-resources/full_actor_target/FoodToWaterSuccess]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/full_actor_target/Length]
+step=2 value=60.000000
+step=3 value=60.000000
+
+[Eval/2-four-resources/full_actor_target/MinimumDistance]
+step=2 value=3.083807
+step=3 value=3.079119
+
+[Eval/2-four-resources/full_actor_target/NearestResource]
+step=2 value=3.083807
+step=3 value=3.079119
+
+[Eval/2-four-resources/full_actor_target/ResourceEntered]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/full_actor_target/Reward]
+step=2 value=-0.498251
+step=3 value=-0.498219
+
+[Eval/2-four-resources/full_actor_target/Survived]
+step=2 value=1.000000
+step=3 value=1.000000
+
+[Eval/2-four-resources/full_actor_target/WaterToFoodSuccess]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/stage_actor/AlternatingVisitCount]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/stage_actor/AvgConsumption]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/stage_actor/ConsumedAnyRate]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/stage_actor/ConsumedBefore200Rate]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/stage_actor/FinalDrive]
+step=2 value=0.668815
+step=3 value=0.668815
+
+[Eval/2-four-resources/stage_actor/FirstConsumption]
+step=2 value=60.000000
+step=3 value=60.000000
+
+[Eval/2-four-resources/stage_actor/FirstFoodStep]
+step=2 value=60.000000
+step=3 value=60.000000
+
+[Eval/2-four-resources/stage_actor/FirstWaterStep]
+step=2 value=60.000000
+step=3 value=60.000000
+
+[Eval/2-four-resources/stage_actor/FoodToWaterSuccess]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/stage_actor/Length]
+step=2 value=60.000000
+step=3 value=60.000000
+
+[Eval/2-four-resources/stage_actor/MinimumDistance]
+step=2 value=1.560716
+step=3 value=1.640536
+
+[Eval/2-four-resources/stage_actor/NearestResource]
+step=2 value=1.560716
+step=3 value=1.640536
+
+[Eval/2-four-resources/stage_actor/ResourceEntered]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/stage_actor/Reward]
+step=2 value=-0.291516
+step=3 value=-0.290386
+
+[Eval/2-four-resources/stage_actor/Survived]
+step=2 value=1.000000
+step=3 value=1.000000
+
+[Eval/2-four-resources/stage_actor/WaterToFoodSuccess]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/stage_actor_target/AlternatingVisitCount]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/stage_actor_target/AvgConsumption]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/stage_actor_target/ConsumedAnyRate]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/stage_actor_target/ConsumedBefore200Rate]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/stage_actor_target/FinalDrive]
+step=2 value=0.668815
+step=3 value=0.668815
+
+[Eval/2-four-resources/stage_actor_target/FirstConsumption]
+step=2 value=60.000000
+step=3 value=60.000000
+
+[Eval/2-four-resources/stage_actor_target/FirstFoodStep]
+step=2 value=60.000000
+step=3 value=60.000000
+
+[Eval/2-four-resources/stage_actor_target/FirstWaterStep]
+step=2 value=60.000000
+step=3 value=60.000000
+
+[Eval/2-four-resources/stage_actor_target/FoodToWaterSuccess]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/stage_actor_target/Length]
+step=2 value=60.000000
+step=3 value=60.000000
+
+[Eval/2-four-resources/stage_actor_target/MinimumDistance]
+step=2 value=1.617612
+step=3 value=1.616181
+
+[Eval/2-four-resources/stage_actor_target/NearestResource]
+step=2 value=1.617612
+step=3 value=1.616181
+
+[Eval/2-four-resources/stage_actor_target/ResourceEntered]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/2-four-resources/stage_actor_target/Reward]
+step=2 value=-0.291332
+step=3 value=-0.291278
+
+[Eval/2-four-resources/stage_actor_target/Survived]
+step=2 value=1.000000
+step=3 value=1.000000
+
+[Eval/2-four-resources/stage_actor_target/WaterToFoodSuccess]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Eval/3-six-resources/full_actor/AlternatingVisitCount]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/full_actor/AvgConsumption]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/full_actor/ConsumedAnyRate]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/full_actor/ConsumedBefore200Rate]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/full_actor/FinalDrive]
+step=4 value=0.668815
+step=5 value=0.668815
+
+[Eval/3-six-resources/full_actor/FirstConsumption]
+step=4 value=60.000000
+step=5 value=60.000000
+
+[Eval/3-six-resources/full_actor/FirstFoodStep]
+step=4 value=60.000000
+step=5 value=60.000000
+
+[Eval/3-six-resources/full_actor/FirstWaterStep]
+step=4 value=60.000000
+step=5 value=60.000000
+
+[Eval/3-six-resources/full_actor/FoodToWaterSuccess]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/full_actor/Length]
+step=4 value=60.000000
+step=5 value=60.000000
+
+[Eval/3-six-resources/full_actor/MinimumDistance]
+step=4 value=3.166122
+step=5 value=3.258610
+
+[Eval/3-six-resources/full_actor/NearestResource]
+step=4 value=3.166122
+step=5 value=3.258610
+
+[Eval/3-six-resources/full_actor/ResourceEntered]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/full_actor/Reward]
+step=4 value=-0.495946
+step=5 value=-0.495034
+
+[Eval/3-six-resources/full_actor/Survived]
+step=4 value=1.000000
+step=5 value=1.000000
+
+[Eval/3-six-resources/full_actor/WaterToFoodSuccess]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/full_actor_target/AlternatingVisitCount]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/full_actor_target/AvgConsumption]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/full_actor_target/ConsumedAnyRate]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/full_actor_target/ConsumedBefore200Rate]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/full_actor_target/FinalDrive]
+step=4 value=0.668815
+step=5 value=0.668815
+
+[Eval/3-six-resources/full_actor_target/FirstConsumption]
+step=4 value=60.000000
+step=5 value=60.000000
+
+[Eval/3-six-resources/full_actor_target/FirstFoodStep]
+step=4 value=60.000000
+step=5 value=60.000000
+
+[Eval/3-six-resources/full_actor_target/FirstWaterStep]
+step=4 value=60.000000
+step=5 value=60.000000
+
+[Eval/3-six-resources/full_actor_target/FoodToWaterSuccess]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/full_actor_target/Length]
+step=4 value=60.000000
+step=5 value=60.000000
+
+[Eval/3-six-resources/full_actor_target/MinimumDistance]
+step=4 value=3.081569
+step=5 value=3.091708
+
+[Eval/3-six-resources/full_actor_target/NearestResource]
+step=4 value=3.081569
+step=5 value=3.091708
+
+[Eval/3-six-resources/full_actor_target/ResourceEntered]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/full_actor_target/Reward]
+step=4 value=-0.498057
+step=5 value=-0.497736
+
+[Eval/3-six-resources/full_actor_target/Survived]
+step=4 value=1.000000
+step=5 value=1.000000
+
+[Eval/3-six-resources/full_actor_target/WaterToFoodSuccess]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/stage_actor/AlternatingVisitCount]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/stage_actor/AvgConsumption]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/stage_actor/ConsumedAnyRate]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/stage_actor/ConsumedBefore200Rate]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/stage_actor/FinalDrive]
+step=4 value=0.668815
+step=5 value=0.668815
+
+[Eval/3-six-resources/stage_actor/FirstConsumption]
+step=4 value=60.000000
+step=5 value=60.000000
+
+[Eval/3-six-resources/stage_actor/FirstFoodStep]
+step=4 value=60.000000
+step=5 value=60.000000
+
+[Eval/3-six-resources/stage_actor/FirstWaterStep]
+step=4 value=60.000000
+step=5 value=60.000000
+
+[Eval/3-six-resources/stage_actor/FoodToWaterSuccess]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/stage_actor/Length]
+step=4 value=60.000000
+step=5 value=60.000000
+
+[Eval/3-six-resources/stage_actor/MinimumDistance]
+step=4 value=3.166122
+step=5 value=3.258610
+
+[Eval/3-six-resources/stage_actor/NearestResource]
+step=4 value=3.166122
+step=5 value=3.258610
+
+[Eval/3-six-resources/stage_actor/ResourceEntered]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/stage_actor/Reward]
+step=4 value=-0.495946
+step=5 value=-0.495034
+
+[Eval/3-six-resources/stage_actor/Survived]
+step=4 value=1.000000
+step=5 value=1.000000
+
+[Eval/3-six-resources/stage_actor/WaterToFoodSuccess]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/stage_actor_target/AlternatingVisitCount]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/stage_actor_target/AvgConsumption]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/stage_actor_target/ConsumedAnyRate]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/stage_actor_target/ConsumedBefore200Rate]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/stage_actor_target/FinalDrive]
+step=4 value=0.668815
+step=5 value=0.668815
+
+[Eval/3-six-resources/stage_actor_target/FirstConsumption]
+step=4 value=60.000000
+step=5 value=60.000000
+
+[Eval/3-six-resources/stage_actor_target/FirstFoodStep]
+step=4 value=60.000000
+step=5 value=60.000000
+
+[Eval/3-six-resources/stage_actor_target/FirstWaterStep]
+step=4 value=60.000000
+step=5 value=60.000000
+
+[Eval/3-six-resources/stage_actor_target/FoodToWaterSuccess]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/stage_actor_target/Length]
+step=4 value=60.000000
+step=5 value=60.000000
+
+[Eval/3-six-resources/stage_actor_target/MinimumDistance]
+step=4 value=3.081569
+step=5 value=3.091708
+
+[Eval/3-six-resources/stage_actor_target/NearestResource]
+step=4 value=3.081569
+step=5 value=3.091708
+
+[Eval/3-six-resources/stage_actor_target/ResourceEntered]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/3-six-resources/stage_actor_target/Reward]
+step=4 value=-0.498057
+step=5 value=-0.497736
+
+[Eval/3-six-resources/stage_actor_target/Survived]
+step=4 value=1.000000
+step=5 value=1.000000
+
+[Eval/3-six-resources/stage_actor_target/WaterToFoodSuccess]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Eval/4-depletion/full_actor/AlternatingVisitCount]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/full_actor/AvgConsumption]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/full_actor/ConsumedAnyRate]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/full_actor/ConsumedBefore200Rate]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/full_actor/FinalDrive]
+step=6 value=0.668815
+step=7 value=0.668815
+
+[Eval/4-depletion/full_actor/FirstConsumption]
+step=6 value=60.000000
+step=7 value=60.000000
+
+[Eval/4-depletion/full_actor/FirstFoodStep]
+step=6 value=60.000000
+step=7 value=60.000000
+
+[Eval/4-depletion/full_actor/FirstWaterStep]
+step=6 value=60.000000
+step=7 value=60.000000
+
+[Eval/4-depletion/full_actor/FoodToWaterSuccess]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/full_actor/Length]
+step=6 value=60.000000
+step=7 value=60.000000
+
+[Eval/4-depletion/full_actor/MinimumDistance]
+step=6 value=3.210438
+step=7 value=3.140423
+
+[Eval/4-depletion/full_actor/NearestResource]
+step=6 value=3.210438
+step=7 value=3.140423
+
+[Eval/4-depletion/full_actor/ResourceEntered]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/full_actor/Reward]
+step=6 value=-0.495525
+step=7 value=-0.497428
+
+[Eval/4-depletion/full_actor/Survived]
+step=6 value=1.000000
+step=7 value=1.000000
+
+[Eval/4-depletion/full_actor/WaterToFoodSuccess]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/full_actor_target/AlternatingVisitCount]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/full_actor_target/AvgConsumption]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/full_actor_target/ConsumedAnyRate]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/full_actor_target/ConsumedBefore200Rate]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/full_actor_target/FinalDrive]
+step=6 value=0.668815
+step=7 value=0.668815
+
+[Eval/4-depletion/full_actor_target/FirstConsumption]
+step=6 value=60.000000
+step=7 value=60.000000
+
+[Eval/4-depletion/full_actor_target/FirstFoodStep]
+step=6 value=60.000000
+step=7 value=60.000000
+
+[Eval/4-depletion/full_actor_target/FirstWaterStep]
+step=6 value=60.000000
+step=7 value=60.000000
+
+[Eval/4-depletion/full_actor_target/FoodToWaterSuccess]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/full_actor_target/Length]
+step=6 value=60.000000
+step=7 value=60.000000
+
+[Eval/4-depletion/full_actor_target/MinimumDistance]
+step=6 value=3.102280
+step=7 value=3.107603
+
+[Eval/4-depletion/full_actor_target/NearestResource]
+step=6 value=3.102280
+step=7 value=3.107603
+
+[Eval/4-depletion/full_actor_target/ResourceEntered]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/full_actor_target/Reward]
+step=6 value=-0.497462
+step=7 value=-0.497374
+
+[Eval/4-depletion/full_actor_target/Survived]
+step=6 value=1.000000
+step=7 value=1.000000
+
+[Eval/4-depletion/full_actor_target/WaterToFoodSuccess]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/stage_actor/AlternatingVisitCount]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/stage_actor/AvgConsumption]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/stage_actor/ConsumedAnyRate]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/stage_actor/ConsumedBefore200Rate]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/stage_actor/FinalDrive]
+step=6 value=0.668815
+step=7 value=0.668815
+
+[Eval/4-depletion/stage_actor/FirstConsumption]
+step=6 value=60.000000
+step=7 value=60.000000
+
+[Eval/4-depletion/stage_actor/FirstFoodStep]
+step=6 value=60.000000
+step=7 value=60.000000
+
+[Eval/4-depletion/stage_actor/FirstWaterStep]
+step=6 value=60.000000
+step=7 value=60.000000
+
+[Eval/4-depletion/stage_actor/FoodToWaterSuccess]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/stage_actor/Length]
+step=6 value=60.000000
+step=7 value=60.000000
+
+[Eval/4-depletion/stage_actor/MinimumDistance]
+step=6 value=3.210438
+step=7 value=3.140423
+
+[Eval/4-depletion/stage_actor/NearestResource]
+step=6 value=3.210438
+step=7 value=3.140423
+
+[Eval/4-depletion/stage_actor/ResourceEntered]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/stage_actor/Reward]
+step=6 value=-0.495525
+step=7 value=-0.497428
+
+[Eval/4-depletion/stage_actor/Survived]
+step=6 value=1.000000
+step=7 value=1.000000
+
+[Eval/4-depletion/stage_actor/WaterToFoodSuccess]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/stage_actor_target/AlternatingVisitCount]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/stage_actor_target/AvgConsumption]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/stage_actor_target/ConsumedAnyRate]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/stage_actor_target/ConsumedBefore200Rate]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/stage_actor_target/FinalDrive]
+step=6 value=0.668815
+step=7 value=0.668815
+
+[Eval/4-depletion/stage_actor_target/FirstConsumption]
+step=6 value=60.000000
+step=7 value=60.000000
+
+[Eval/4-depletion/stage_actor_target/FirstFoodStep]
+step=6 value=60.000000
+step=7 value=60.000000
+
+[Eval/4-depletion/stage_actor_target/FirstWaterStep]
+step=6 value=60.000000
+step=7 value=60.000000
+
+[Eval/4-depletion/stage_actor_target/FoodToWaterSuccess]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/stage_actor_target/Length]
+step=6 value=60.000000
+step=7 value=60.000000
+
+[Eval/4-depletion/stage_actor_target/MinimumDistance]
+step=6 value=3.102280
+step=7 value=3.107603
+
+[Eval/4-depletion/stage_actor_target/NearestResource]
+step=6 value=3.102280
+step=7 value=3.107603
+
+[Eval/4-depletion/stage_actor_target/ResourceEntered]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Eval/4-depletion/stage_actor_target/Reward]
+step=6 value=-0.497462
+step=7 value=-0.497374
+
+[Eval/4-depletion/stage_actor_target/Survived]
+step=6 value=1.000000
+step=7 value=1.000000
+
+[Eval/4-depletion/stage_actor_target/WaterToFoodSuccess]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Exploration/Sigma]
+step=0 value=0.100000
+step=1 value=0.100000
+step=2 value=0.080000
+step=3 value=0.080000
+step=4 value=0.120000
+step=5 value=0.119600
+step=6 value=0.060000
+step=7 value=0.060000
+
+[Homeostasis/AverageFinalDrive]
+step=0 value=0.492555
+step=1 value=0.630666
+step=2 value=0.400663
+step=3 value=0.584720
+step=4 value=0.905208
+step=5 value=0.836992
+step=6 value=0.832766
+step=7 value=0.800771
+
+[Homeostasis/Best_Drive]
+step=0 value=0.083012
+step=1 value=0.252302
+step=2 value=0.051547
+step=3 value=0.252302
+step=4 value=0.286365
+step=5 value=0.252302
+step=6 value=0.260097
+step=7 value=0.252302
+
+[Homeostasis/Final_Drive]
+step=0 value=0.492555
+step=1 value=0.768776
+step=2 value=0.400663
+step=3 value=0.768776
+step=4 value=0.905208
+step=5 value=0.768776
+step=6 value=0.832766
+step=7 value=0.768776
+
+[InternalState/Food]
+step=0 value=0.693888
+step=1 value=0.357515
+step=2 value=0.765476
+step=3 value=0.357515
+step=4 value=0.508665
+step=5 value=0.357515
+step=6 value=0.640903
+step=7 value=0.357515
+
+[InternalState/Water]
+step=0 value=0.611971
+step=1 value=0.767106
+step=2 value=0.642802
+step=3 value=0.767106
+step=4 value=0.442448
+step=5 value=0.767106
+step=6 value=0.388470
+step=7 value=0.767106
+
+[Loss/Actor]
+step=0 value=-0.018816
+step=1 value=-0.018288
+step=2 value=-0.016395
+step=3 value=-0.015405
+step=4 value=-0.014362
+step=5 value=-0.013795
+step=6 value=-0.014219
+step=7 value=-0.014090
+
+[Loss/Critic]
+step=0 value=0.000251
+step=1 value=0.000039
+step=2 value=0.000077
+step=3 value=0.000026
+step=4 value=0.000095
+step=5 value=0.000024
+step=6 value=0.000021
+step=7 value=0.000020
+
+[Q/Q1]
+step=0 value=0.020121
+step=1 value=0.018496
+step=2 value=0.016368
+step=3 value=0.014781
+step=4 value=0.014211
+step=5 value=0.014187
+step=6 value=0.014237
+step=7 value=0.013990
+
+[Q/Q1_minus_Q2]
+step=0 value=0.010735
+step=1 value=0.001689
+step=2 value=0.004108
+step=3 value=0.001544
+step=4 value=0.004070
+step=5 value=0.002305
+step=6 value=0.002078
+step=7 value=0.002016
+
+[Q/Q2]
+step=0 value=0.020215
+step=1 value=0.018386
+step=2 value=0.016271
+step=3 value=0.014900
+step=4 value=0.014199
+step=5 value=0.014179
+step=6 value=0.014291
+step=7 value=0.013985
+
+[Replay/AverageAge]
+step=0 value=30.500000
+step=1 value=60.500000
+step=2 value=90.500000
+step=3 value=120.500000
+step=4 value=150.500000
+step=5 value=180.500000
+step=6 value=210.500000
+step=7 value=240.500000
+
+[Replay/Size]
+step=0 value=60.000000
+step=1 value=120.000000
+step=2 value=180.000000
+step=3 value=240.000000
+step=4 value=300.000000
+step=5 value=360.000000
+step=6 value=420.000000
+step=7 value=480.000000
+
+[Replay/Stage2Fraction]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.333333
+step=3 value=0.500000
+step=4 value=0.400000
+step=5 value=0.333333
+step=6 value=0.285714
+step=7 value=0.250000
+
+[Replay/SuccessRatio]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Reward/Episode]
+step=0 value=0.041252
+step=1 value=-0.163119
+step=2 value=-0.115823
+step=3 value=-0.344644
+step=4 value=-0.649554
+step=5 value=-0.540660
+step=6 value=-0.585801
+step=7 value=-0.529692
+
+[Run/TotalSteps]
+step=7 value=480.000000
+
+[Stage/1-navigation/EpisodesCompleted]
+step=0 value=1.000000
+step=1 value=2.000000
+
+[Stage/1-navigation/SuccessRate]
+step=0 value=0.000000
+step=1 value=0.000000
+
+[Stage/2-four-resources/EpisodesCompleted]
+step=2 value=1.000000
+step=3 value=2.000000
+
+[Stage/2-four-resources/SuccessRate]
+step=2 value=0.000000
+step=3 value=0.000000
+
+[Stage/3-six-resources/EpisodesCompleted]
+step=4 value=1.000000
+step=5 value=2.000000
+
+[Stage/3-six-resources/SuccessRate]
+step=4 value=0.000000
+step=5 value=0.000000
+
+[Stage/4-depletion/EpisodesCompleted]
+step=6 value=1.000000
+step=7 value=2.000000
+
+[Stage/4-depletion/SuccessRate]
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Success/EpisodesSurviving1000]
+step=0 value=1.000000
+step=1 value=2.000000
+step=2 value=3.000000
+step=3 value=4.000000
+step=4 value=5.000000
+step=5 value=6.000000
+step=6 value=7.000000
+step=7 value=8.000000
+
+[Success/EpisodesSurviving500]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Success/EpisodesWithConsumption]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Success/LongestStreak]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Success/RateLast100]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+step=7 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor/AlternatingVisitCount]
+step=3 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor/AvgConsumption]
+step=3 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor/ConsumedAnyRate]
+step=3 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor/ConsumedBefore200Rate]
+step=3 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor/FinalDrive]
+step=3 value=0.668815
+
+[Transition/2-four-resources_to_3-six-resources/actor/FirstFoodStep]
+step=3 value=60.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor/FirstWaterStep]
+step=3 value=60.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor/FoodToWaterSuccess]
+step=3 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor/MinimumDistance]
+step=3 value=3.060320
+
+[Transition/2-four-resources_to_3-six-resources/actor/NearestResource]
+step=3 value=3.060320
+
+[Transition/2-four-resources_to_3-six-resources/actor/Survived]
+step=3 value=1.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor/WaterToFoodSuccess]
+step=3 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/AlternatingVisitCount]
+step=3 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/AvgConsumption]
+step=3 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/ConsumedAnyRate]
+step=3 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/ConsumedBefore200Rate]
+step=3 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/FinalDrive]
+step=3 value=0.668815
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/FirstFoodStep]
+step=3 value=60.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/FirstWaterStep]
+step=3 value=60.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/FoodToWaterSuccess]
+step=3 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/MinimumDistance]
+step=3 value=3.079119
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/NearestResource]
+step=3 value=3.079119
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/Survived]
+step=3 value=1.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/WaterToFoodSuccess]
+step=3 value=0.000000
+

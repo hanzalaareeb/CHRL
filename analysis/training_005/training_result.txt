@@ -1,0 +1,52 @@
+[run] training_005
+[run] artifacts: analysis/training_005
+Agent: TD3Agent | Device: cpu
+
+=== Curriculum stage '1-navigation': 2 resources, 20 episodes, regen_delay=0, survival_bonus=0.0100, noise_floor=0.100 ===
+Stage 1-navigation:   0%|          | 0/20 [00:00<?, ?it/s]                                                          [noise] episode=1 stage=1-navigation sigma=0.1000 floor=0.1000
+Stage 1-navigation:   0%|          | 0/20 [00:00<?, ?it/s]                                                          [noise] episode=2 stage=1-navigation sigma=0.1000 floor=0.1000
+Stage 1-navigation:   0%|          | 0/20 [00:00<?, ?it/s]                                                          [noise] episode=3 stage=1-navigation sigma=0.1000 floor=0.1000
+Stage 1-navigation:   0%|          | 0/20 [00:00<?, ?it/s]Stage 1-navigation:  15%|#5        | 3/20 [00:00<00:00, 26.57it/s]                                                                  [noise] episode=4 stage=1-navigation sigma=0.1000 floor=0.1000
+Stage 1-navigation:  15%|#5        | 3/20 [00:00<00:00, 26.57it/s]                                                                  [noise] episode=5 stage=1-navigation sigma=0.1000 floor=0.1000
+Stage 1-navigation:  15%|#5        | 3/20 [00:00<00:00, 26.57it/s]                                                                  [noise] episode=6 stage=1-navigation sigma=0.1000 floor=0.1000
+Stage 1-navigation:  15%|#5        | 3/20 [00:00<00:00, 26.57it/s]                                                                  [noise] episode=7 stage=1-navigation sigma=0.1000 floor=0.1000
+Stage 1-navigation:  15%|#5        | 3/20 [00:00<00:00, 26.57it/s]Stage 1-navigation:  35%|###5      | 7/20 [00:00<00:00, 31.80it/s]                                                                  [noise] episode=8 stage=1-navigation sigma=0.1000 floor=0.1000
+Stage 1-navigation:  35%|###5      | 7/20 [00:00<00:00, 31.80it/s]                                                                  [noise] episode=9 stage=1-navigation sigma=0.1000 floor=0.1000
+Stage 1-navigation:  35%|###5      | 7/20 [00:00<00:00, 31.80it/s]                                                                  [noise] episode=10 stage=1-navigation sigma=0.1000 floor=0.1000
+Stage 1-navigation:  35%|###5      | 7/20 [00:00<00:00, 31.80it/s]                                                                  [noise] episode=11 stage=1-navigation sigma=0.1000 floor=0.1000
+Stage 1-navigation:  35%|###5      | 7/20 [00:00<00:00, 31.80it/s]Stage 1-navigation:  55%|#####5    | 11/20 [00:00<00:00, 33.84it/s]                                                                   [noise] episode=12 stage=1-navigation sigma=0.1000 floor=0.1000
+Stage 1-navigation:  55%|#####5    | 11/20 [00:00<00:00, 33.84it/s]                                                                   [noise] episode=13 stage=1-navigation sigma=0.1000 floor=0.1000
+Stage 1-navigation:  55%|#####5    | 11/20 [00:00<00:00, 33.84it/s]                                                                   [noise] episode=14 stage=1-navigation sigma=0.1000 floor=0.1000
+Stage 1-navigation:  55%|#####5    | 11/20 [00:00<00:00, 33.84it/s]                                                                   [noise] episode=15 stage=1-navigation sigma=0.1000 floor=0.1000
+Stage 1-navigation:  55%|#####5    | 11/20 [00:00<00:00, 33.84it/s]Stage 1-navigation:  75%|#######5  | 15/20 [00:00<00:00, 34.86it/s]                                                                   [noise] episode=16 stage=1-navigation sigma=0.1000 floor=0.1000
+Stage 1-navigation:  75%|#######5  | 15/20 [00:00<00:00, 34.86it/s]                                                                   [noise] episode=17 stage=1-navigation sigma=0.1000 floor=0.1000
+Stage 1-navigation:  75%|#######5  | 15/20 [00:00<00:00, 34.86it/s]                                                                   [noise] episode=18 stage=1-navigation sigma=0.1000 floor=0.1000
+Stage 1-navigation:  75%|#######5  | 15/20 [00:00<00:00, 34.86it/s]                                                                   [noise] episode=19 stage=1-navigation sigma=0.1000 floor=0.1000
+Stage 1-navigation:  75%|#######5  | 15/20 [00:00<00:00, 34.86it/s]Stage 1-navigation:  95%|#########5| 19/20 [00:00<00:00, 35.15it/s]                                                                   [noise] episode=20 stage=1-navigation sigma=0.1000 floor=0.1000
+Stage 1-navigation:  95%|#########5| 19/20 [00:00<00:00, 35.15it/s]                                                                     [eval @ ep 20] stage(cons actor=0.00, target=0.00; entered actor=0.0%, consumed actor=0.0%, before200 actor=100.0%) | full(cons actor=0.00, target=0.00; nearest actor=3.41, target=3.28) | best=actor
+Stage 1-navigation:  95%|#########5| 19/20 [00:00<00:00, 35.15it/s]                                                                   Episode   20 | Reward:    -0.08 | Steps:   40 | Consumed:    0 | FirstConsume:   40 | Dist:   0.53 | Final Drive: 0.5652 | Avg Q:   0.022
+Stage 1-navigation:  95%|#########5| 19/20 [00:00<00:00, 35.15it/s]                                                                     [log20] replay_size=600 | success_transitions=0.0% | episodes_with_consumption=0 | episodes_without_consumption=20 | entered_resource=0.0% | consumed_any=0.0% | consumed_before_200=0.0% | avg_reward=0.05 | replay_avg_age=300.5
+Stage 1-navigation:  95%|#########5| 19/20 [00:00<00:00, 35.15it/s]Stage 1-navigation: 100%|##########| 20/20 [00:00<00:00, 33.16it/s]
+
+=== Curriculum stage '2-four-resources': 4 resources, 5 episodes, regen_delay=0, survival_bonus=0.0050, noise_floor=0.080 ===
+Stage 2-four-resources:   0%|          | 0/5 [00:00<?, ?it/s]                                                             [noise] episode=21 stage=2-four-resources sigma=0.0800 floor=0.0800
+Stage 2-four-resources:   0%|          | 0/5 [00:00<?, ?it/s]                                                             [noise] episode=22 stage=2-four-resources sigma=0.0800 floor=0.0800
+Stage 2-four-resources:   0%|          | 0/5 [00:00<?, ?it/s]                                                             [noise] episode=23 stage=2-four-resources sigma=0.0800 floor=0.0800
+Stage 2-four-resources:   0%|          | 0/5 [00:00<?, ?it/s]                                                             [noise] episode=24 stage=2-four-resources sigma=0.0800 floor=0.0800
+Stage 2-four-resources:   0%|          | 0/5 [00:00<?, ?it/s]Stage 2-four-resources:  80%|########  | 4/5 [00:00<00:00, 35.91it/s]                                                                     [noise] episode=25 stage=2-four-resources sigma=0.0800 floor=0.0800
+Stage 2-four-resources:  80%|########  | 4/5 [00:00<00:00, 35.91it/s]Stage 2-four-resources: 100%|##########| 5/5 [00:00<00:00, 35.96it/s]
+
+=== Curriculum stage '3-six-resources': 6 resources, 5 episodes, regen_delay=0, survival_bonus=0.0000, noise_floor=0.080 ===
+  [transition eval 2-four-resources -> 3-six-resources] actor(cons=0.00, survived=1.00, nearest=3.38) | target(cons=0.00, survived=1.00, nearest=3.31) | saved=actor
+Stage 3-six-resources:   0%|          | 0/5 [00:00<?, ?it/s]                                                            [noise] episode=26 stage=3-six-resources sigma=0.1200 floor=0.0800
+Stage 3-six-resources:   0%|          | 0/5 [00:00<?, ?it/s]                                                            [noise] episode=27 stage=3-six-resources sigma=0.1196 floor=0.0800
+Stage 3-six-resources:   0%|          | 0/5 [00:00<?, ?it/s]                                                            [noise] episode=28 stage=3-six-resources sigma=0.1192 floor=0.0800
+Stage 3-six-resources:   0%|          | 0/5 [00:00<?, ?it/s]                                                            [noise] episode=29 stage=3-six-resources sigma=0.1188 floor=0.0800
+Stage 3-six-resources:   0%|          | 0/5 [00:00<?, ?it/s]Stage 3-six-resources:  80%|########  | 4/5 [00:00<00:00, 37.22it/s]                                                                    [noise] episode=30 stage=3-six-resources sigma=0.1184 floor=0.0800
+Stage 3-six-resources:  80%|########  | 4/5 [00:00<00:00, 37.22it/s]Stage 3-six-resources: 100%|##########| 5/5 [00:00<00:00, 37.07it/s]
+
+[final policy comparison] actor: reward=-0.24, steps=40.0, final_drive=0.329, survived=yes | actor_target: reward=-0.24, steps=40.0, final_drive=0.329, survived=yes
+[best checkpoint] actor at episode 20 during stage '1-navigation' -> analysis/training_005/checkpoints/best_actor.pth, analysis/training_005/checkpoints/best_critic.pth
+[stage checkpoint] '1-navigation' -> analysis/training_005/checkpoints/stage1_best_actor.pth, analysis/training_005/checkpoints/stage1_best_critic.pth
+Curriculum finished (30 episodes)! Models saved to 'analysis/training_005/checkpoints/homeostatic_actor.pth' and 'analysis/training_005/checkpoints/homeostatic_critic.pth'.
+[tensorboard-export] saved scalar dump: analysis/training_005/tensorboard_scalars.txt

@@ -34,6 +34,8 @@ class Config:
     # ----- World / resources -----
     WORLD_SIZE = 6.0              # Agent position is clipped to [-WORLD_SIZE, WORLD_SIZE]
     CONSUME_RADIUS = 1.0          # Agent consumes a resource when within this radius
+    RESOURCE_MIN_SPAWN_DISTANCE = 1.35
+    RESOURCE_SPAWN_RESAMPLE_ATTEMPTS = 10
     EFFORT_PENALTY = 0.01         # HJB effort cost weighting on actions
     REWARD_SCALE = 1.0            # Global multiplier on the per-step reward
     REGEN_DELAY = 20              # Steps a depleted store stays empty before regenerating (stage 3)
@@ -52,12 +54,12 @@ class Config:
     #   max_capacity:  finite store; depletes ~2-3 refills then must regenerate (anti-camping)
     #   regen_rate:    slow capacity recovery per unit time
     RESOURCES = [
-        ( 3.5,  0.5, "food",  0.60, 1.20, 0.010),
-        (-3.0,  2.5, "water", 0.40, 0.90, 0.010),
-        ( 1.0,  3.5, "food",  0.50, 1.00, 0.008),
-        (-2.5, -3.0, "water", 0.35, 0.80, 0.010),
-        ( 4.0, -2.0, "food",  0.55, 1.10, 0.009),
-        (-4.5, -0.5, "water", 0.45, 0.90, 0.010),
+        ( 2.4,  0.4, "food",  0.60, 1.20, 0.010),
+        ( 3.1, -0.2, "water", 0.40, 0.90, 0.010),
+        (-1.8,  2.3, "food",  0.50, 1.00, 0.008),
+        (-1.0,  3.0, "water", 0.35, 0.80, 0.010),
+        (-2.8, -1.8, "food",  0.55, 1.10, 0.009),
+        (-2.0, -2.6, "water", 0.45, 0.90, 0.010),
     ]
 
     # ----- Curriculum -----
@@ -74,35 +76,40 @@ class Config:
         {   # change: 2 resources (navigation only)
             "name": "1-navigation",
             "resources": [
-                ( 1.5,  0.0, "food",  0.60, 1000.0, 1.0),
-                (-1.5,  0.0, "water", 0.60, 1000.0, 1.0),
+                ( 1.2,  0.3, "food",  0.60, 1000.0, 1.0),
+                ( 1.9, -0.2, "water", 0.60, 1000.0, 1.0),
             ],
-            "episodes": 50, "regen_delay": 0, "survival_bonus": 0.01, "noise_floor": 0.10,
+            "episodes": 120, "regen_delay": 0, "survival_bonus": 0.01, "noise_floor": 0.10,
+            "resource_jitter": 0.15, "success_mode": "navigation",
         },
-        {   # change: 4 resources (selection among types)
+        {   # change: 4 resources (paired food-water neighborhoods; dual-resource habit formation)
             "name": "2-four-resources",
             "resources": [
-                ( 2.0,  0.0, "food",  0.60, 1000.0, 1.0),
-                (-2.0,  0.0, "water", 0.50, 1000.0, 1.0),
-                ( 0.0,  2.5, "food",  0.55, 1000.0, 1.0),
-                ( 0.0, -2.5, "water", 0.50, 1000.0, 1.0),
+                ( 2.2,  0.5, "food",  0.60, 1000.0, 1.0),
+                ( 2.9, -0.1, "water", 0.50, 1000.0, 1.0),
+                (-1.6,  2.2, "food",  0.55, 1000.0, 1.0),
+                (-0.9,  2.9, "water", 0.50, 1000.0, 1.0),
             ],
-            "episodes": 100, "regen_delay": 0, "survival_bonus": 0.005, "noise_floor": 0.08,
+            "episodes": 200, "regen_delay": 0, "survival_bonus": 0.005, "noise_floor": 0.08,
+            "resource_jitter": 0.35, "success_mode": "dual_resource_local",
         },
-        {   # change: 6 resources (still non-depleting)
+        {   # change: 6 resources (still non-depleting, more spread for exploration/generalization)
             "name": "3-six-resources",
             "resources": _BIG_6,
             "episodes": 500, "regen_delay": 0, "survival_bonus": 0.0, "noise_floor": 0.08,
+            "resource_jitter": 0.35, "success_mode": "dual_resource",
         },
         {   # change: depletion (finite capacities)
             "name": "4-depletion",
             "resources": RESOURCES,
-            "episodes": 120, "regen_delay": 0, "survival_bonus": 0.0, "noise_floor": 0.06,
+            "episodes": 120, "regen_delay": 0, "survival_bonus": 0.0, "noise_floor": 0.04,
+            "success_mode": "dual_resource",
         },
         {   # change: regeneration delay
             "name": "5-regen-delay",
             "resources": RESOURCES,
             "episodes": 120, "regen_delay": REGEN_DELAY, "survival_bonus": 0.0, "noise_floor": 0.05,
+            "success_mode": "dual_resource",
         },
     ]
     # Advance to the next stage early once success rate over the last
@@ -110,6 +117,9 @@ class Config:
     # whole episode). Otherwise the stage runs out its `episodes` budget.
     STAGE_ADVANCE_WINDOW = 20
     STAGE_ADVANCE_THRESHOLD = 0.80
+    DUAL_RESOURCE_SUCCESS_STAGES = (2,)
+    DUAL_RESOURCE_SUCCESS_STEP_THRESHOLD = 200
+    NAVIGATION_SUCCESS_DISTANCE = 0.90
     SUCCESS_RATE_WINDOW = 100      # window for the rolling "Success/Rate" metric
 
     # ----- Prioritized replay (simple approximation) -----
@@ -122,6 +132,10 @@ class Config:
     MEANINGFUL_CONSUMPTION_STEP = 200
     STAGE3_MIX_EPISODES = 50
     STAGE3_MIX_FRACTION = 0.50
+    STAGE4_MIX_EPISODES = 40
+    STAGE4_MIX_FRACTION = 0.50
+    STAGE2_MIX_EPISODES = 80
+    STAGE2_MIX_FRACTION = 0.60
 
     # ----- Checkpoints (best-eval) + buffer snapshot -----
     BEST_ACTOR_PATH = "best_actor.pth"
@@ -169,12 +183,18 @@ class Config:
     EVAL_EPISODES = 5             # Average each evaluation over fixed-seed episodes
     STAGE3_CHECKPOINT_INTERVAL = 50
     STAGE4_CHECKPOINT_INTERVAL = 50
+    STAGE2_EXTRA_LOG_INTERVAL = 10
     PRIMARY_METRIC = "avg_consumption"
     EARLY_STOPPING = True
     EARLY_STOPPING_PATIENCE = 6   # stop after this many non-improving evals
     EARLY_STOPPING_MIN_STAGE = 3  # only start early-stop checks from stage 3 onward
     EARLY_STOPPING_MIN_DELTA = 0.25
+    STAGE2_EARLY_STOPPING = True
+    STAGE2_EARLY_STOPPING_PATIENCE = 4
+    STAGE2_MIN_EPISODES_BEFORE_EARLY_STOP = 60
+    STAGE2_REFERENCE_COLLAPSE_FRACTION = 0.40
     STAGE3_MIN_EPISODES_BEFORE_EARLY_STOP = 100
+    STAGE4_REFERENCE_COLLAPSE_FRACTION = 0.60
 
     # ----- Logging / checkpoints -----
     LOG_DIR = "runs/homeostatic_ddpg"

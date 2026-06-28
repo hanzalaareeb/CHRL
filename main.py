@@ -9,8 +9,8 @@ import torch
 from config import Config
 from env import ContinuousHomeostaticEnv
 from agents import make_agent
-from train import train, train_curriculum
-from visualize import visualize
+from training import train, train_curriculum, stage_checkpoint_paths
+from visualization import visualize
 from diagnostics import run as run_diagnostics
 
 
@@ -157,6 +157,21 @@ def execute_run(config, agent_name=None, curriculum=None,
         run_diagnostics(agent, env, config, save_path=diag_path)
     if do_viz:
         visualize(agent, env, config, prefix=f"{config.RUN_LABEL}_trained")
+        if config.CURRICULUM and len(config.STAGES) >= 2:
+            stage2 = config.STAGES[1]
+            stage2_actor_path, stage2_critic_path = stage_checkpoint_paths(config, stage2["name"])
+            if os.path.exists(stage2_actor_path) and os.path.exists(stage2_critic_path):
+                stage2_env = ContinuousHomeostaticEnv(
+                    config,
+                    resources=stage2["resources"],
+                    regen_delay=stage2.get("regen_delay", 0),
+                    survival_bonus=stage2.get("survival_bonus", config.SURVIVAL_BONUS),
+                    resource_jitter=stage2.get("resource_jitter", 0.0),
+                )
+                agent.load(stage2_actor_path, stage2_critic_path)
+                visualize(agent, stage2_env, config, prefix=f"{config.RUN_LABEL}_stage2_best")
+            else:
+                print(f"[visualize] stage2 checkpoint missing; skipped stage-2 trajectory plot.")
 
     if do_train:
         export_tensorboard_scalars(config.LOG_DIR, config.TENSORBOARD_TXT_PATH)
