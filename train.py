@@ -59,6 +59,16 @@ def save_policy_checkpoint(agent, actor_path, critic_path, use_target=False):
     torch.save(agent.critic.state_dict(), critic_path)
 
 
+def stage_checkpoint_paths(config, stage_name):
+    digits = "".join(ch for ch in stage_name if ch.isdigit())
+    stage_id = digits or stage_name.lower().replace(" ", "_")
+    checkpoint_dir = os.path.dirname(config.ACTOR_PATH) or "."
+    return (
+        os.path.join(checkpoint_dir, f"stage{stage_id}_best_actor.pth"),
+        os.path.join(checkpoint_dir, f"stage{stage_id}_best_critic.pth"),
+    )
+
+
 def make_tracker():
     """Run-level counters that persist across curriculum stages."""
     return {
@@ -72,6 +82,7 @@ def make_tracker():
         "best_eval_policy": None,
         "best_eval_stage": None,
         "best_eval_episode": None,
+        "stage_best_scores": {},
         "success_history": deque(maxlen=Config.SUCCESS_RATE_WINDOW),
     }
 
@@ -195,6 +206,12 @@ def maybe_log_evals(agent, writer, episode, stage_name, stage_env, full_env, tra
         tracker["best_eval_stage"] = stage_name
         tracker["best_eval_episode"] = episode + 1
         save_policy_checkpoint(agent, config.BEST_ACTOR_PATH, config.BEST_CRITIC_PATH, use_target=use_target)
+
+    stage_best = tracker["stage_best_scores"].get(stage_name, (-1.0, -float("inf"), -float("inf")))
+    if best_score > stage_best:
+        tracker["stage_best_scores"][stage_name] = best_score
+        stage_actor_path, stage_critic_path = stage_checkpoint_paths(config, stage_name)
+        save_policy_checkpoint(agent, stage_actor_path, stage_critic_path, use_target=use_target)
 
     tqdm.write(
         f"  [eval @ ep {episode + 1}] stage(actor={evals['stage_actor']['reward']:.2f}, "
@@ -381,6 +398,9 @@ def summarize_final_eval(agent, full_eval_env, tracker, config):
             f"during stage '{tracker['best_eval_stage']}' -> "
             f"{config.BEST_ACTOR_PATH}, {config.BEST_CRITIC_PATH}"
         )
+    for stage_name in sorted(tracker["stage_best_scores"]):
+        stage_actor_path, stage_critic_path = stage_checkpoint_paths(config, stage_name)
+        print(f"[stage checkpoint] '{stage_name}' -> {stage_actor_path}, {stage_critic_path}")
 
 
 def train(agent, env, config=Config):

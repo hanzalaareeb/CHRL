@@ -77,7 +77,7 @@ class Config:
                 ( 1.5,  0.0, "food",  0.60, 1000.0, 1.0),
                 (-1.5,  0.0, "water", 0.60, 1000.0, 1.0),
             ],
-            "episodes": 60, "regen_delay": 0, "survival_bonus": 0.01, "noise_floor": 0.10,
+            "episodes": 50, "regen_delay": 0, "survival_bonus": 0.01, "noise_floor": 0.10,
         },
         {   # change: 4 resources (selection among types)
             "name": "2-four-resources",
@@ -87,12 +87,12 @@ class Config:
                 ( 0.0,  2.5, "food",  0.55, 1000.0, 1.0),
                 ( 0.0, -2.5, "water", 0.50, 1000.0, 1.0),
             ],
-            "episodes": 60, "regen_delay": 0, "survival_bonus": 0.005, "noise_floor": 0.08,
+            "episodes": 75, "regen_delay": 0, "survival_bonus": 0.005, "noise_floor": 0.08,
         },
         {   # change: 6 resources (still non-depleting)
             "name": "3-six-resources",
             "resources": _BIG_6,
-            "episodes": 120, "regen_delay": 0, "survival_bonus": 0.0, "noise_floor": 0.08,
+            "episodes": 500, "regen_delay": 0, "survival_bonus": 0.0, "noise_floor": 0.08,
         },
         {   # change: depletion (finite capacities)
             "name": "4-depletion",
@@ -131,7 +131,7 @@ class Config:
     # ----- DDPG hyperparameters -----
     GAMMA = 0.99                  # Discount factor
     TAU = 0.005                   # Soft target update coefficient
-    ACTOR_LR = 1e-4
+    ACTOR_LR = 3e-5
     CRITIC_LR = 1e-3
 
     # ----- Replay buffer -----
@@ -153,7 +153,7 @@ class Config:
     # ----- TD3-specific -----
     POLICY_NOISE = 0.2            # Std of target-policy smoothing noise
     NOISE_CLIP = 0.5             # Target smoothing noise clipped to [-NOISE_CLIP, NOISE_CLIP]
-    POLICY_DELAY = 2             # Actor & target nets updated every POLICY_DELAY critic steps
+    POLICY_DELAY = 4             # Actor & target nets updated every POLICY_DELAY critic steps
 
     # ----- Training -----
     MAX_EPISODES = 200
@@ -161,6 +161,12 @@ class Config:
     LEARNING_STARTS = 5_000       # Don't run gradient updates until the buffer holds this
                                   # many transitions (skips early low-quality data)
     EVAL_INTERVAL = 20            # Run a deterministic (noise=0) eval episode this often
+    EVAL_EPISODES = 5             # Average each evaluation over fixed-seed episodes
+    PRIMARY_METRIC = "avg_consumption"
+    EARLY_STOPPING = True
+    EARLY_STOPPING_PATIENCE = 4   # stop after this many non-improving evals
+    EARLY_STOPPING_MIN_STAGE = 3  # only start early-stop checks from stage 3 onward
+    EARLY_STOPPING_MIN_DELTA = 0.25
 
     # ----- Logging / checkpoints -----
     LOG_DIR = "runs/homeostatic_ddpg"
