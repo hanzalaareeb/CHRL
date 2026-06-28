@@ -1,0 +1,239 @@
+uv run python main.py 
+Agent: TD3Agent | Device: mps
+Episode    1 | Reward:     3.18 | Steps:  110 | Consumed:    0 | Final Drive: 1.8377 | Avg Q:     nan                               
+Episode    2 | Reward:     4.02 | Steps:  129 | Consumed:    0 | Final Drive: 1.7592 | Avg Q:     nan                               
+Episode    3 | Reward:     5.59 | Steps:  171 | Consumed:    0 | Final Drive: 1.8382 | Avg Q:     nan                               
+Episode    4 | Reward:     3.22 | Steps:  109 | Consumed:    0 | Final Drive: 1.7574 | Avg Q:     nan                               
+Episode    5 | Reward:     5.51 | Steps:  171 | Consumed:    0 | Final Drive: 1.7649 | Avg Q:     nan                               
+Episode    6 | Reward:     3.70 | Steps:  118 | Consumed:    0 | Final Drive: 1.5525 | Avg Q:     nan                               
+Episode    7 | Reward:     4.86 | Steps:  148 | Consumed:    0 | Final Drive: 1.6048 | Avg Q:     nan                               
+Episode    8 | Reward:     3.94 | Steps:  109 | Consumed:    0 | Final Drive: 1.4019 | Avg Q:     nan                               
+Episode    9 | Reward:     4.97 | Steps:  130 | Consumed:    0 | Final Drive: 1.5857 | Avg Q:     nan                               
+Episode   10 | Reward:     7.32 | Steps:  187 | Consumed:    0 | Final Drive: 1.9268 | Avg Q:     nan                               
+Episode   11 | Reward:     5.82 | Steps:  150 | Consumed:    0 | Final Drive: 1.6583 | Avg Q:     nan                               
+Episode   12 | Reward:     6.16 | Steps:  163 | Consumed:    0 | Final Drive: 1.9553 | Avg Q:     nan                               
+Episode   13 | Reward:     4.01 | Steps:  109 | Consumed:    0 | Final Drive: 1.6276 | Avg Q:     nan                               
+Episode   14 | Reward:     5.20 | Steps:  133 | Consumed:    0 | Final Drive: 1.4800 | Avg Q:     nan                               
+Episode   15 | Reward:     6.29 | Steps:  162 | Consumed:    0 | Final Drive: 1.7532 | Avg Q:     nan                               
+Episode   16 | Reward:     3.84 | Steps:  110 | Consumed:    0 | Final Drive: 1.9828 | Avg Q:     nan                               
+Episode   17 | Reward:     6.60 | Steps:  172 | Consumed:    0 | Final Drive: 1.9336 | Avg Q:     nan                               
+Episode   18 | Reward:     5.36 | Steps:  143 | Consumed:    0 | Final Drive: 1.8176 | Avg Q:     nan                               
+Episode   19 | Reward:     5.49 | Steps:  142 | Consumed:    0 | Final Drive: 1.6152 | Avg Q:     nan                               
+  [eval @ ep 20] reward=5.16  steps=135  final_drive=1.651  survived=no                                                             
+Episode   20 | Reward:     3.95 | Steps:  110 | Consumed:    0 | Final Drive: 1.7837 | Avg Q:     nan                               
+Episode   21 | Reward:     4.26 | Steps:  112 | Consumed:    0 | Final Drive: 1.4752 | Avg Q:     nan                               
+Episode   22 | Reward:     6.01 | Steps:  154 | Consumed:    0 | Final Drive: 1.6456 | Avg Q:     nan                               
+Episode   23 | Reward:     4.05 | Steps:  114 | Consumed:    0 | Final Drive: 1.9020 | Avg Q:     nan                               
+Episode   24 | Reward:     6.58 | Steps:  168 | Consumed:    0 | Final Drive: 1.7509 | Avg Q:     nan                               
+Episode   25 | Reward:     4.23 | Steps:  112 | Consumed:    0 | Final Drive: 1.5051 | Avg Q:     nan                               
+Episode   26 | Reward:     5.19 | Steps:  136 | Consumed:    0 | Final Drive: 1.6448 | Avg Q:     nan                               
+Episode   27 | Reward:     4.64 | Steps:  124 | Consumed:    0 | Final Drive: 1.6541 | Avg Q:     nan                               
+Episode   28 | Reward:     5.25 | Steps:  138 | Consumed:    0 | Final Drive: 1.6759 | Avg Q:     nan                               
+Episode   29 | Reward:     5.47 | Steps:  140 | Consumed:    0 | Final Drive: 1.5312 | Avg Q:     nan                               
+Episode   30 | Reward:     4.86 | Steps:  127 | Consumed:    0 | Final Drive: 1.5528 | Avg Q:     nan                               
+Episode   31 | Reward:     5.06 | Steps:  136 | Consumed:    0 | Final Drive: 1.8140 | Avg Q:     nan                               
+Episode   32 | Reward:     5.43 | Steps:  140 | Consumed:    0 | Final Drive: 1.5789 | Avg Q:     nan                               
+Episode   33 | Reward:     4.85 | Steps:  132 | Consumed:    0 | Final Drive: 1.8518 | Avg Q:     nan                               
+Episode   34 | Reward:     5.11 | Steps:  139 | Consumed:    0 | Final Drive: 1.9189 | Avg Q:     nan                               
+Episode   35 | Reward:     4.66 | Steps:  120 | Consumed:    0 | Final Drive: 1.4233 | Avg Q:     nan                               
+Episode   36 | Reward:     4.97 | Steps:  129 | Consumed:    0 | Final Drive: 1.5233 | Avg Q:     nan                               
+Episode   37 | Reward:     4.02 | Steps:  104 | Consumed:    0 | Final Drive: 1.3444 | Avg Q:   0.130                               
+Episode   38 | Reward:     4.32 | Steps:  122 | Consumed:    0 | Final Drive: 1.9737 | Avg Q:   0.079                               
+Episode   39 | Reward:     6.52 | Steps:  172 | Consumed:    0 | Final Drive: 1.9912 | Avg Q:   0.097                               
+  [eval @ ep 40] reward=5.53  steps=144  final_drive=1.698  survived=no                                                             
+Episode   40 | Reward:     5.92 | Steps:  150 | Consumed:    0 | Final Drive: 1.5700 | Avg Q:   0.113                               
+Episode   41 | Reward:     3.75 | Steps:  102 | Consumed:    0 | Final Drive: 1.5835 | Avg Q:   0.125                               
+Episode   42 | Reward:     3.99 | Steps:  106 | Consumed:    0 | Final Drive: 1.4956 | Avg Q:   0.135                               
+Episode   43 | Reward:     6.28 | Steps:  165 | Consumed:    0 | Final Drive: 1.8584 | Avg Q:   0.150                               
+Episode   44 | Reward:     3.98 | Steps:  107 | Consumed:    0 | Final Drive: 1.5345 | Avg Q:   0.164                               
+Episode   45 | Reward:     5.06 | Steps:  133 | Consumed:    0 | Final Drive: 1.6108 | Avg Q:   0.176                               
+Episode   46 | Reward:     5.12 | Steps:  137 | Consumed:    0 | Final Drive: 1.7856 | Avg Q:   0.189                               
+Episode   47 | Reward:     7.05 | Steps:  181 | Consumed:    0 | Final Drive: 1.9313 | Avg Q:   0.206                               
+Episode   48 | Reward:     4.08 | Steps:  112 | Consumed:    0 | Final Drive: 1.7328 | Avg Q:   0.219                               
+Episode   49 | Reward:     3.73 | Steps:  101 | Consumed:    0 | Final Drive: 1.5500 | Avg Q:   0.229                               
+Episode   50 | Reward:     5.19 | Steps:  135 | Consumed:    0 | Final Drive: 1.5840 | Avg Q:   0.240                               
+Episode   51 | Reward:     4.37 | Steps:  115 | Consumed:    0 | Final Drive: 1.5195 | Avg Q:   0.252                               
+Episode   52 | Reward:     6.27 | Steps:  163 | Consumed:    0 | Final Drive: 1.8507 | Avg Q:   0.264                               
+Episode   53 | Reward:     5.00 | Steps:  137 | Consumed:    0 | Final Drive: 1.9746 | Avg Q:   0.278                               
+Episode   54 | Reward:     4.25 | Steps:  119 | Consumed:    0 | Final Drive: 1.9446 | Avg Q:   0.289                               
+Episode   55 | Reward:     4.74 | Steps:  127 | Consumed:    0 | Final Drive: 1.7292 | Avg Q:   0.298                               
+Episode   56 | Reward:     3.90 | Steps:  101 | Consumed:    0 | Final Drive: 1.3375 | Avg Q:   0.308                               
+Episode   57 | Reward:     3.59 | Steps:  101 | Consumed:    0 | Final Drive: 1.7994 | Avg Q:   0.315                               
+Episode   58 | Reward:     6.43 | Steps:  168 | Consumed:    0 | Final Drive: 1.9047 | Avg Q:   0.326                               
+Episode   59 | Reward:     3.71 | Steps:  101 | Consumed:    0 | Final Drive: 1.5796 | Avg Q:   0.337                               
+  [eval @ ep 60] reward=4.58  steps=117  final_drive=1.374  survived=no                                                             
+Episode   60 | Reward:     5.03 | Steps:  136 | Consumed:    0 | Final Drive: 1.8503 | Avg Q:   0.346                               
+Episode   61 | Reward:     5.31 | Steps:  139 | Consumed:    0 | Final Drive: 1.6573 | Avg Q:   0.356                               
+Episode   62 | Reward:     5.18 | Steps:  137 | Consumed:    0 | Final Drive: 1.7149 | Avg Q:   0.367                               
+Episode   63 | Reward:     4.47 | Steps:  122 | Consumed:    0 | Final Drive: 1.7496 | Avg Q:   0.376                               
+Episode   64 | Reward:     4.04 | Steps:  113 | Consumed:    0 | Final Drive: 1.8488 | Avg Q:   0.384                               
+Episode   65 | Reward:     5.01 | Steps:  129 | Consumed:    0 | Final Drive: 1.4364 | Avg Q:   0.394                               
+Episode   66 | Reward:     4.74 | Steps:  128 | Consumed:    0 | Final Drive: 1.7582 | Avg Q:   0.404                               
+Episode   67 | Reward:     4.12 | Steps:  109 | Consumed:    0 | Final Drive: 1.4884 | Avg Q:   0.413                               
+Episode   68 | Reward:     7.72 | Steps:  197 | Consumed:    0 | Final Drive: 1.9857 | Avg Q:   0.424                               
+Episode   69 | Reward:     5.10 | Steps:  134 | Consumed:    0 | Final Drive: 1.6244 | Avg Q:   0.436                               
+Episode   70 | Reward:     5.04 | Steps:  135 | Consumed:    0 | Final Drive: 1.7587 | Avg Q:   0.447                               
+Episode   71 | Reward:     4.70 | Steps:  122 | Consumed:    0 | Final Drive: 1.4895 | Avg Q:   0.456                               
+Episode   72 | Reward:     4.23 | Steps:  118 | Consumed:    0 | Final Drive: 1.8731 | Avg Q:   0.463                               
+Episode   73 | Reward:     4.30 | Steps:  121 | Consumed:    0 | Final Drive: 1.9053 | Avg Q:   0.471                               
+Episode   74 | Reward:     4.23 | Steps:  109 | Consumed:    0 | Final Drive: 1.3382 | Avg Q:   0.479                               
+Episode   75 | Reward:     4.42 | Steps:  123 | Consumed:    0 | Final Drive: 1.8873 | Avg Q:   0.488                               
+Episode   76 | Reward:     5.69 | Steps:  151 | Consumed:    0 | Final Drive: 1.8525 | Avg Q:   0.496                               
+Episode   77 | Reward:     4.01 | Steps:  106 | Consumed:    0 | Final Drive: 1.3862 | Avg Q:   0.506                               
+Episode   78 | Reward:     3.98 | Steps:  107 | Consumed:    0 | Final Drive: 1.5466 | Avg Q:   0.514                               
+Episode   79 | Reward:     6.08 | Steps:  165 | Consumed:    0 | Final Drive: 1.9119 | Avg Q:   0.523                               
+  [eval @ ep 80] reward=5.31  steps=142  final_drive=1.814  survived=no                                                             
+Episode   80 | Reward:     4.10 | Steps:  118 | Consumed:    0 | Final Drive: 1.8121 | Avg Q:   0.533                               
+Episode   81 | Reward:     5.33 | Steps:  143 | Consumed:    0 | Final Drive: 1.5742 | Avg Q:   0.542                               
+Episode   82 | Reward:     4.17 | Steps:  118 | Consumed:    0 | Final Drive: 1.3996 | Avg Q:   0.548                               
+Episode   83 | Reward:     6.01 | Steps:  161 | Consumed:    0 | Final Drive: 1.8594 | Avg Q:   0.558                               
+Episode   84 | Reward:     5.84 | Steps:  164 | Consumed:    0 | Final Drive: 1.9357 | Avg Q:   0.571                               
+Episode   85 | Reward:     3.94 | Steps:  111 | Consumed:    0 | Final Drive: 1.7463 | Avg Q:   0.578                               
+Episode   86 | Reward:     4.88 | Steps:  141 | Consumed:    0 | Final Drive: 1.8325 | Avg Q:   0.584                               
+Episode   87 | Reward:     4.98 | Steps:  129 | Consumed:   20 | Final Drive: 1.0442 | Avg Q:   0.595                               
+Episode   88 | Reward:     5.39 | Steps:  138 | Consumed:   19 | Final Drive: 1.0795 | Avg Q:   0.604                               
+Episode   89 | Reward:     7.07 | Steps:  183 | Consumed:   16 | Final Drive: 1.0187 | Avg Q:   0.615                               
+Episode   90 | Reward:     5.59 | Steps:  148 | Consumed:    0 | Final Drive: 1.8267 | Avg Q:   0.626                               
+Episode   91 | Reward:     4.57 | Steps:  133 | Consumed:   17 | Final Drive: 1.1005 | Avg Q:   0.636                               
+Episode   92 | Reward:     6.25 | Steps:  194 | Consumed:    0 | Final Drive: 1.9586 | Avg Q:   0.644                               
+Episode   93 | Reward:     5.57 | Steps:  148 | Consumed:    0 | Final Drive: 1.8351 | Avg Q:   0.651                               
+Episode   94 | Reward:     5.31 | Steps:  139 | Consumed:    0 | Final Drive: 1.6725 | Avg Q:   0.659                               
+Episode   95 | Reward:     4.75 | Steps:  130 | Consumed:    0 | Final Drive: 1.8724 | Avg Q:   0.669                               
+Episode   96 | Reward:     4.59 | Steps:  150 | Consumed:    0 | Final Drive: 1.6388 | Avg Q:   0.676                               
+Episode   97 | Reward:     3.74 | Steps:  103 | Consumed:    0 | Final Drive: 1.6555 | Avg Q:   0.684                               
+Episode   98 | Reward:     4.16 | Steps:  114 | Consumed:    0 | Final Drive: 1.7350 | Avg Q:   0.687                               
+Episode   99 | Reward:     3.76 | Steps:  104 | Consumed:    0 | Final Drive: 1.6767 | Avg Q:   0.697                               
+  [eval @ ep 100] reward=6.28  steps=149  final_drive=1.008  survived=no                                                            
+Episode  100 | Reward:     4.06 | Steps:  107 | Consumed:    0 | Final Drive: 1.3796 | Avg Q:   0.698                               
+Episode  101 | Reward:     3.71 | Steps:  104 | Consumed:    0 | Final Drive: 1.6767 | Avg Q:   0.705                               
+Episode  102 | Reward:     3.94 | Steps:  103 | Consumed:    0 | Final Drive: 1.3414 | Avg Q:   0.713                               
+Episode  103 | Reward:     5.66 | Steps:  149 | Consumed:    0 | Final Drive: 1.7979 | Avg Q:   0.716                               
+Episode  104 | Reward:     3.58 | Steps:  102 | Consumed:    0 | Final Drive: 1.8261 | Avg Q:   0.722                               
+Episode  105 | Reward:     5.94 | Steps:  157 | Consumed:    0 | Final Drive: 1.8503 | Avg Q:   0.729                               
+Episode  106 | Reward:     4.68 | Steps:  127 | Consumed:    0 | Final Drive: 1.7250 | Avg Q:   0.737                               
+Episode  107 | Reward:     3.84 | Steps:  103 | Consumed:    0 | Final Drive: 1.4721 | Avg Q:   0.742                               
+Episode  108 | Reward:     3.85 | Steps:  101 | Consumed:    0 | Final Drive: 1.3544 | Avg Q:   0.742                               
+Episode  109 | Reward:     5.37 | Steps:  138 | Consumed:    0 | Final Drive: 1.5244 | Avg Q:   0.750                               
+Episode  110 | Reward:     4.17 | Steps:  117 | Consumed:    0 | Final Drive: 1.8885 | Avg Q:   0.754                               
+Episode  111 | Reward:     4.48 | Steps:  120 | Consumed:    0 | Final Drive: 1.6210 | Avg Q:   0.763                               
+Episode  112 | Reward:     5.41 | Steps:  141 | Consumed:    0 | Final Drive: 1.6284 | Avg Q:   0.767                               
+Episode  113 | Reward:     4.52 | Steps:  121 | Consumed:    0 | Final Drive: 1.6412 | Avg Q:   0.772                               
+Episode  114 | Reward:     5.78 | Steps:  149 | Consumed:    0 | Final Drive: 1.6495 | Avg Q:   0.777                               
+Episode  115 | Reward:     3.79 | Steps:  102 | Consumed:    0 | Final Drive: 1.4960 | Avg Q:   0.786                               
+Episode  116 | Reward:     6.37 | Steps:  164 | Consumed:    0 | Final Drive: 1.7487 | Avg Q:   0.793                               
+Episode  117 | Reward:     3.72 | Steps:  108 | Consumed:    0 | Final Drive: 1.9728 | Avg Q:   0.795                               
+Episode  118 | Reward:     4.77 | Steps:  128 | Consumed:    0 | Final Drive: 1.6957 | Avg Q:   0.800                               
+Episode  119 | Reward:     7.05 | Steps:  180 | Consumed:    0 | Final Drive: 1.8600 | Avg Q:   0.810                               
+  [eval @ ep 120] reward=4.54  steps=118  final_drive=1.454  survived=no                                                            
+Episode  120 | Reward:     5.29 | Steps:  140 | Consumed:    0 | Final Drive: 1.7564 | Avg Q:   0.817                               
+Episode  121 | Reward:     5.97 | Steps:  159 | Consumed:    0 | Final Drive: 1.9360 | Avg Q:   0.822                               
+Episode  122 | Reward:     4.51 | Steps:  121 | Consumed:    0 | Final Drive: 1.6449 | Avg Q:   0.825                               
+Episode  123 | Reward:     3.89 | Steps:  101 | Consumed:    0 | Final Drive: 1.3194 | Avg Q:   0.835                               
+Episode  124 | Reward:     3.84 | Steps:  107 | Consumed:    0 | Final Drive: 1.7275 | Avg Q:   0.838                               
+Episode  125 | Reward:     4.94 | Steps:  130 | Consumed:    0 | Final Drive: 1.6461 | Avg Q:   0.846                               
+Episode  126 | Reward:     4.98 | Steps:  133 | Consumed:    0 | Final Drive: 1.7070 | Avg Q:   0.850                               
+Episode  127 | Reward:     4.21 | Steps:  119 | Consumed:    0 | Final Drive: 1.9491 | Avg Q:   0.853                               
+Episode  128 | Reward:     4.84 | Steps:  128 | Consumed:    0 | Final Drive: 1.6028 | Avg Q:   0.862                               
+Episode  129 | Reward:     4.29 | Steps:  120 | Consumed:    0 | Final Drive: 1.9325 | Avg Q:   0.866                               
+Episode  130 | Reward:     5.22 | Steps:  135 | Consumed:    0 | Final Drive: 1.5525 | Avg Q:   0.873                               
+Episode  131 | Reward:     5.70 | Steps:  150 | Consumed:    0 | Final Drive: 1.7745 | Avg Q:   0.881                               
+Episode  132 | Reward:     4.99 | Steps:  131 | Consumed:    0 | Final Drive: 1.5806 | Avg Q:   0.887                               
+Episode  133 | Reward:     6.26 | Steps:  161 | Consumed:    0 | Final Drive: 1.6533 | Avg Q:   0.891                               
+Episode  134 | Reward:     4.33 | Steps:  122 | Consumed:    0 | Final Drive: 1.8462 | Avg Q:   0.898                               
+Episode  135 | Reward:     7.00 | Steps:  182 | Consumed:    0 | Final Drive: 1.9829 | Avg Q:   0.907                               
+Episode  136 | Reward:     5.84 | Steps:  156 | Consumed:    0 | Final Drive: 1.9093 | Avg Q:   0.913                               
+Episode  137 | Reward:     6.05 | Steps:  160 | Consumed:    0 | Final Drive: 1.9321 | Avg Q:   0.918                               
+Episode  138 | Reward:     4.96 | Steps:  129 | Consumed:    0 | Final Drive: 1.5379 | Avg Q:   0.922                               
+Episode  139 | Reward:     6.59 | Steps:  171 | Consumed:    0 | Final Drive: 1.8300 | Avg Q:   0.930                               
+  [eval @ ep 140] reward=5.86  steps=151  final_drive=1.646  survived=no                                                            
+Episode  140 | Reward:     3.64 | Steps:  101 | Consumed:    0 | Final Drive: 1.6727 | Avg Q:   0.938                               
+Episode  141 | Reward:     5.68 | Steps:  148 | Consumed:    0 | Final Drive: 1.7215 | Avg Q:   0.943                               
+Episode  142 | Reward:     4.33 | Steps:  113 | Consumed:    0 | Final Drive: 1.4538 | Avg Q:   0.945                               
+Episode  143 | Reward:     5.61 | Steps:  145 | Consumed:    0 | Final Drive: 1.6507 | Avg Q:   0.949                               
+Episode  144 | Reward:     6.24 | Steps:  165 | Consumed:    0 | Final Drive: 1.9851 | Avg Q:   0.963                               
+Episode  145 | Reward:     4.73 | Steps:  123 | Consumed:    0 | Final Drive: 1.4806 | Avg Q:   0.962                               
+Episode  146 | Reward:     6.51 | Steps:  166 | Consumed:    0 | Final Drive: 1.7391 | Avg Q:   0.970                               
+Episode  147 | Reward:     4.71 | Steps:  130 | Consumed:    0 | Final Drive: 1.5304 | Avg Q:   0.977                               
+Episode  148 | Reward:     5.74 | Steps:  150 | Consumed:    0 | Final Drive: 1.7526 | Avg Q:   0.983                               
+Episode  149 | Reward:     5.45 | Steps:  141 | Consumed:    0 | Final Drive: 1.6185 | Avg Q:   0.993                               
+Episode  150 | Reward:     4.14 | Steps:  116 | Consumed:    0 | Final Drive: 1.9168 | Avg Q:   0.998                               
+Episode  151 | Reward:     3.76 | Steps:  107 | Consumed:    0 | Final Drive: 1.9250 | Avg Q:   1.001                               
+Episode  152 | Reward:     4.19 | Steps:  108 | Consumed:    0 | Final Drive: 1.3463 | Avg Q:   0.999                               
+Episode  153 | Reward:     4.52 | Steps:  122 | Consumed:    0 | Final Drive: 1.7231 | Avg Q:   1.005                               
+Episode  154 | Reward:     5.34 | Steps:  142 | Consumed:    0 | Final Drive: 1.8065 | Avg Q:   1.018                               
+Episode  155 | Reward:     4.66 | Steps:  129 | Consumed:    0 | Final Drive: 1.9680 | Avg Q:   1.018                               
+Episode  156 | Reward:     4.85 | Steps:  127 | Consumed:    0 | Final Drive: 1.5467 | Avg Q:   1.027                               
+Episode  157 | Reward:     4.76 | Steps:  127 | Consumed:    0 | Final Drive: 1.7033 | Avg Q:   1.028                               
+Episode  158 | Reward:     4.58 | Steps:  125 | Consumed:    0 | Final Drive: 1.8068 | Avg Q:   1.030                               
+Episode  159 | Reward:     4.50 | Steps:  115 | Consumed:    0 | Final Drive: 1.3477 | Avg Q:   1.035                               
+  [eval @ ep 160] reward=3.81  steps=106  final_drive=1.769  survived=no                                                            
+Episode  160 | Reward:     5.15 | Steps:  132 | Consumed:    0 | Final Drive: 1.4966 | Avg Q:   1.047                               
+Episode  161 | Reward:     3.95 | Steps:  109 | Consumed:    0 | Final Drive: 1.7476 | Avg Q:   1.048                               
+Episode  162 | Reward:     3.88 | Steps:  103 | Consumed:    0 | Final Drive: 1.3844 | Avg Q:   1.045                               
+Episode  163 | Reward:     4.00 | Steps:  111 | Consumed:    0 | Final Drive: 1.7701 | Avg Q:   1.054                               
+Episode  164 | Reward:     4.18 | Steps:  117 | Consumed:    0 | Final Drive: 1.8740 | Avg Q:   1.058                               
+Episode  165 | Reward:     5.95 | Steps:  154 | Consumed:    0 | Final Drive: 1.7246 | Avg Q:   1.060                               
+Episode  166 | Reward:     4.80 | Steps:  131 | Consumed:    0 | Final Drive: 1.8728 | Avg Q:   1.066                               
+Episode  167 | Reward:     4.27 | Steps:  115 | Consumed:    0 | Final Drive: 1.3829 | Avg Q:   1.070                               
+Episode  168 | Reward:     3.78 | Steps:  109 | Consumed:    0 | Final Drive: 1.9940 | Avg Q:   1.072                               
+Episode  169 | Reward:     3.94 | Steps:  112 | Consumed:    0 | Final Drive: 1.6333 | Avg Q:   1.077                               
+Episode  170 | Reward:     4.86 | Steps:  129 | Consumed:    0 | Final Drive: 1.6674 | Avg Q:   1.082                               
+Episode  171 | Reward:     4.52 | Steps:  117 | Consumed:    0 | Final Drive: 1.4407 | Avg Q:   1.083                               
+Episode  172 | Reward:     6.14 | Steps:  161 | Consumed:    0 | Final Drive: 1.8853 | Avg Q:   1.093                               
+Episode  173 | Reward:     4.52 | Steps:  115 | Consumed:    0 | Final Drive: 1.3458 | Avg Q:   1.092                               
+Episode  174 | Reward:     4.54 | Steps:  120 | Consumed:    0 | Final Drive: 1.5823 | Avg Q:   1.099                               
+Episode  175 | Reward:     6.61 | Steps:  171 | Consumed:    0 | Final Drive: 1.9061 | Avg Q:   1.105                               
+Episode  176 | Reward:     4.44 | Steps:  113 | Consumed:    0 | Final Drive: 1.3366 | Avg Q:   1.108                               
+Episode  177 | Reward:     5.98 | Steps:  158 | Consumed:    0 | Final Drive: 1.8834 | Avg Q:   1.112                               
+Episode  178 | Reward:     4.73 | Steps:  131 | Consumed:    0 | Final Drive: 1.9439 | Avg Q:   1.123                               
+Episode  179 | Reward:     4.30 | Steps:  119 | Consumed:    0 | Final Drive: 1.8485 | Avg Q:   1.120                               
+  [eval @ ep 180] reward=3.75  steps=101  final_drive=1.520  survived=no                                                            
+Episode  180 | Reward:     4.81 | Steps:  123 | Consumed:    0 | Final Drive: 1.4104 | Avg Q:   1.124                               
+Episode  181 | Reward:     4.48 | Steps:  120 | Consumed:    0 | Final Drive: 1.6562 | Avg Q:   1.128                               
+Episode  182 | Reward:     6.41 | Steps:  165 | Consumed:    0 | Final Drive: 1.7709 | Avg Q:   1.138                               
+Episode  183 | Reward:     4.38 | Steps:  120 | Consumed:    0 | Final Drive: 1.7667 | Avg Q:   1.126                               
+Episode  184 | Reward:     4.42 | Steps:  124 | Consumed:    0 | Final Drive: 1.9665 | Avg Q:   1.136                               
+Episode  185 | Reward:     4.58 | Steps:  118 | Consumed:    0 | Final Drive: 1.4378 | Avg Q:   1.144                               
+Episode  186 | Reward:     3.93 | Steps:  102 | Consumed:    0 | Final Drive: 1.3370 | Avg Q:   1.149                               
+Episode  187 | Reward:     3.97 | Steps:  107 | Consumed:    0 | Final Drive: 1.5934 | Avg Q:   1.145                               
+Episode  188 | Reward:     4.10 | Steps:  109 | Consumed:    0 | Final Drive: 1.5125 | Avg Q:   1.140                               
+Episode  189 | Reward:     6.24 | Steps:  161 | Consumed:    0 | Final Drive: 1.7646 | Avg Q:   1.154                               
+Episode  190 | Reward:     3.84 | Steps:  104 | Consumed:    0 | Final Drive: 1.5749 | Avg Q:   1.159                               
+Episode  191 | Reward:     4.25 | Steps:  117 | Consumed:    0 | Final Drive: 1.7722 | Avg Q:   1.163                               
+Episode  192 | Reward:     4.86 | Steps:  128 | Consumed:    0 | Final Drive: 1.5872 | Avg Q:   1.166                               
+Episode  193 | Reward:     3.85 | Steps:  111 | Consumed:    0 | Final Drive: 1.9954 | Avg Q:   1.164                               
+Episode  194 | Reward:     4.29 | Steps:  121 | Consumed:    0 | Final Drive: 1.9848 | Avg Q:   1.173                               
+Episode  195 | Reward:     5.54 | Steps:  143 | Consumed:    0 | Final Drive: 1.6164 | Avg Q:   1.172                               
+Episode  196 | Reward:     4.11 | Steps:  107 | Consumed:    0 | Final Drive: 1.3927 | Avg Q:   1.174                               
+Episode  197 | Reward:     5.90 | Steps:  151 | Consumed:    0 | Final Drive: 1.6164 | Avg Q:   1.175                               
+Episode  198 | Reward:     4.12 | Steps:  109 | Consumed:    0 | Final Drive: 1.4730 | Avg Q:   1.177                               
+Episode  199 | Reward:     6.81 | Steps:  178 | Consumed:    0 | Final Drive: 1.9885 | Avg Q:   1.184                               
+  [eval @ ep 200] reward=4.12  steps=112  final_drive=1.646  survived=no                                                            
+Episode  200 | Reward:     3.99 | Steps:  110 | Consumed:    0 | Final Drive: 1.7221 | Avg Q:   1.182                               
+Episodes: 100%|███████████████████████████████████████████████████████████████████████████████████| 200/200 [01:47<00:00,  1.86it/s]
+Training finished! Models saved to 'homeostatic_actor.pth' and 'homeostatic_critic.pth'.
+
+================ DIAGNOSTICS ================
+
+[Reward scale & return sign]
+  per-step reward : mean=0.038  std=0.006  min=-0.019  max=0.049
+  fraction of steps with negative reward    :   0.7%
+  episode return  : mean=5.65  min=4.40  max=7.42
+  fraction of episodes with negative return :   0.0%
+  telescoped return check scale*[(D_init-D_final) - effort + bonus*alive] : mean=5.65  (matches episode return)
+  -> VERDICT: returns are no longer uniformly negative -- surviving, homeostatic trajectories now earn positive return (reward scale fixed).
+
+[Critic value bias  (Q vs Monte-Carlo return)]
+  mean Q          : 1.231
+  mean MC return  : 1.753
+  mean bias (Q-G) : -0.522   normalized (bias/std_G): -0.56
+  corr(Q, G)      : +0.95
+  -> VERDICT: critic UNDERESTIMATES returns (Q systematically below realized returns). Common with a slow/cold critic; ensure LEARNING_STARTS isn't starving it and consider a higher CRITIC_LR or more updates per step.
+
+[diagnostics] saved figure: plots/diagnostics.png
+=============================================
+
+[visualize] trained: died after 143 steps, 0 consumption steps, return=5.51
+[visualize] saved: plots/trained_trajectory.png
+[visualize] saved: plots/trained_internal_states.png
+[visualize] saved: plots/trained_resource_stats.png
