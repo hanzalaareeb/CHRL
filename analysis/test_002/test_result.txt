@@ -1,0 +1,4 @@
+[run] test_002
+[run] artifacts: analysis/test_002
+Agent: TD3Agent | Device: cpu
+[load] source training run: analysis/training_003

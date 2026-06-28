@@ -1,0 +1,716 @@
+[Action/Average]
+step=0 value=0.083426
+step=1 value=0.084663
+step=2 value=0.080973
+step=3 value=0.074496
+step=4 value=0.076270
+step=5 value=0.067126
+step=6 value=0.072527
+
+[Distance/Nearest_Food]
+step=0 value=1.426963
+step=1 value=1.389377
+step=2 value=1.831527
+step=3 value=1.848568
+step=4 value=3.413939
+step=5 value=3.419598
+step=6 value=3.523894
+
+[Distance/Nearest_Water]
+step=0 value=1.574760
+step=1 value=1.610722
+step=2 value=2.171342
+step=3 value=2.151845
+step=4 value=3.960489
+step=5 value=3.978342
+step=6 value=3.870327
+
+[Episode/AvgConsumptionPerVisit]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+
+[Episode/ConsumedAny]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+
+[Episode/ConsumptionEvents]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+
+[Episode/DistanceTravelled]
+step=0 value=0.520718
+step=1 value=0.534895
+step=2 value=0.514890
+step=3 value=0.478210
+step=4 value=0.482355
+step=5 value=0.413008
+step=6 value=0.459843
+
+[Episode/FirstConsumptionStep]
+step=0 value=40.000000
+step=1 value=40.000000
+step=2 value=40.000000
+step=3 value=40.000000
+step=4 value=40.000000
+step=5 value=40.000000
+step=6 value=40.000000
+
+[Episode/FirstFoodStep]
+step=0 value=40.000000
+step=1 value=40.000000
+step=2 value=40.000000
+step=3 value=40.000000
+step=4 value=40.000000
+step=5 value=40.000000
+step=6 value=40.000000
+
+[Episode/FirstWaterStep]
+step=0 value=40.000000
+step=1 value=40.000000
+step=2 value=40.000000
+step=3 value=40.000000
+step=4 value=40.000000
+step=5 value=40.000000
+step=6 value=40.000000
+
+[Episode/FoodVisits]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+
+[Episode/Length]
+step=0 value=40.000000
+step=1 value=40.000000
+step=2 value=40.000000
+step=3 value=40.000000
+step=4 value=40.000000
+step=5 value=40.000000
+step=6 value=40.000000
+
+[Episode/Survived1000]
+step=0 value=1.000000
+step=1 value=1.000000
+step=2 value=1.000000
+step=3 value=1.000000
+step=4 value=1.000000
+step=5 value=1.000000
+step=6 value=1.000000
+
+[Episode/Survived500]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+
+[Episode/TimeInsideRadius]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+
+[Episode/UniqueResourcesVisited]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+
+[Episode/WaterVisits]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+
+[Eval/1-navigation/full_actor/AvgConsumption]
+step=1 value=0.000000
+
+[Eval/1-navigation/full_actor/FinalDrive]
+step=1 value=0.328921
+
+[Eval/1-navigation/full_actor/FirstConsumption]
+step=1 value=40.000000
+
+[Eval/1-navigation/full_actor/Length]
+step=1 value=40.000000
+
+[Eval/1-navigation/full_actor/MinimumDistance]
+step=1 value=3.188688
+
+[Eval/1-navigation/full_actor/NearestResource]
+step=1 value=3.188688
+
+[Eval/1-navigation/full_actor/ResourceEntered]
+step=1 value=0.000000
+
+[Eval/1-navigation/full_actor/Reward]
+step=1 value=-0.240995
+
+[Eval/1-navigation/full_actor/Survived]
+step=1 value=1.000000
+
+[Eval/1-navigation/full_actor_target/AvgConsumption]
+step=1 value=0.000000
+
+[Eval/1-navigation/full_actor_target/FinalDrive]
+step=1 value=0.328921
+
+[Eval/1-navigation/full_actor_target/FirstConsumption]
+step=1 value=40.000000
+
+[Eval/1-navigation/full_actor_target/Length]
+step=1 value=40.000000
+
+[Eval/1-navigation/full_actor_target/MinimumDistance]
+step=1 value=3.241257
+
+[Eval/1-navigation/full_actor_target/NearestResource]
+step=1 value=3.241257
+
+[Eval/1-navigation/full_actor_target/ResourceEntered]
+step=1 value=0.000000
+
+[Eval/1-navigation/full_actor_target/Reward]
+step=1 value=-0.240378
+
+[Eval/1-navigation/full_actor_target/Survived]
+step=1 value=1.000000
+
+[Eval/1-navigation/stage_actor/AvgConsumption]
+step=1 value=0.000000
+
+[Eval/1-navigation/stage_actor/FinalDrive]
+step=1 value=0.328921
+
+[Eval/1-navigation/stage_actor/FirstConsumption]
+step=1 value=40.000000
+
+[Eval/1-navigation/stage_actor/Length]
+step=1 value=40.000000
+
+[Eval/1-navigation/stage_actor/MinimumDistance]
+step=1 value=1.302916
+
+[Eval/1-navigation/stage_actor/NearestResource]
+step=1 value=1.302916
+
+[Eval/1-navigation/stage_actor/ResourceEntered]
+step=1 value=0.000000
+
+[Eval/1-navigation/stage_actor/Reward]
+step=1 value=0.089792
+
+[Eval/1-navigation/stage_actor/Survived]
+step=1 value=1.000000
+
+[Eval/1-navigation/stage_actor_target/AvgConsumption]
+step=1 value=0.000000
+
+[Eval/1-navigation/stage_actor_target/FinalDrive]
+step=1 value=0.328921
+
+[Eval/1-navigation/stage_actor_target/FirstConsumption]
+step=1 value=40.000000
+
+[Eval/1-navigation/stage_actor_target/Length]
+step=1 value=40.000000
+
+[Eval/1-navigation/stage_actor_target/MinimumDistance]
+step=1 value=1.343736
+
+[Eval/1-navigation/stage_actor_target/NearestResource]
+step=1 value=1.343736
+
+[Eval/1-navigation/stage_actor_target/ResourceEntered]
+step=1 value=0.000000
+
+[Eval/1-navigation/stage_actor_target/Reward]
+step=1 value=0.090236
+
+[Eval/1-navigation/stage_actor_target/Survived]
+step=1 value=1.000000
+
+[Eval/2-four-resources/full_actor/AvgConsumption]
+step=3 value=0.000000
+
+[Eval/2-four-resources/full_actor/FinalDrive]
+step=3 value=0.328921
+
+[Eval/2-four-resources/full_actor/FirstConsumption]
+step=3 value=40.000000
+
+[Eval/2-four-resources/full_actor/Length]
+step=3 value=40.000000
+
+[Eval/2-four-resources/full_actor/MinimumDistance]
+step=3 value=3.276554
+
+[Eval/2-four-resources/full_actor/NearestResource]
+step=3 value=3.276554
+
+[Eval/2-four-resources/full_actor/ResourceEntered]
+step=3 value=0.000000
+
+[Eval/2-four-resources/full_actor/Reward]
+step=3 value=-0.239478
+
+[Eval/2-four-resources/full_actor/Survived]
+step=3 value=1.000000
+
+[Eval/2-four-resources/full_actor_target/AvgConsumption]
+step=3 value=0.000000
+
+[Eval/2-four-resources/full_actor_target/FinalDrive]
+step=3 value=0.328921
+
+[Eval/2-four-resources/full_actor_target/FirstConsumption]
+step=3 value=40.000000
+
+[Eval/2-four-resources/full_actor_target/Length]
+step=3 value=40.000000
+
+[Eval/2-four-resources/full_actor_target/MinimumDistance]
+step=3 value=3.239966
+
+[Eval/2-four-resources/full_actor_target/NearestResource]
+step=3 value=3.239966
+
+[Eval/2-four-resources/full_actor_target/ResourceEntered]
+step=3 value=0.000000
+
+[Eval/2-four-resources/full_actor_target/Reward]
+step=3 value=-0.240354
+
+[Eval/2-four-resources/full_actor_target/Survived]
+step=3 value=1.000000
+
+[Eval/2-four-resources/stage_actor/AvgConsumption]
+step=3 value=0.000000
+
+[Eval/2-four-resources/stage_actor/FinalDrive]
+step=3 value=0.328921
+
+[Eval/2-four-resources/stage_actor/FirstConsumption]
+step=3 value=40.000000
+
+[Eval/2-four-resources/stage_actor/Length]
+step=3 value=40.000000
+
+[Eval/2-four-resources/stage_actor/MinimumDistance]
+step=3 value=1.781483
+
+[Eval/2-four-resources/stage_actor/NearestResource]
+step=3 value=1.781483
+
+[Eval/2-four-resources/stage_actor/ResourceEntered]
+step=3 value=0.000000
+
+[Eval/2-four-resources/stage_actor/Reward]
+step=3 value=-0.074649
+
+[Eval/2-four-resources/stage_actor/Survived]
+step=3 value=1.000000
+
+[Eval/2-four-resources/stage_actor_target/AvgConsumption]
+step=3 value=0.000000
+
+[Eval/2-four-resources/stage_actor_target/FinalDrive]
+step=3 value=0.328921
+
+[Eval/2-four-resources/stage_actor_target/FirstConsumption]
+step=3 value=40.000000
+
+[Eval/2-four-resources/stage_actor_target/Length]
+step=3 value=40.000000
+
+[Eval/2-four-resources/stage_actor_target/MinimumDistance]
+step=3 value=1.743237
+
+[Eval/2-four-resources/stage_actor_target/NearestResource]
+step=3 value=1.743237
+
+[Eval/2-four-resources/stage_actor_target/ResourceEntered]
+step=3 value=0.000000
+
+[Eval/2-four-resources/stage_actor_target/Reward]
+step=3 value=-0.075325
+
+[Eval/2-four-resources/stage_actor_target/Survived]
+step=3 value=1.000000
+
+[Eval/3-six-resources/full_actor/AvgConsumption]
+step=5 value=0.000000
+
+[Eval/3-six-resources/full_actor/FinalDrive]
+step=5 value=0.328921
+
+[Eval/3-six-resources/full_actor/FirstConsumption]
+step=5 value=40.000000
+
+[Eval/3-six-resources/full_actor/Length]
+step=5 value=40.000000
+
+[Eval/3-six-resources/full_actor/MinimumDistance]
+step=5 value=3.396452
+
+[Eval/3-six-resources/full_actor/NearestResource]
+step=5 value=3.396452
+
+[Eval/3-six-resources/full_actor/ResourceEntered]
+step=5 value=0.000000
+
+[Eval/3-six-resources/full_actor/Reward]
+step=5 value=-0.238015
+
+[Eval/3-six-resources/full_actor/Survived]
+step=5 value=1.000000
+
+[Eval/3-six-resources/full_actor_target/AvgConsumption]
+step=5 value=0.000000
+
+[Eval/3-six-resources/full_actor_target/FinalDrive]
+step=5 value=0.328921
+
+[Eval/3-six-resources/full_actor_target/FirstConsumption]
+step=5 value=40.000000
+
+[Eval/3-six-resources/full_actor_target/Length]
+step=5 value=40.000000
+
+[Eval/3-six-resources/full_actor_target/MinimumDistance]
+step=5 value=3.249942
+
+[Eval/3-six-resources/full_actor_target/NearestResource]
+step=5 value=3.249942
+
+[Eval/3-six-resources/full_actor_target/ResourceEntered]
+step=5 value=0.000000
+
+[Eval/3-six-resources/full_actor_target/Reward]
+step=5 value=-0.240153
+
+[Eval/3-six-resources/full_actor_target/Survived]
+step=5 value=1.000000
+
+[Eval/3-six-resources/stage_actor/AvgConsumption]
+step=5 value=0.000000
+
+[Eval/3-six-resources/stage_actor/FinalDrive]
+step=5 value=0.328921
+
+[Eval/3-six-resources/stage_actor/FirstConsumption]
+step=5 value=40.000000
+
+[Eval/3-six-resources/stage_actor/Length]
+step=5 value=40.000000
+
+[Eval/3-six-resources/stage_actor/MinimumDistance]
+step=5 value=3.396452
+
+[Eval/3-six-resources/stage_actor/NearestResource]
+step=5 value=3.396452
+
+[Eval/3-six-resources/stage_actor/ResourceEntered]
+step=5 value=0.000000
+
+[Eval/3-six-resources/stage_actor/Reward]
+step=5 value=-0.238015
+
+[Eval/3-six-resources/stage_actor/Survived]
+step=5 value=1.000000
+
+[Eval/3-six-resources/stage_actor_target/AvgConsumption]
+step=5 value=0.000000
+
+[Eval/3-six-resources/stage_actor_target/FinalDrive]
+step=5 value=0.328921
+
+[Eval/3-six-resources/stage_actor_target/FirstConsumption]
+step=5 value=40.000000
+
+[Eval/3-six-resources/stage_actor_target/Length]
+step=5 value=40.000000
+
+[Eval/3-six-resources/stage_actor_target/MinimumDistance]
+step=5 value=3.249942
+
+[Eval/3-six-resources/stage_actor_target/NearestResource]
+step=5 value=3.249942
+
+[Eval/3-six-resources/stage_actor_target/ResourceEntered]
+step=5 value=0.000000
+
+[Eval/3-six-resources/stage_actor_target/Reward]
+step=5 value=-0.240153
+
+[Eval/3-six-resources/stage_actor_target/Survived]
+step=5 value=1.000000
+
+[Exploration/Sigma]
+step=0 value=0.100000
+step=1 value=0.100000
+step=2 value=0.080000
+step=3 value=0.080000
+step=4 value=0.080000
+step=5 value=0.080000
+step=6 value=0.080000
+
+[Homeostasis/AverageFinalDrive]
+step=0 value=0.446793
+step=1 value=0.423310
+step=2 value=0.545753
+step=3 value=0.475094
+step=4 value=0.244605
+step=5 value=0.368194
+step=6 value=0.311030
+
+[Homeostasis/Best_Drive]
+step=0 value=0.171978
+step=1 value=0.151055
+step=2 value=0.220719
+step=3 value=0.149015
+step=4 value=0.047880
+step=5 value=0.200405
+step=6 value=0.030165
+
+[Homeostasis/Final_Drive]
+step=0 value=0.446793
+step=1 value=0.399827
+step=2 value=0.545753
+step=3 value=0.404434
+step=4 value=0.244605
+step=5 value=0.491782
+step=6 value=0.196702
+
+[InternalState/Food]
+step=0 value=0.792766
+step=1 value=0.518296
+step=2 value=0.491290
+step=3 value=0.819599
+step=4 value=0.749784
+step=5 value=0.781337
+step=6 value=0.826799
+
+[InternalState/Water]
+step=0 value=0.502580
+step=1 value=0.843827
+step=2 value=0.675288
+step=3 value=0.525482
+step=4 value=0.745792
+step=5 value=0.471543
+step=6 value=0.746184
+
+[Loss/Actor]
+step=0 value=-0.017371
+step=1 value=-0.019517
+step=2 value=-0.015548
+step=3 value=-0.014589
+step=4 value=-0.013658
+step=5 value=-0.013008
+step=6 value=-0.011680
+
+[Loss/Critic]
+step=0 value=0.000422
+step=1 value=0.000049
+step=2 value=0.000050
+step=3 value=0.000049
+step=4 value=0.000075
+step=5 value=0.000045
+step=6 value=0.000028
+
+[Q/Q1]
+step=0 value=0.019804
+step=1 value=0.019566
+step=2 value=0.015978
+step=3 value=0.013512
+step=4 value=0.012720
+step=5 value=0.011938
+step=6 value=0.011626
+
+[Q/Q1_minus_Q2]
+step=0 value=0.016950
+step=1 value=0.003123
+step=2 value=0.002456
+step=3 value=0.001858
+step=4 value=0.003695
+step=5 value=0.004208
+step=6 value=0.002889
+
+[Q/Q2]
+step=0 value=0.020346
+step=1 value=0.019109
+step=2 value=0.015941
+step=3 value=0.013528
+step=4 value=0.012997
+step=5 value=0.011974
+step=6 value=0.011362
+
+[Replay/AverageAge]
+step=0 value=20.500000
+step=1 value=40.500000
+step=2 value=60.500000
+step=3 value=80.500000
+step=4 value=100.500000
+step=5 value=120.500000
+step=6 value=140.500000
+
+[Replay/Size]
+step=0 value=40.000000
+step=1 value=80.000000
+step=2 value=120.000000
+step=3 value=160.000000
+step=4 value=200.000000
+step=5 value=240.000000
+step=6 value=280.000000
+
+[Replay/SuccessRatio]
+step=0 value=1.000000
+step=1 value=1.000000
+step=2 value=1.000000
+step=3 value=1.000000
+step=4 value=1.000000
+step=5 value=1.000000
+step=6 value=1.000000
+
+[Reward/Episode]
+step=0 value=0.009244
+step=1 value=0.046293
+step=2 value=-0.201023
+step=3 value=-0.112668
+step=4 value=-0.207170
+step=5 value=-0.302157
+step=6 value=-0.175538
+
+[Run/TotalSteps]
+step=6 value=280.000000
+
+[Stage/1-navigation/EpisodesCompleted]
+step=0 value=1.000000
+step=1 value=2.000000
+
+[Stage/1-navigation/SuccessRate]
+step=0 value=1.000000
+step=1 value=1.000000
+
+[Stage/2-four-resources/EpisodesCompleted]
+step=2 value=1.000000
+step=3 value=2.000000
+
+[Stage/2-four-resources/SuccessRate]
+step=2 value=1.000000
+step=3 value=1.000000
+
+[Stage/3-six-resources/EpisodesCompleted]
+step=4 value=1.000000
+step=5 value=2.000000
+step=6 value=3.000000
+
+[Stage/3-six-resources/SuccessRate]
+step=4 value=1.000000
+step=5 value=1.000000
+step=6 value=1.000000
+
+[Success/EpisodesSurviving1000]
+step=0 value=1.000000
+step=1 value=2.000000
+step=2 value=3.000000
+step=3 value=4.000000
+step=4 value=5.000000
+step=5 value=6.000000
+step=6 value=7.000000
+
+[Success/EpisodesSurviving500]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+
+[Success/EpisodesWithConsumption]
+step=0 value=0.000000
+step=1 value=0.000000
+step=2 value=0.000000
+step=3 value=0.000000
+step=4 value=0.000000
+step=5 value=0.000000
+step=6 value=0.000000
+
+[Success/LongestStreak]
+step=0 value=1.000000
+step=1 value=2.000000
+step=2 value=3.000000
+step=3 value=4.000000
+step=4 value=5.000000
+step=5 value=6.000000
+step=6 value=7.000000
+
+[Success/RateLast100]
+step=0 value=1.000000
+step=1 value=1.000000
+step=2 value=1.000000
+step=3 value=1.000000
+step=4 value=1.000000
+step=5 value=1.000000
+step=6 value=1.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor/AvgConsumption]
+step=3 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor/FinalDrive]
+step=3 value=0.328921
+
+[Transition/2-four-resources_to_3-six-resources/actor/MinimumDistance]
+step=3 value=3.276554
+
+[Transition/2-four-resources_to_3-six-resources/actor/NearestResource]
+step=3 value=3.276554
+
+[Transition/2-four-resources_to_3-six-resources/actor/Survived]
+step=3 value=1.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/AvgConsumption]
+step=3 value=0.000000
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/FinalDrive]
+step=3 value=0.328921
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/MinimumDistance]
+step=3 value=3.239966
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/NearestResource]
+step=3 value=3.239966
+
+[Transition/2-four-resources_to_3-six-resources/actor_target/Survived]
+step=3 value=1.000000
+

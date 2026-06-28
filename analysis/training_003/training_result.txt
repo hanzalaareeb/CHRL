@@ -1,0 +1,38 @@
+[run] training_003
+[run] artifacts: analysis/training_003
+Agent: TD3Agent | Device: cpu
+
+=== Curriculum stage '1-navigation': 2 resources, 2 episodes, regen_delay=0, survival_bonus=0.0100, noise_floor=0.100 ===
+Stage 1-navigation:   0%|          | 0/2 [00:00<?, ?it/s]                                                         [noise] episode=1 stage=1-navigation sigma=0.1000 floor=0.1000
+Stage 1-navigation:   0%|          | 0/2 [00:00<?, ?it/s]                                                         [noise] episode=2 stage=1-navigation sigma=0.1000 floor=0.1000
+Stage 1-navigation:   0%|          | 0/2 [00:00<?, ?it/s]                                                           [eval @ ep 2] stage(cons actor=0.00, target=0.00) | full(cons actor=0.00, target=0.00; nearest actor=3.19, target=3.24) | best=actor
+Stage 1-navigation:   0%|          | 0/2 [00:00<?, ?it/s]                                                         Episode    2 | Reward:     0.05 | Steps:   40 | Consumed:    0 | FirstConsume:   40 | Dist:   0.53 | Final Drive: 0.3998 | Avg Q:   0.020
+Stage 1-navigation:   0%|          | 0/2 [00:00<?, ?it/s]                                                           [log20] replay_size=80 | success_transitions=100.0% | episodes_with_consumption=0 | episodes_without_consumption=2 | avg_reward=0.03 | replay_avg_age=40.5
+Stage 1-navigation:   0%|          | 0/2 [00:00<?, ?it/s]Stage 1-navigation: 100%|##########| 2/2 [00:00<00:00, 14.27it/s]Stage 1-navigation: 100%|##########| 2/2 [00:00<00:00, 14.24it/s]
+
+=== Curriculum stage '2-four-resources': 4 resources, 2 episodes, regen_delay=0, survival_bonus=0.0050, noise_floor=0.080 ===
+Stage 2-four-resources:   0%|          | 0/2 [00:00<?, ?it/s]                                                             [noise] episode=3 stage=2-four-resources sigma=0.0800 floor=0.0800
+Stage 2-four-resources:   0%|          | 0/2 [00:00<?, ?it/s]                                                             [noise] episode=4 stage=2-four-resources sigma=0.0800 floor=0.0800
+Stage 2-four-resources:   0%|          | 0/2 [00:00<?, ?it/s]                                                               [eval @ ep 4] stage(cons actor=0.00, target=0.00) | full(cons actor=0.00, target=0.00; nearest actor=3.28, target=3.24) | best=actor
+Stage 2-four-resources:   0%|          | 0/2 [00:00<?, ?it/s]                                                             Episode    4 | Reward:    -0.11 | Steps:   40 | Consumed:    0 | FirstConsume:   40 | Dist:   0.48 | Final Drive: 0.4044 | Avg Q:   0.014
+Stage 2-four-resources:   0%|          | 0/2 [00:00<?, ?it/s]                                                               [log20] replay_size=160 | success_transitions=100.0% | episodes_with_consumption=0 | episodes_without_consumption=2 | avg_reward=-0.16 | replay_avg_age=80.5
+Stage 2-four-resources:   0%|          | 0/2 [00:00<?, ?it/s]Stage 2-four-resources: 100%|##########| 2/2 [00:00<00:00, 27.47it/s]
+
+=== Curriculum stage '3-six-resources': 6 resources, 3 episodes, regen_delay=0, survival_bonus=0.0000, noise_floor=0.080 ===
+  [transition eval 2-four-resources -> 3-six-resources] actor(cons=0.00, survived=1.00, nearest=3.28) | target(cons=0.00, survived=1.00, nearest=3.24) | saved=actor
+Stage 3-six-resources:   0%|          | 0/3 [00:00<?, ?it/s]                                                            [noise] episode=5 stage=3-six-resources sigma=0.0800 floor=0.0800
+Stage 3-six-resources:   0%|          | 0/3 [00:00<?, ?it/s]                                                            [noise] episode=6 stage=3-six-resources sigma=0.0800 floor=0.0800
+Stage 3-six-resources:   0%|          | 0/3 [00:00<?, ?it/s]                                                              [eval @ ep 6] stage(cons actor=0.00, target=0.00) | full(cons actor=0.00, target=0.00; nearest actor=3.40, target=3.25) | best=actor
+Stage 3-six-resources:   0%|          | 0/3 [00:00<?, ?it/s]                                                            Episode    6 | Reward:    -0.30 | Steps:   40 | Consumed:    0 | FirstConsume:   40 | Dist:   0.41 | Final Drive: 0.4918 | Avg Q:   0.012
+Stage 3-six-resources:   0%|          | 0/3 [00:00<?, ?it/s]                                                              [log20] replay_size=240 | success_transitions=100.0% | episodes_with_consumption=0 | episodes_without_consumption=2 | avg_reward=-0.25 | replay_avg_age=120.5
+Stage 3-six-resources:   0%|          | 0/3 [00:00<?, ?it/s]                                                              [stage3 checkpoint] saved episode 6 -> analysis/training_003/checkpoints/stage3_ep0006_actor.pth, analysis/training_003/checkpoints/stage3_ep0006_critic.pth
+Stage 3-six-resources:   0%|          | 0/3 [00:00<?, ?it/s]                                                            [noise] episode=7 stage=3-six-resources sigma=0.0800 floor=0.0800
+Stage 3-six-resources:   0%|          | 0/3 [00:00<?, ?it/s]Stage 3-six-resources: 100%|##########| 3/3 [00:00<00:00, 30.21it/s]
+
+[final policy comparison] actor: reward=-0.24, steps=40.0, final_drive=0.329, survived=yes | actor_target: reward=-0.24, steps=40.0, final_drive=0.329, survived=yes
+[best checkpoint] actor at episode 2 during stage '1-navigation' -> analysis/training_003/checkpoints/best_actor.pth, analysis/training_003/checkpoints/best_critic.pth
+[stage checkpoint] '1-navigation' -> analysis/training_003/checkpoints/stage1_best_actor.pth, analysis/training_003/checkpoints/stage1_best_critic.pth
+[stage checkpoint] '2-four-resources' -> analysis/training_003/checkpoints/stage2_best_actor.pth, analysis/training_003/checkpoints/stage2_best_critic.pth
+[stage checkpoint] '3-six-resources' -> analysis/training_003/checkpoints/stage3_best_actor.pth, analysis/training_003/checkpoints/stage3_best_critic.pth
+Curriculum finished (7 episodes)! Models saved to 'analysis/training_003/checkpoints/homeostatic_actor.pth' and 'analysis/training_003/checkpoints/homeostatic_critic.pth'.
+[tensorboard-export] saved scalar dump: analysis/training_003/tensorboard_scalars.txt
