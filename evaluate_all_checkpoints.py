@@ -37,6 +37,8 @@ def infer_stage_aliases(run_dir, available):
         available["stage2_best"] = available["best"]
     if stage_name.startswith("3-") and "stage3_best" not in available:
         available["stage3_best"] = available["best"]
+    if stage_name.startswith("4-") and "stage4_best" not in available:
+        available["stage4_best"] = available["best"]
     return available
 
 
@@ -58,11 +60,19 @@ def print_diagnostic_block(name, metrics):
         f"consumed={metrics['consumed_any']:.1%} | "
         f"time_to_first_consumption={metrics['time_to_first_consumption']:.1f}"
     )
+    print(
+        f"[{name}] "
+        f"first_food={metrics['first_food_step']:.1f} | "
+        f"first_water={metrics['first_water_step']:.1f} | "
+        f"food_to_water={metrics['food_to_water_success']:.1%} | "
+        f"water_to_food={metrics['water_to_food_success']:.1%} | "
+        f"alternating_visits={metrics['alternating_visit_count']:.1f}"
+    )
 
 
-def stage3_periodic_checkpoints(run_dir):
+def stage_periodic_checkpoints(run_dir, stage_id):
     checkpoint_dir = os.path.join(run_dir, "checkpoints")
-    matches = sorted(glob(os.path.join(checkpoint_dir, "stage3_ep*_actor.pth")))
+    matches = sorted(glob(os.path.join(checkpoint_dir, f"stage{stage_id}_ep*_actor.pth")))
     periodic = {}
     for actor_path in matches:
         critic_path = actor_path.replace("_actor.pth", "_critic.pth")
@@ -79,6 +89,7 @@ def main():
     parser.add_argument("--agent", choices=["ddpg", "td3"], default=None, help="agent to use (defaults to Config.AGENT)")
     parser.add_argument("--episodes", type=int, default=20, help="number of fixed-seed evaluation episodes")
     parser.add_argument("--all-stage3", action="store_true", help="also evaluate saved stage3_epXXXX checkpoints")
+    parser.add_argument("--all-stage4", action="store_true", help="also evaluate saved stage4_epXXXX checkpoints")
     args = parser.parse_args()
 
     run_dir = resolve_run_dir(args.run_dir)
@@ -91,13 +102,15 @@ def main():
     requested = checkpoint_path_map(run_dir)
     available = infer_stage_aliases(run_dir, available_checkpoints(run_dir))
     if args.all_stage3:
-        available.update(stage3_periodic_checkpoints(run_dir))
+        available.update(stage_periodic_checkpoints(run_dir, 3))
+    if args.all_stage4:
+        available.update(stage_periodic_checkpoints(run_dir, 4))
     missing = [name for name in requested if name not in available]
     if missing:
         print(f"[evaluate] missing checkpoints in this run: {', '.join(missing)}")
 
     results = []
-    for name in ["latest", "best", "stage1_best", "stage2_best", "stage3_best"]:
+    for name in ["latest", "best", "stage1_best", "stage2_best", "stage3_best", "stage4_best"]:
         if name not in available:
             continue
         actor_path, critic_path = available[name]
@@ -106,6 +119,11 @@ def main():
 
     if args.all_stage3:
         for name in sorted(k for k in available if k.startswith("stage3_ep")):
+            actor_path, critic_path = available[name]
+            metrics = evaluate_checkpoint(agent, actor_path, critic_path, seeds, config=Config)
+            results.append((name, metrics))
+    if args.all_stage4:
+        for name in sorted(k for k in available if k.startswith("stage4_ep")):
             actor_path, critic_path = available[name]
             metrics = evaluate_checkpoint(agent, actor_path, critic_path, seeds, config=Config)
             results.append((name, metrics))

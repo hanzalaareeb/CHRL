@@ -168,6 +168,7 @@ class Config:
     EVAL_INTERVAL = 20            # Run a deterministic (noise=0) eval episode this often
     EVAL_EPISODES = 5             # Average each evaluation over fixed-seed episodes
     STAGE3_CHECKPOINT_INTERVAL = 50
+    STAGE4_CHECKPOINT_INTERVAL = 50
     PRIMARY_METRIC = "avg_consumption"
     EARLY_STOPPING = True
     EARLY_STOPPING_PATIENCE = 6   # stop after this many non-improving evals

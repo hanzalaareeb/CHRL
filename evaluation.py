@@ -18,6 +18,11 @@ class EpisodeDiagnostics:
     resource_entered: float
     consumed_any: float
     time_to_first_consumption: float
+    first_food_step: float
+    first_water_step: float
+    food_to_water_success: float
+    water_to_food_success: float
+    alternating_visit_count: float
 
 
 def _rollout_checkpoint_episode(agent, env, seed, use_target=False):
@@ -27,9 +32,13 @@ def _rollout_checkpoint_episode(agent, env, seed, use_target=False):
     steps = 0
     consumption_events = 0
     first_consumption_step = env.max_steps
+    first_food_step = env.max_steps
+    first_water_step = env.max_steps
     nearest_resource_distance = float("inf")
     minimum_distance_reached = float("inf")
     resource_entered = False
+    resource_type = np.asarray(env.resource_type, dtype=np.int64)
+    consumed_sequence = []
     info = {}
 
     while not done:
@@ -49,6 +58,14 @@ def _rollout_checkpoint_episode(agent, env, seed, use_target=False):
             consumption_events += 1
             if first_consumption_step == env.max_steps:
                 first_consumption_step = steps
+            consumed_types = set(resource_type[delivered > 0.0].tolist())
+            if 0 in consumed_types and first_food_step == env.max_steps:
+                first_food_step = steps
+            if 1 in consumed_types and first_water_step == env.max_steps:
+                first_water_step = steps
+            for consumed_type in sorted(consumed_types):
+                if not consumed_sequence or consumed_sequence[-1] != consumed_type:
+                    consumed_sequence.append(consumed_type)
 
         done = terminated or truncated
 
@@ -62,6 +79,17 @@ def _rollout_checkpoint_episode(agent, env, seed, use_target=False):
         resource_entered=float(resource_entered),
         consumed_any=float(consumption_events > 0),
         time_to_first_consumption=float(first_consumption_step),
+        first_food_step=float(first_food_step),
+        first_water_step=float(first_water_step),
+        food_to_water_success=float(any(
+            consumed_sequence[i] == 0 and consumed_sequence[i + 1] == 1
+            for i in range(len(consumed_sequence) - 1)
+        )),
+        water_to_food_success=float(any(
+            consumed_sequence[i] == 1 and consumed_sequence[i + 1] == 0
+            for i in range(len(consumed_sequence) - 1)
+        )),
+        alternating_visit_count=float(max(0, len(consumed_sequence) - 1)),
     )
 
 
@@ -83,6 +111,11 @@ def evaluate_checkpoint(agent, actor_path, critic_path, seeds, config=Config, us
         "resource_entered": float(np.mean([ep.resource_entered for ep in episodes])),
         "consumed_any": float(np.mean([ep.consumed_any for ep in episodes])),
         "time_to_first_consumption": float(np.mean([ep.time_to_first_consumption for ep in episodes])),
+        "first_food_step": float(np.mean([ep.first_food_step for ep in episodes])),
+        "first_water_step": float(np.mean([ep.first_water_step for ep in episodes])),
+        "food_to_water_success": float(np.mean([ep.food_to_water_success for ep in episodes])),
+        "water_to_food_success": float(np.mean([ep.water_to_food_success for ep in episodes])),
+        "alternating_visit_count": float(np.mean([ep.alternating_visit_count for ep in episodes])),
         "episodes": episodes,
     }
 
@@ -109,6 +142,10 @@ def checkpoint_path_map(run_dir):
         "stage3_best": (
             os.path.join(checkpoint_dir, "stage3_best_actor.pth"),
             os.path.join(checkpoint_dir, "stage3_best_critic.pth"),
+        ),
+        "stage4_best": (
+            os.path.join(checkpoint_dir, "stage4_best_actor.pth"),
+            os.path.join(checkpoint_dir, "stage4_best_critic.pth"),
         ),
     }
 

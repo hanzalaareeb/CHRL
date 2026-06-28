@@ -49,7 +49,10 @@ def evaluate(agent, env, use_target=False, n_episodes=1, seed_base=Config.SEED):
     rewards, stepss, drives, survivals = [], [], [], []
     consumptions, first_consumptions, entereds, consumed_anys, before_200s = [], [], [], [], []
     nearests, minimums = [], []
+    first_foods, first_waters = [], []
+    food_to_waters, water_to_foods, alternating_visits = [], [], []
     threshold = getattr(env.config, "MEANINGFUL_CONSUMPTION_STEP", Config.MEANINGFUL_CONSUMPTION_STEP)
+    resource_type = np.asarray(env.resource_type, dtype=np.int64)
 
     for ep in range(n_episodes):
         state, _ = env.reset(seed=seed_base + ep)
@@ -60,9 +63,12 @@ def evaluate(agent, env, use_target=False, n_episodes=1, seed_base=Config.SEED):
         done = False
         consumption_events = 0
         first_consumption_step = env.max_steps
+        first_food_step = env.max_steps
+        first_water_step = env.max_steps
         resource_entered = False
         nearest_resource_distance = float("inf")
         minimum_distance_reached = float("inf")
+        consumed_sequence = []
 
         while not done:
             action = agent.select_action(state, add_noise=False, use_target=use_target)
@@ -74,10 +80,20 @@ def evaluate(agent, env, use_target=False, n_episodes=1, seed_base=Config.SEED):
             nearest_resource_distance = min(nearest_resource_distance, float(dists.min()))
             minimum_distance_reached = min(minimum_distance_reached, float(dists.min()))
             resource_entered = resource_entered or bool(np.any(info["within_radius"]))
-            if np.any(info["delivered"] > 0.0):
+            delivered = np.asarray(info["delivered"], dtype=np.float64)
+            consumed_mask = delivered > 0.0
+            if np.any(consumed_mask):
                 consumption_events += 1
                 if first_consumption_step == env.max_steps:
                     first_consumption_step = steps
+                consumed_types = set(resource_type[consumed_mask].tolist())
+                if 0 in consumed_types and first_food_step == env.max_steps:
+                    first_food_step = steps
+                if 1 in consumed_types and first_water_step == env.max_steps:
+                    first_water_step = steps
+                for consumed_type in sorted(consumed_types):
+                    if not consumed_sequence or consumed_sequence[-1] != consumed_type:
+                        consumed_sequence.append(consumed_type)
 
         rewards.append(float(total_reward))
         stepss.append(steps)
@@ -90,6 +106,17 @@ def evaluate(agent, env, use_target=False, n_episodes=1, seed_base=Config.SEED):
         before_200s.append(float((consumption_events > 0) and (first_consumption_step < threshold)))
         nearests.append(float(nearest_resource_distance))
         minimums.append(float(minimum_distance_reached))
+        first_foods.append(float(first_food_step))
+        first_waters.append(float(first_water_step))
+        food_to_waters.append(float(any(
+            consumed_sequence[i] == 0 and consumed_sequence[i + 1] == 1
+            for i in range(len(consumed_sequence) - 1)
+        )))
+        water_to_foods.append(float(any(
+            consumed_sequence[i] == 1 and consumed_sequence[i + 1] == 0
+            for i in range(len(consumed_sequence) - 1)
+        )))
+        alternating_visits.append(float(max(0, len(consumed_sequence) - 1)))
 
     return {
         "reward": float(np.mean(rewards)),
@@ -103,6 +130,11 @@ def evaluate(agent, env, use_target=False, n_episodes=1, seed_base=Config.SEED):
         "consumed_before_200_rate": float(np.mean(before_200s)),
         "nearest_resource_distance": float(np.mean(nearests)),
         "minimum_distance_reached": float(np.mean(minimums)),
+        "first_food_step": float(np.mean(first_foods)),
+        "first_water_step": float(np.mean(first_waters)),
+        "food_to_water_success": float(np.mean(food_to_waters)),
+        "water_to_food_success": float(np.mean(water_to_foods)),
+        "alternating_visit_count": float(np.mean(alternating_visits)),
     }
 
 
@@ -291,6 +323,11 @@ def maybe_log_evals(agent, writer, episode, stage_name, stage_env, full_env, tra
         writer.add_scalar(f"{prefix}/ConsumedBefore200Rate", ev["consumed_before_200_rate"], episode)
         writer.add_scalar(f"{prefix}/NearestResource", ev["nearest_resource_distance"], episode)
         writer.add_scalar(f"{prefix}/MinimumDistance", ev["minimum_distance_reached"], episode)
+        writer.add_scalar(f"{prefix}/FirstFoodStep", ev["first_food_step"], episode)
+        writer.add_scalar(f"{prefix}/FirstWaterStep", ev["first_water_step"], episode)
+        writer.add_scalar(f"{prefix}/FoodToWaterSuccess", ev["food_to_water_success"], episode)
+        writer.add_scalar(f"{prefix}/WaterToFoodSuccess", ev["water_to_food_success"], episode)
+        writer.add_scalar(f"{prefix}/AlternatingVisitCount", ev["alternating_visit_count"], episode)
 
     actor_ev = evals["full_actor"]
     target_ev = evals["full_actor_target"]
@@ -372,6 +409,11 @@ def log_stage_transition_eval(agent, writer, episode, from_stage_name, to_stage_
         writer.add_scalar(f"{prefix}/NearestResource", ev["nearest_resource_distance"], episode)
         writer.add_scalar(f"{prefix}/MinimumDistance", ev["minimum_distance_reached"], episode)
         writer.add_scalar(f"{prefix}/FinalDrive", ev["final_drive"], episode)
+        writer.add_scalar(f"{prefix}/FirstFoodStep", ev["first_food_step"], episode)
+        writer.add_scalar(f"{prefix}/FirstWaterStep", ev["first_water_step"], episode)
+        writer.add_scalar(f"{prefix}/FoodToWaterSuccess", ev["food_to_water_success"], episode)
+        writer.add_scalar(f"{prefix}/WaterToFoodSuccess", ev["water_to_food_success"], episode)
+        writer.add_scalar(f"{prefix}/AlternatingVisitCount", ev["alternating_visit_count"], episode)
     best_name, best_ev, use_target = (
         ("actor_target", target_ev, True)
         if (target_ev["avg_consumption"], target_ev["survived"], -target_ev["final_drive"])
@@ -620,14 +662,19 @@ def run_episodes(
         if should_stop:
             return total_steps, episode + 1
 
-        if (
-            stage_number(stage_name) == 3
-            and (local_ep + 1) % config.STAGE3_CHECKPOINT_INTERVAL == 0
-        ):
+        periodic_interval = None
+        periodic_label = None
+        if stage_id == 3:
+            periodic_interval = config.STAGE3_CHECKPOINT_INTERVAL
+            periodic_label = "stage3"
+        elif stage_id == 4:
+            periodic_interval = config.STAGE4_CHECKPOINT_INTERVAL
+            periodic_label = "stage4"
+        if periodic_interval and (local_ep + 1) % periodic_interval == 0:
             actor_path, critic_path = stage_periodic_checkpoint_paths(config, stage_name, episode + 1)
             agent.save(actor_path, critic_path)
             tqdm.write(
-                f"  [stage3 checkpoint] saved episode {episode + 1} -> "
+                f"  [{periodic_label} checkpoint] saved episode {episode + 1} -> "
                 f"{actor_path}, {critic_path}"
             )
 
